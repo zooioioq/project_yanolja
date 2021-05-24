@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* css/base/base.css */
+
+
+
+#wrap {
+  width : 1920px;
+  height : auto;
+  background-color : #f6f6f6;
+  margin : auto;
+}
+
+h2 {
+  padding : 20px;
+  box-sizing: border-box;
+}
+
+
+
+
+/*-------------------------------------- header */
+#header {
+  width : 100%;
+  height : 60px;
+  background-color : #fff;
+}
+
+#main_logo {
+  float : left;
+  width : 80px;
+  height : 25px;
+  margin-top : 17.5px;
+  margin-left : 250px;
+  background-image : url("../../img/icon/logo_yanolja_pink.svg");
+  background-repeat: no-repeat;
+}
+
+
+
+/*-------------------------------------- nav */
+#nav_top {
+  position:fixed;
+  top : 0;
+  width : 200px;
+  height : 1080px;
+  background-color : #ff3478;
+}
+
+
+#nav_bottom {
+  position:fixed;
+  top : 520px;
+  width : 200px;
+  height : 560px;
+  background-color : #5A5C71;
+}
+
+
+
+
+/*-------------------------------------- section */
+#section {
+  width : 100%;
+  height : 980px;
+}
+
+
+
+
+
+/*-------------------------------------- contant */
+
+#article > div {
+  width : 100%;
+  box-sizing: border-box;
+  padding-left : 250px;
+  margin-bottom : 250px;
+  background-color : #fff;
+}
+
+#article > div:last-child {
+  margin-bottom : 0;
+}
+
+
+#popular_search_box {
+  height : 250px;
+}
+
+
+#recommend_box {
+  height : 380px;
+}
+
+
+#art_view {
+  width : 1300px;
+  height : 320px;
+  margin : auto;
+  margin-bottom : 250px;
+  padding-left : 0;
+  background-image : url("../../img/ad/con_view_01.jpg");
+}
+
+
+#event_box {
+  height : 1050px;
+}
+
+
+
+
+/*-------------------------------------- footer */
+#footer {
+  width : 100%;
+  height : 200px;
+  box-sizing: border-box;
+  padding-left : 250px;
+}
+
+
+#footer > div {
+  float : left;
+  width : 500px;
+  height : auto;
+  box-sizing: border-box;
+  padding : 30px;
+}

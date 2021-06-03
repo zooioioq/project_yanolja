@@ -21,20 +21,32 @@ h2 {
 /*-------------------------------------- header */
 #header {
   width : 100%;
-  height : 60px;
+  height : 100px;
   background-color : #fff;
 }
 
-#main_logo {
+#main_logo > a {
   float : left;
-  width : 80px;
-  height : 25px;
-  margin-top : 17.5px;
-  margin-left : 250px;
-  background-image : url("../../img/icon/logo_yanolja_pink.svg");
+  width : 150px;
+  height : 50px;
+  margin-top : 25px;
+  margin-left : 240px;
+  background-image : url("../../img/icon/yanolja/logo_yanolja_pink.svg");
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
+
+#header input {
+  width: 400px;
+  height : 50px;
+  border : 0;
+  margin-top : 22px;
+  margin-left : 360px;
+  background-color : #ff3478;
+  font-size : 1.5rem;
+  color : #fff;
+}
 
 
 /*-------------------------------------- nav */
@@ -55,6 +67,31 @@ h2 {
   background-color : #5A5C71;
 }
 
+#nav_link {
+  position : fixed;
+  z-index : 10;
+  top : 530px;
+  left : 100px;
+}
+
+
+#nav_link li {
+  width : 40px;
+  height : 40px;
+}
+
+#nav_link li > a {
+  display : block;
+  width : 100%;
+  height : 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+#nav_link li:nth-child(1) > a {
+  background-image : url("../../img/icon/nav/더보기.svg");
+}
 
 
 
@@ -62,9 +99,19 @@ h2 {
 #section {
   width : 100%;
   height : 980px;
+  padding-top : 50px;
+  box-sizing: border-box;
 }
 
-
+.view_01 {
+  width : 1200px;
+  height : 850px;
+  margin : auto;
+  background-image : url("../../img/img/view/aquarium/aquarium_950.png");
+  background-repeat: no-repeat;
+  background-size : contain;
+  background-position: 0 0;
+}
 
 
 

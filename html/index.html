@@ -1,22 +1,52 @@
 <!DOCTYPE html>
-<!-- html/inde.html -->
+<!-- html/index.html -->
+
+
+<body>
+  <!-- layout -->
+  
+  <!-- script -->
+  <!-- <script src="../js/src/filename.js"></script> -->
+</body>
+</html>
 
 <html lang="ko-KR">
   <head>
     <meta charset="UTF-8">
-    <title> 야놀자 </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--[if IE]>
+    <script src="../ie/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="../ie/ie9-js/ie9.min.js"></script>
+    <script src="../ie/csspie/PIE.js"></script>
+    <script src="../ie/responsive.min.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="../img/oioioq.png" type="image/png">
+    <link rel="apple-touch-icon" href="../img/oioioq.png">
 
     <link rel="stylesheet" href="../css/base/reset.css">
     <link rel="stylesheet" href="../css/base/common.css">
     <link rel="stylesheet" href="../css/base/base.css">
     <link rel="stylesheet" href="../css/src/index.css">
+
+    <title> 야놀자 </title>
   </head>
+
+
 
 
   <body id="wrap">
 
     <header id="header" class="clearfix">
       <h1 id="main_logo"><a href="#"><span class="blind"> 야놀자 </span></a></h1>
+      <form action="#" method="POST">
+        <input type="search" id="search" name="search" value="" />
+        <label for="search">
+          <span class="blind"> 검색어를 입력하세요 </span>
+        </label>
+      </form>
 
     </header> <!------------------------------ header -->
 
@@ -24,11 +54,23 @@
     <nav id="nav">
       <div id="nav_top"></div>
       <div id="nav_bottom"></div>
+      <div id="nav_link">
+        <ul>
+          <li><a href="#"> 더보기 </a></li>
+          <li><a href="#"> 지역여행 </a></li>
+          <li><a href="#"> 국내숙소 </a></li>
+          <li><a href="#"> 국내레저 </a></li>
+          <li><a href="#"> 교통/항공 </a></li>
+          <li><a href="#"> 해외숙소 </a></li>
+        </ul>
+      </div>
     </nav> <!------------------------------ nav -->
 
 
     <section id="section">
-
+      <div class="view_01">
+        <span class="blind"> 롯데월드 아쿠아리움 광고 </span>
+      </div>
     </section> <!------------------------------ section -->
 
 

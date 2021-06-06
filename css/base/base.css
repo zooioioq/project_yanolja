@@ -114,16 +114,174 @@ h2 {
 /*-------------------------------------- footer */
 #footer {
   width : 100%;
-  height : 200px;
+  min-height : 200px;
   box-sizing: border-box;
   padding-left : 250px;
+  padding-right: 300px;
+  padding-top : 10px;
+  padding-bottom : 50px;
+  font-size : 12px;
 }
 
 
-#footer > div {
+#foot_logo {
   float : left;
-  width : 500px;
+  width : 150px;
+  height : 50px;
+  margin-top : 50px;
+  margin-right : 100px;
+  background-image: url("../../img/icon/footer/logo_yanolja_gray.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+}
+
+
+
+/* ------------------ */
+
+#foot_info ul {
+  float: left;
+  width : auto;
   height : auto;
+  padding : 10px;
+}
+
+
+
+
+
+
+/* ------------------ */
+
+#foot_link {
+  float : right;
+}
+
+
+
+
+
+
+/* ------------------ */
+
+
+#family_site {
+  margin-top: 10px;
+  text-align: right;
+}
+
+#family_site li {
+  display: none;
+  width: 150px;
+  height : 25px;
+  padding : 2px;
   box-sizing: border-box;
-  padding : 30px;
+  border : 1px solid #5A5C71;
+  text-align: center;
+}
+
+#family_site a {
+  display: block;
+  width : 100%;
+  height : 100%;
+}
+
+
+#family_site li:first-child {
+  display : inline-block;
+}
+
+
+
+
+
+/* ------------------ */
+
+
+#sns_link {
+  width : 300px;
+  height : auto;
+  margin-top : 10px;
+}
+
+
+
+.sns > li {
+  float: right;
+  width : 30px;
+  height : 30px;
+  margin-right : 10px;
+}
+
+
+#sns_link a {
+  float : left;
+  display: block;
+  width : 100%;
+  height : 100%;
+  background-repeat: no-repeat;
+  background-size : contain;
+}
+
+
+#sns_link .sns > li:nth-child(1) > a {
+  background-image : url("../../img/icon/footer/facebook.png");
+}
+
+#sns_link .sns > li:nth-child(2) > a {
+  background-image : url("../../img/icon/footer/instagram.png");
+}
+
+#sns_link .sns > li:nth-child(3) > a {
+  background-image : url("../../img/icon/footer/youtube.png");
+}
+
+#sns_link .sns > li:nth-child(4) > a {
+  background-image : url("../../img/icon/footer/naver_tv.png");
+}
+
+#sns_link .sns > li:nth-child(5) > a {
+  background-image : url("../../img/icon/footer/naver_blog.png");
+}
+
+#sns_link .sns > li:nth-child(6) > a {
+  background-image : url("../../img/icon/footer/naver_post.png");
+}
+
+
+
+/* ------------------- */
+
+
+
+#foot_link > p {
+  width : 800px;
+  margin-top : 10px;
+  text-align: right;
+}
+
+
+/* ------------------------- */
+
+
+#link_list {
+  margin-top : 10px;
+}
+
+#link_list li{
+  float : left;
+  width : auto;
+  height : auto;
+  padding : 3px;
+  margin-right : 10px;
+  border : 1px solid #5A5C71;
+  
+}
+
+
+
+
+#link_list li:last-child {
+  margin-right : 0;
 }

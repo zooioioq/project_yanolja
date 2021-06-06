@@ -41,6 +41,7 @@
 
 #article > div:last-child {
   margin-bottom : 0;
+  padding-bottom : 300px;
 }
 
 
@@ -64,7 +65,7 @@
   top : 1152px;
   padding : 3px;
   color : #fff;
-  font-size : 11px;
+  font-size : 16px;
   background-color : #5A5C71;
 }
 
@@ -98,6 +99,35 @@
 }
 
 
+
+
+/* recom_location_list */
+.recom_location_list {
+  width  : 1320px;
+  height : 50px;
+  margin-left : 20px;
+  border-top : 1px solid #5A5C71;
+  border-bottom : 1px solid #5A5C71;
+  padding : 10px;
+  padding-left : 130px;
+  box-sizing: border-box;
+}
+
+.recom_location_list > li{
+  float : left;
+  font-size : 16px;
+  margin-right : 300px;
+}
+
+.recom_location_list > li:last-child {
+  margin-right : 0;
+}
+
+
+
+
+/* recom_hotel_list */
+
 .recom_hotel_list > li {
   float : left;
   width : 340px;
@@ -114,7 +144,7 @@
 
 .recom_title {
   display: block;
-  font-size : 15px;
+  font-size : 16px;
 }
 
 .recom_price {
@@ -129,7 +159,7 @@
 
 
 
-
+/* ------------------------------------------ art_view */
 
 #art_view {
   width : 1300px;
@@ -141,7 +171,95 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+/* --------------------------------event_box */
 #event_box {
-  height : 1050px;
+  min-height : 1050px;
 }
 
+
+.event_area {
+  position : relative;
+  margin-left : 20px;
+}
+
+.event_area > li {
+  float : left;
+  width : 600px;
+  height : auto;
+  margin-right : 100px;
+  margin-bottom : 50px;
+}
+
+
+
+.event_area img {
+  width : 100%;
+  height : auto;
+}
+
+
+
+
+.event_text {
+  position : absolute;
+  width : auto;
+  height : auto;
+  display: inline-block;
+}
+
+.event_area > li:nth-child(1) > a > .event_text {
+  top : 240px;
+  left : 20px;
+}
+
+.event_area > li:nth-child(2) > a > .event_text {
+  top : 240px;
+  left : 720px;
+}
+
+.event_area > li:nth-child(3) > a > .event_text {
+  top : 630px;
+  left : 20px;
+}
+
+.event_area > li:nth-child(4) > a > .event_text {
+  top : 630px;
+  left : 720px;
+}
+
+
+
+.event_coupon {
+  width : 75px;
+  height : 25px;
+  padding : 2px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  color : #fff;
+  text-align: center;
+  box-sizing: border-box;
+  background-color : #9A5ED2;
+}
+
+
+.event_title {
+  color : #fff;
+  font-size : 20px;
+  font-weight: 700;
+}
+
+
+
+.event_narration {
+  color : #fff;
+  font-size : 16px;
+}

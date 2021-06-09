@@ -46,47 +46,55 @@
         </label>
       </form>
 
+      <div class ="user_link">
+        <a href="#"><span class="blind"> 좋아요 한 목록 </span></a>
+        <a href="./html/user/my_yanolja.html"><span class="blind"> 로그인 </span></a>
+      </div>
+
     </header> <!------------------------------ header -->
 
 
     <nav id="nav">
+      <h2 class="blind"> 네비게이션 </h2> 
       <div id="nav_top"></div>
+      <!-- <div id="nav_top_hover"></div> -->
       <div id="nav_bottom"></div>
+      <!-- <div id="nav_bottom_hover"></div> -->
       <div id="nav_link">
         <ul>
           <li>
             <a href="#"> 
-              <img src="./img/icon/nav/더보기.svg">
+              <i></i>
               <p>더보기</p> 
             </a>
           </li>
           <li>
             <a href="#"> 
-              <img src="./img/icon/nav/지역_white.svg">
+              <i></i>
               <p>지역여행</p> 
             </a>
             </li>
           <li>
             <a href="#"> 
-              <img src="./img/icon/nav/국내_white.svg">
+              <i></i>
               <p>국내여행</p> 
             </a>
           </li>
           <li>
             <a href="#"> 
-              <img src="./img/icon/nav/레저_white.svg">
+              <i></i>
               <p>국내레저</p> 
             </a>
           </li>
           <li>
             <a href="#"> 
-              <img src="./img/icon/nav/교통_white.svg">
+              <i></i>
               <p>교통/항공</p> 
             </a>
           </li>
           <li>
             <a href="#"> 
-              <img src="./img/icon/nav/해외_white.svg">
+              <i></i>
               <p>해외숙소</p> 
             </a>
           </li>
@@ -96,6 +104,7 @@
 
 
     <section id="section">
+      <h2 class="blind"> 대표 광고 영역 </h2>
       <div class="view_01">
         <span class="blind"> 롯데월드 아쿠아리움 광고 </span>
       </div>
@@ -146,7 +155,8 @@
 
 
       <div id="recommend_box">
-        <h2> <span class="blind"> 추천 숙소 </span> 우리도 호캉스 갈까? </h2>
+        <h2 class="blind"> 추천 숙소 </h2>
+        <p> 우리도 호캉스 갈까? </p>
 
         <ul class="recom_location_list clearfix">
           <li> <a href="#"> 서울 </a> </li>
@@ -195,7 +205,7 @@
       </div> <!--------------------------------recommend_box-->
 
       <figure id="art_view">
-        <img src="../img/ad/con_view_01.jpg">
+        <!-- <img src="../img/ad/con_view_01.jpg"> -->
       </figure>
 
 
@@ -210,7 +220,7 @@
         <ul class="event_area clearfix">
           <li>
             <a href="#">
-              <img src="img/img/content/con_01.jpg">
+              <img src="img/img/content/con_01.png">
               <ul class="event_text">
                 <li class="event_coupon"> 쿠폰혜택</li>
                 <li class="event_title"> 경상북도 모텔 선착순 할인</li>
@@ -222,7 +232,7 @@
 
           <li>
             <a href="#">
-              <img src="img/img/content/con_02.jpg">
+              <img src="img/img/content/con_02.png">
               <ul class="event_text">
                 <li class="event_coupon"> 할인혜택</li>
                 <li class="event_title"> 이번주만 특가 호캉스 </li>
@@ -246,7 +256,7 @@
 
           <li>
             <a href="#">
-              <img src="img/img/content/con_04.jpg">
+              <img src="img/img/content/con_04.png">
               <ul class="event_text">
                 <li class="event_coupon"> 할인혜택 </li>
                 <li class="event_title"> 신라스테이 호텔 브랜드 특가 </li>
@@ -270,7 +280,7 @@
     <footer id="footer" class="clearfix">
 
       <h2 id="foot_logo">
-        <span class="blind"> 야놀자 사이트 정보 </span>
+        <a href="#"><span class="blind"> 야놀자 사이트 정보 </span></a>
       </h2>
 
 
@@ -292,83 +302,82 @@
 
       <div id="foot_link">
 
-  
-
-         <div id="family_site">
-          <h3 class="blind"> 패밀리 사이트 </h3>
-
-          <ul>
-            <li> <a href="#"> 패밀리 사이트 </a> </li>
-            <li> <a href="https://www.yanoljalab.com/?utm_source=yanolja&utm_medium=site&
-              utm_campaign=family">  좋은 숙박 연구소 </a> </li>
-            <li> <a href="https://partner.yanolja.com/intro"> 파트너 센터 </a> </li>
-            <li> <a href="https://www.hotelup.com/"> 호텔업 </a> </li>
-          </ul>
+        
+        <div id="family_site" class="clearfix">
+         <h3 class="blind"> 패밀리 사이트 </h3>
+         <dl>
+           <dt> 패밀리 사이트 </dt>
+           <dd><a href="https://www.yanoljalab.com/?utm_source=yanolja&utm_medium=site&
+             utm_campaign=family"> 좋은 숙박 연구소 </a></dd>
+           <dd><a href="https://partner.yanolja.com/intro"> 파트너 센터 </a></dd>
+           <dd><a href="https://www.hotelup.com/"> 호텔업 </a></dd>
+         </dl>
         </div> <!---------------------------family_site-->
 
 
-        <div id="sns_link">
+        <div id="sns_link" class="clearfix">
           <h3 class="blind"> sns 링크 </h3>
           <ul class="clearfix sns">
             <li>
-              <a href="https://www.facebook.com/yanolja/?fref=ts"> 
+              <a href="https://www.facebook.com/yanolja/?fref=ts" target="_blank"> 
                 <span class="blind"> 페이스북 </span>
               </a>
             </li>
 
             <li>
-              <a href="https://www.instagram.com/yanolja.official/"> 
+              <a href="https://www.instagram.com/yanolja.official/" target="_blank"> 
                 <span class="blind"> 인스타그램 </span>
             </a>
             </li>
 
             <li>
-              <a href="https://www.youtube.com/user/yanoljamedia"> 
+              <a href="https://www.youtube.com/user/yanoljamedia" target="_blank"> 
                 <span class="blind"> 유튜브 </span>
              </a>
             </li>
 
             <li>
-              <a href="https://tv.naver.com/yanolja"> 
+              <a href="https://tv.naver.com/yanolja" target="_blank"> 
                 <span class="blind"> 네이버 TV </span>
               </a>
             </li>
 
             <li>
-              <a href="https://blog.naver.com/yanolog"> 
+              <a href="https://blog.naver.com/yanolog" target="_blank"> 
                 <span class="blind"> 네이버 블로그 </span>
               </a>
             </li>
 
             <li>
-              <a href="https://post.naver.com/my.nhn?memberNo=2768780"> 
+              <a href="https://post.naver.com/my.nhn?memberNo=2768780" target="_blank"> 
                 <span class="blind"> 네이버 포스트 </span>
             </a>
             </li>
           </ul>
         </div> <!---------------------------------------foot_sns-->
 
-        
+
+
 
         <p>
           ㈜야놀자는 통신판매 중개자로서 통신판매의 당사자가 아니며 <br />
           상품의 예약, 이용 및 환불 등과 관련한 의무와 책임은 각 판매자에게 있습니다.
         </p>
-
         
+
 
         <div id="link_list">
           <h3 class="blind"> 사이트 관련 링크 </h3>
 
           <ul class="clearfix">
-            <li><a href="https://yanolja.in/ko/companyinfo/"> 회사소개 </a></li>
-            <li><a href="https://www.yanoljalab.com/ad.php?utm_source=yanolja&utm_medium=site&utm_campaign=ad_bottom"> 광고제휴문의 </a></li>
-            <li><a href="https://recruitment.yanolja.co/"> 인재채용</a></li>
-            <li><a href="https://policy.yanolja.com/?t=privacy&d=m"> 서비스 이용약관 </a></li>
-            <li><a href="http://policy.yanolja.com/?t=youth"> 청소년 보호 정책 </a></li>
+            <li><a href="https://yanolja.in/ko/companyinfo/" target="_blank"> 회사소개 </a></li>
+            <li><a href="https://www.yanoljalab.com/ad.php?utm_source=yanolja&utm_medium=site&utm_campaign=ad_bottom" target="_blank"> 광고제휴문의 </a></li>
+            <li><a href="https://recruitment.yanolja.co/" target="_blank"> 인재채용</a></li>
+            <li><a href="https://policy.yanolja.com/?t=privacy&d=m"  target="_blank"> 서비스 이용약관 </a></li>
+            <li><a href="http://policy.yanolja.com/?t=youth" target="_blank"> 청소년 보호 정책 </a></li>
             <li><a href="http://m.policy.yanolja.com/pf/policy/service?t=service&d=m"> 개인정보 처리방침 </a></li>
-            <li><a href="https://www.ftc.go.kr/bizCommPopView.do"> 사업자 정보 확인 </a></li>
-            <li><a href="https://policy.yanolja.com/?t=location&d=m"> 위치정보 이용약관 </a></li>
+            <li><a href="https://www.ftc.go.kr/bizCommPopView.do" target="_blank"> 사업자 정보 확인 </a></li>
+            <li><a href="https://policy.yanolja.com/?t=location&d=m" target="_blank"> 위치정보 이용약관 </a></li>
           </ul>
         </div> <!-------------------------------------------------link_list-->
 
@@ -377,4 +386,4 @@
     </footer> <!------------------------------ footer -->
 
   </body>
-</html>
+</html> 

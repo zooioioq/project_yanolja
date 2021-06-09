@@ -36,7 +36,7 @@
   padding-left : 250px;
   padding-bottom : 50px;
   margin-bottom : 250px;
-  background-color : #fff;
+  background-color : var(--color-white);
 }
 
 #article > div:last-child {
@@ -50,6 +50,7 @@
 
 /* ----------------------------pupular_search_box */
 #popular_search_box {
+  position : relative;
   min-height : 250px;
 }
 
@@ -62,11 +63,11 @@
 
 .pop_list span {
   position : absolute;
-  top : 1152px;
+  top : 72px;
   padding : 3px;
-  color : #fff;
+  color : var(--color-white);
   font-size : 16px;
-  background-color : #5A5C71;
+  background-color : var(--color-gray);
 }
 
 
@@ -99,6 +100,14 @@
 }
 
 
+#recommend_box > p {
+  padding : 20px;
+  box-sizing: border-box;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
 
 
 /* recom_location_list */
@@ -106,8 +115,8 @@
   width  : 1320px;
   height : 50px;
   margin-left : 20px;
-  border-top : 1px solid #5A5C71;
-  border-bottom : 1px solid #5A5C71;
+  border-top : 1px solid var(--color-gray);
+  border-bottom : 1px solid var(--color-gray);
   padding : 10px;
   padding-left : 130px;
   box-sizing: border-box;
@@ -244,15 +253,15 @@
   padding : 2px;
   border-radius: 20px;
   margin-bottom: 5px;
-  color : #fff;
+  color : var(--color-white);
   text-align: center;
   box-sizing: border-box;
-  background-color : #9A5ED2;
+  background-color : var(--color-purple);
 }
 
 
 .event_title {
-  color : #fff;
+  color : var(--color-white);
   font-size : 20px;
   font-weight: 700;
 }
@@ -260,6 +269,6 @@
 
 
 .event_narration {
-  color : #fff;
+  color : var(--color-white);
   font-size : 16px;
 }

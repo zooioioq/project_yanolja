@@ -235,32 +235,22 @@ h2 {
 
 
 
-/* -----nav:hover
-#nav_top_hover  {
-  display: none;
+/* -----nav:hover */
+
+#nav:hover {
   position:fixed;
   top : 0;
   width : 300px;
     width : 18.75rem;
   height : 100%;
-  background-color : var(--color-pink);
-}
-
-#nav_bottom_hover {
-  display: none;
-  position:fixed;
-  top : 220px;
-    top : 13.75rem;
-  width : 300px;
-    width : 18.75rem;
-  height : 100%;
   background: #5A5C71;
    background-color : var(--color-gray);
+  transition: all 0.2s;
 } 
 
-#nav_top:hover #nav_top_hover {
-  display : block;
-} */
+#nav:hover > #nav_top {
+  background-color : var(--color-gray);
+}
 
 
 

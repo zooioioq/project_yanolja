@@ -245,7 +245,7 @@ h2 {
   height : 100%;
   background: #5A5C71;
    background-color : var(--color-gray);
-  transition: all 0.2s;
+  transition: all 0.7s ease;
 } 
 
 #nav:hover > #nav_top {
@@ -253,7 +253,8 @@ h2 {
 }
 
 
-
+/*네비호버를 따로 만들고 기본은 display:none;해두고
+hover하면 display : block 되도록! */
 
 
 
@@ -342,15 +343,24 @@ h2 {
   text-align: center;
 }
 
-#family_site dd {
-  display: none;
-  width : 100%;
-  height : 100%;
+#family_site dt {
+  margin-bottom : 5px;
 }
 
 
-#family_site dt:active dd{
-  display: dddd;
+#family_site dd {
+  display: none;
+  width : 100%;
+  height : 30px;
+  padding : 5px;
+  box-sizing: border-box;
+  background-color : var(--color-bg-white);
+  border : 1px solid #333;
+}
+
+
+#family_site > dl:hover dd{
+  display: block;
 }
 
 

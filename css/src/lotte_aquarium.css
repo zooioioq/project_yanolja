@@ -1,0 +1,200 @@
+/* lotte_aquarium.css */
+
+
+
+
+
+/* ----------viewBox */
+#viewBox {
+  width : 100%;
+  height : auto;
+  min-height : 800px;
+  margin-top : 50px;
+  padding : 25px 350px;
+  box-sizing: border-box;
+  background-color : var(--color-white);
+}
+
+
+
+
+
+#view_img {
+  width : 1200px;
+  height : 700px;
+  /* margin : 0 100px; */
+  box-sizing: border-box;
+}
+
+
+.view_img_area {
+  width : 100%;
+  height : 100%;
+}
+
+
+.view_img_area > li {
+  float : right;
+  width : 280px;
+  height : 220px;
+  margin-bottom: 20px;
+}
+
+
+.view_img_area > li:nth-child(1) {
+  float : left;
+  width : 900px;
+  height : 100%;
+}
+
+
+.view_img_area > li:nth-child(1),
+.view_img_area > li:nth-child(4) {
+  margin-bottom: 0;
+}
+
+
+.view_img_area > li > img {
+  width : 100%;
+  height : 100%;
+}
+
+
+
+
+#view_info {
+  width : 100%;
+  height : auto;
+}
+
+#view_info > dl,
+#view_info > dl > dt {
+  width : 100%;
+  height : auto;
+}
+
+#view_info h2 {
+  font-size : 2rem;
+}
+
+#view_info dd {
+  padding-left : 20px;
+  line-height: 2;
+}
+
+#view_info dd:first-child {
+  color : var(--color-gray);
+}
+
+#view_info dd:last-child {
+  color : var(--color-pink);
+}
+
+
+
+
+
+
+
+
+
+/* -----------informationBox */
+#informationBox {
+  width : 100%;
+  height : auto;
+  min-height : 800px;
+  margin-top : 50px;
+  padding : 25px 350px;
+  box-sizing: border-box;
+  background-color : var(--color-white);
+}
+
+
+
+.info_type {
+  margin-bottom : 100px;
+  padding-top : 25px;
+  padding-bottom : 50px;
+  border-bottom : 1px solid var(--color-gray);
+}
+
+.info_type,
+.info_type > ul {
+  width : 100%;
+  height : auto;
+}
+
+.info_type li {
+  float : left;
+  width : 30%;
+  height : 50px;
+  margin-right : 5%;
+  text-align: center;
+  padding : 12px;
+  font-weight : 700;
+  border : 1px solid var(--color-gray);
+  box-sizing: border-box;
+}
+
+.info_type li:last-child {
+  margin-right : 0;
+}
+
+.info_type a {
+  display: block;
+  width : 100%;
+  height : 100%;
+}
+
+
+
+
+
+.basic_info_area,
+.basic_info_text {
+  width : 100%;
+  height : auto;
+}
+
+.basic_info_text {
+  margin-bottom : 100px;
+}
+
+.basic_info_text > h3 {
+  font-size : 1.5rem;
+}
+
+.basic_info_text div {
+  float : left;
+  width : 400px;
+  height : 80px;
+  padding : 10px 50px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 1.7;
+  border-right : 1px solid var(--color-gray);
+}
+
+.basic_info_text div:last-child {
+  border-right : none;
+}
+
+.basic_info_text div > dt {
+  font-weight : 700;
+}
+
+
+
+
+
+.basic_info_img {
+  width : 1200px;
+  margin-left : 100px;
+  padding-bottom : 300px;
+}
+
+.basic_info_img > img {
+  width : 1000px;
+  margin-top : -4px;
+  height : auto;
+}

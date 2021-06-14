@@ -135,22 +135,22 @@ h2 {
 }
 
 
-#nav_top {
+/* #nav_top {
   position:fixed;
   top : 0;
   width : 200px;
     width : 12.5rem;
   height : 100%;
   background-color : var(--color-pink);
-}
+} */
 
 
 #nav_bottom {
   position:fixed;
-  top : 220px;
-    top : 13.75rem;
-  width : 200px;
-    width : 12.5rem;
+  top : 0;
+    /* top : 13.75rem; */
+  width : 120px;
+    width : 7.5rem;
   height : 100%;
   background: #5A5C71;
    background-color : var(--color-gray);
@@ -158,11 +158,11 @@ h2 {
 
 #nav_link {
   position : fixed;
-  top : 120px;
-    top : 7.5rem;
+  top : 250px;
+    top : 15.625rem;
   left : 50%;
-  margin-left : -850px;
-    margin-left : -53.125rem;
+  margin-left : -930px;
+    margin-left : -58.125rem;
   /* z-index : 10; */
 }
 
@@ -172,8 +172,8 @@ h2 {
     width : 5rem;
   height : 100px;
     height : 6.25rem;
-  margin-bottom: 30px;
-    margin-bottom: 1.875rem;
+  margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   text-align: center;
 }
 
@@ -188,10 +188,10 @@ h2 {
 
 #nav_link i {
   display: block;
-  width : 60px;
-   width : 3.75rem;
-  height : 60px;
-   height : 3.75rem;
+  width : 40px;
+   width : 2.5rem;
+  height : 40px;
+   height : 2.5rem;
    margin : auto;
   margin-bottom : 10px;
     margin-bottom : 0.625rem;
@@ -201,7 +201,7 @@ h2 {
 }
 
 #nav_link li:nth-child(1) i {
-  background-image : url("../../img/icon/nav/더보기.svg");
+  background-image : url("../../img/icon/nav/더보기_white.svg");
 }
 #nav_link li:nth-child(2) i {
   background-image : url("../../img/icon/nav/지역_white.svg");
@@ -228,10 +228,10 @@ h2 {
   color : #fff;
     color : var(--color-white);
 }
-
+/* 
 #nav_link li:nth-child(1) p {
   color : var(--color-gray);
-}
+} */
 
 
 
@@ -240,8 +240,8 @@ h2 {
 #nav:hover {
   position:fixed;
   top : 0;
-  width : 300px;
-    width : 18.75rem;
+  width : 220px;
+    width : 13.75rem;
   height : 100%;
   background: #5A5C71;
    background-color : var(--color-gray);

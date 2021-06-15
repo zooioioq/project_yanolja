@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- html/user/my_yanolja.html -->
+<!-- html/user/login.html -->
   
 <html lang="ko-KR">
 <head>
@@ -28,9 +28,9 @@
   <link rel="stylesheet" href="../../css/base/reset.css">
   <link rel="stylesheet" href="../../css/base/common.css">
   <link rel="stylesheet" href="../../css/base/base.css">
-  <link rel="stylesheet" href="../../css/src/my_yanolja.css">
+  <link rel="stylesheet" href="../../css/src/login.css">
 
-  <title> My 야놀자 | 야놀자 </title>
+  <title> 로그인 | 야놀자 </title>
   
 </head>
   
@@ -135,30 +135,43 @@
 
 
     <section id="sectionBox">
-    <div class="login_area">
-      <ul class="clearfix">
-        <li><a href="./login.html"> 로그인 및 회원가입 <i></i> </a></li>
-        <li><a href="#"> 찜 <i></i> </a></li>
-        <li><a href="#"> 나의 후기 <i></i> </a></li>
-        <li><a href="#"> 포인트 <i></i> </a></li>
-        <li><a href="#"> 야놀자 코인 <i></i> </a></li>
-        <li><a href="#"> 쿠폰함 <i></i> </a></li>
-      </ul>
-    </div> <!---------------_area-->
+      
+      <div class="login_area">
+        <h2> 로그인 </h2>
 
+        <form action="#" method="POST">
+          <fieldset> 
+            <legend class="blind"> log in </legend>
 
-    <div class="reservation_area"></div> <!---------------_area-->
+            <div class="id_insert">
+              <input type="text" id="userId" name="userId" value="" maxlength="15" required placeholder="아이디 또는 이메일"/>
+              <label for="userId"> 
+                <span class="blind">사용자의 아이디 혹은 이메일을 입력하세요</span> 
+              </label>
+            </div>
 
+            <div class="pw_insert">
+              <input type="password" id="password" name="password" value="" maxlength="15" required placeholder="비밀번호" />
+              <label for="password"> 
+                <span class="blind">사용자의 비밀번호를 입력하세요</span> 
+              </label>
+            </div>
 
-    <div class="event_area"></div> <!---------------_area-->
+            <div class="log_in_btn">
+              <!-- <input type="submit" value="log in"> -->
+              <button type="submit" class="submit_btn"> 로그인 </button>
+            </div>
+          </fieldset>
+        </form>
 
+        <p class="lost_pw">
+          <a href="#"> 비밀번호 찾기 </a>
+       </p>
 
-    <div class="faq_area"></div> <!---------------_area-->
-
-
-    <div class="view_area"></div> <!---------------_area-->
-
-
+       <p class="join">
+        <a href="#"> 야놀자 회원가입 </a>
+       </p>
+      </div> <!---------------------login_area-->
     </section> <!-----------------sectionBox-->
 
 

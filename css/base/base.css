@@ -12,6 +12,7 @@
   --color-bg-white : #f6f6f6;
   --color-pink : #ff3478;
   --color-purple : #9A5ED2;
+  --color-blue : #0152CC;
   --color-gray : #5A5C71;
   --color-black : #000;
 }
@@ -287,6 +288,7 @@ hover하면 display : block 되도록! */
 #quickButton li:hover {
   transform : scale(1.2, 1.2);
   transition : all 200ms ease;
+  box-shadow: 3px 3px 3px rgba(90,92,113,0.5);
 }
 
 #quickButton li i {

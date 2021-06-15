@@ -221,13 +221,14 @@
 /* detail_info_area */
 
 
-
+.detail_info_area {
+  display : none;
+}
 
 .ticket_area {
   width : 100%;
   height : auto;
   padding-bottom : 100px;
-  border-bottom : 1px solid var(--color-gray);
 }
 
 .ticket_select_area {
@@ -245,7 +246,6 @@
   border : 2px solid var(--color-bg-white);
   border-radius: 5px;
   box-sizing: border-box;
-  /* background-color : #aaa; */
 }
 
 .ticket_select_area > dl:last-child {
@@ -346,7 +346,6 @@
   padding : 10px;
   margin : 50px 0;
   box-sizing: border-box;
-  /* background-color : #acf; */
 }
 
 .use_info_subdivide:first-of-type {
@@ -370,5 +369,64 @@
 
 
 
+
+
+
+
 /* refund_info_area */
 
+.refund_info_area {
+  width : 100%;
+  height : auto;
+  line-height: 1.5;
+  padding-bottom : 200px;
+}
+.refund_info_area > div {
+  margin-bottom: 100px;
+}
+
+.refund_info_area h3 {
+  margin-bottom : 20px;
+}
+
+.refund_info_area li {
+  padding-left : 10px;
+}
+
+.refund_area {
+  width : 100%;
+  height: auto;
+}
+
+.seller_info_area > dl {
+  width : 90%;
+  height : auto;
+  margin : auto;
+  box-sizing: border-box;
+  border-top : 1px solid var(--color-gray);
+  border-bottom : 1px solid var(--color-gray);
+}
+.seller_info_area dt {
+  float : left;
+  width : 30%;
+  padding : 10px;
+  padding-left : 20px;
+  box-sizing: border-box;
+  border-bottom : 1px solid rgba(90,92,113,0.5);
+  background-color : rgba(255,52,120,0.5);
+}
+
+.seller_info_area dd {
+  float : left;
+  width : 70%;
+  padding: 10px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-bottom : 1px solid rgba(90,92,113,0.5);
+  box-sizing: border-box;
+}
+
+.seller_info_area dt:last-child,
+.seller_info_area dd:last-child {
+  border-bottom : 0;
+}

@@ -258,6 +258,66 @@ hover하면 display : block 되도록! */
 
 
 
+
+
+
+
+
+/* --------------------------------quickButton */
+#quickButton {
+  position : fixed;
+  z-index: 100;
+  bottom : 50px;  right : 50px;
+  width : 40px; height : 90px;
+}
+
+#quickButton > div,
+#quickButton ul {
+  width : 100%;
+  height : 100%;
+}
+
+#quickButton li {
+  width :40px;
+  height : 40px;
+  border-radius: 40px;
+  background-color : var(--color-pink);
+}
+
+#quickButton li:hover {
+  transform : scale(1.2, 1.2);
+  transition : all 200ms ease;
+}
+
+#quickButton li img {
+  display: block;
+  width : 25px;
+  height : 25px;
+  padding : 8px;
+}
+
+.down_button img {
+  transform : rotate(180deg);
+}
+
+.up_button {
+  margin-bottom : 10px;
+}
+
+#quickButton li > a {
+  display : block;
+  width : 100%;
+  height : 100%;
+}
+
+
+
+
+
+
+
+
+
 /*-------------------------------------- footer */
 #footer {
   width : 100%;

@@ -289,14 +289,17 @@ hover하면 display : block 되도록! */
   transition : all 200ms ease;
 }
 
-#quickButton li img {
+#quickButton li i {
   display: block;
-  width : 25px;
-  height : 25px;
-  padding : 8px;
+  width : 100%;
+  height : 100%;
+  background-image: url("../../img/icon/aside/aside_arrow.svg");
+  background-size : 50%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;  
 }
 
-.down_button img {
+.down_button i {
   transform : rotate(180deg);
 }
 

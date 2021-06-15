@@ -110,6 +110,10 @@
   background-color : var(--color-white);
 }
 
+#informationBox h3 {
+  font-size : 1.5rem;
+}
+
 
 
 .info_type {
@@ -159,6 +163,13 @@
 
 
 
+
+/* basic_info_area */
+
+.basic_info_area {
+  display: none;
+}
+
 .basic_info_area,
 .basic_info_text {
   width : 100%;
@@ -167,10 +178,6 @@
 
 .basic_info_text {
   margin-bottom : 100px;
-}
-
-.basic_info_text > h3 {
-  font-size : 1.5rem;
 }
 
 .basic_info_text div {
@@ -207,3 +214,161 @@
   margin-top : -4px;
   height : auto;
 }
+
+
+
+
+/* detail_info_area */
+
+
+
+
+.ticket_area {
+  width : 100%;
+  height : auto;
+  padding-bottom : 100px;
+  border-bottom : 1px solid var(--color-gray);
+}
+
+.ticket_select_area {
+  width : 100%;
+  height : auto;
+  margin-top : 20px;
+}
+
+.ticket_select_area > dl {
+  position : relative;
+  float : left;
+  width : 30%;
+  height : 250px;
+  margin-right : 5%;
+  border : 2px solid var(--color-bg-white);
+  border-radius: 5px;
+  box-sizing: border-box;
+  /* background-color : #aaa; */
+}
+
+.ticket_select_area > dl:last-child {
+  margin-right : 0;
+}
+
+.ticket_select_area > dl > dt {
+  margin : 10px;
+  font-size : 18px;
+    font-size : 1.125rem;
+  font-weight: 700;
+}
+
+.use_remark {
+  position : absolute;
+  top : 50px;
+  left : 10px;
+  height : 30px;
+  padding : 2px;
+  font-size : 0.75rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border : 1px solid var(--color-bg-white);
+  text-align: center;
+}
+
+
+.count_of_ticket {
+  position : absolute;
+  bottom : 10px;
+  left : 10px;
+}
+
+
+.refund_remark {
+  position : absolute;
+  bottom : 50px;
+  right : 20px;
+  padding : 3px;
+  background-color : var(--color-pink);
+  color : var(--color-white);
+  font-size : 14px;
+    font-size : 0.75rem;
+  font-weight: 700;
+}
+
+
+.defult_amount {
+  position : absolute;
+  bottom : 30px;
+  right : 60px;
+  color : var(--color-gray);
+  font-size : 14px;
+    font-size : 0.875rem;
+}
+
+
+.discount_percent {
+  position : absolute;
+  bottom : 10px;
+  right : 90px;
+  color : var(--color-pink);
+  font-weight: 700;
+  font-size : 0.7rem;
+}
+
+
+.amount {
+  position : absolute;
+  bottom : 10px;
+  right : 10px;
+  font-size : 18px;
+    font-size : 1.125rem;
+  font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+
+
+.use_info_area {
+  width : 100%;
+  height : auto;
+  line-height: 1.5;
+  padding-top : 100px;
+  padding-bottom : 200px;
+}
+
+.use_info_subdivide {
+  width : 100%;
+  height : auto;
+  padding : 10px;
+  margin : 50px 0;
+  box-sizing: border-box;
+  /* background-color : #acf; */
+}
+
+.use_info_subdivide:first-of-type {
+  margin-top : 20px;
+}
+.use_sub_title {
+  font-weight: 700;
+  margin-bottom : 10px;
+}
+
+.use_info_subdivide > dd {
+  width : 100%;
+  height : auto;
+  padding-left : 10px;
+}
+
+.use_info_area:last-child dd {
+  padding-left : 10px;
+}
+
+
+
+
+/* refund_info_area */
+

@@ -16,30 +16,38 @@
 }
 
 .view_01 {
-  width : 1200px;
-  height : 850px;
+  width : 1620px;
+  height : 880px;
   margin : auto;
-  box-shadow: 5px 5px 5px #333;
 }
 
 
 .view_01 > a {
   display: block;
   width : 100%; height : 100%;
-  background-image : url("../../img/img/view/aquarium/aquarium_950.png");
+  background-image : url("../../img/img/view/aquarium/aquarium_950.jpg");
   background-repeat: no-repeat;
   background-size : contain;
-  background-position: 0 0;
+  background-position: 50% 50%;
 }
 
 .view_01 > a:nth-child(1) {
-  background-image : url("../../img/img/view/aquarium/aquarium_950.png");
+  background-image : url("../../img/img/view/aquarium/aquarium_950.jpg");
 }
 
 .view_01 > a:nth-child(2) {
   display : none;
   background-image : url("../../img/img/view/everland/everland.png");
 }
+
+
+
+
+
+
+
+
+
 
 /*-------------------------------------- contant */
 
@@ -51,6 +59,12 @@
   padding-bottom : 50px;
   margin-bottom : 250px;
   background-color : var(--color-white);
+}
+
+
+#article > div:nth-child(3) {
+  padding-left : 0;
+  padding-bottom : 0;
 }
 
 #article > div:last-child {
@@ -73,21 +87,29 @@
   float : left;
   width : 300px;
   height : 180px;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin-left : 30px;
+}
+
+.pop_list a {
+  display: block;
+  width : 100%;
+  height : 100%;
+  overflow : hidden;
 }
 
 
 .pop_list img {
   width : 100%;
   height : 100%;
+  transition : all 500ms ease;
 }
 
 .pop_list span {
   position : absolute;
   z-index : 100;
   top : 72px;
-  padding : 3px;
+  padding : 5px;
   color : var(--color-white);
   font-size : 16px;
   background-color : var(--color-gray);
@@ -113,7 +135,6 @@
 
 .pop_list img:hover {
   transform: scale(1.1, 1.1);
-  transition : all 500ms ease;
 }
 
 
@@ -145,15 +166,32 @@
   margin-left : 20px;
   border-top : 1px solid var(--color-gray);
   border-bottom : 1px solid var(--color-gray);
-  padding : 10px;
-  padding-left : 130px;
-  box-sizing: border-box;
 }
 
-.recom_location_list > li{
+.recom_location_list > li {
   float : left;
+  width : 25%;
+  height : 100%;
+  padding : 10px;
+  box-sizing: border-box;
+  transition : all 500ms ease;
+  /* margin-right : 300px; */
+}
+
+.recom_location_list > li > a {
+  display: block;
+  width : 100%;
+  height : 100%;
   font-size : 16px;
-  margin-right : 300px;
+  text-align: center;
+}
+.recom_location_list > li:hover {
+  font-weight : 700;
+  background-color : rgba(255,52,120,0.3);
+}
+
+.recom_location_list > li:first-child {
+  background-color : rgba(255,52,120,0.3);
 }
 
 .recom_location_list > li:last-child {
@@ -171,27 +209,34 @@
   height : auto;
   box-sizing: border-box;
   padding : 20px;
+}
+
+.recom_img_wrap {
+  width : 300px;
+  height : 190px;
+  display: block;
   overflow: hidden;
 }
 
 .recom_hotel_list > li > a {
+  /* display: block; */
   width : 300px;
   height : 190px;
-  overflow: hidden;
 }
 
 .recom_hotel_img {
   width : 300px;
   height : 190px;
+  transition : all 500ms ease;
 }
 
-.recom_hotel_img:hover {
+.recom_hotel_list > li > a:hover  img {  
   transform: scale(1.1, 1.1);
-  transition : all 500ms ease;
 }
 
 .recom_title {
   display: block;
+  margin-top : 10px;
   font-size : 16px;
 }
 
@@ -210,14 +255,39 @@
 /* ------------------------------------------ art_view */
 
 #art_view {
-  width : 1300px;
-  height : 320px;
+  width : 100%;
+  height : auto;
   margin : auto;
-  margin-bottom : 250px;
-  padding-left : 0;
-  background-image : url("../../img/ad/con_view_01.jpg");
+  /* margin-bottom : 250px; */
 }
 
+.art_view_area {
+  width : 1920px;
+  height : 300px;
+}
+
+.art_view_area > a {
+  display : block;
+  width : 100%;
+  height : 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+
+#art_view > div:nth-child(1) > a {
+  background-image : url("../../img/ad/art_view_01.svg");
+}
+
+#art_view > div:nth-child(2) {
+  display : none;
+}
+
+
+#art_view > div:nth-child(2) > a {
+  background-image : url("../../img/ad/art_view_02.svg");
+}
 
 
 
@@ -235,66 +305,55 @@
 
 
 .event_area {
-  position : relative;
   margin-left : 20px;
 }
 
 .event_area > li {
+  position : relative;
   float : left;
   width : 600px;
   height : auto;
   margin-right : 100px;
   margin-bottom : 50px;
+}
+
+.event_area > li > a {
+  display : block;
+  width : 100%;
+  height : 338.5px;
   overflow: hidden;
 }
 
 .event_area img {
   width : 100%;
   height : auto;
+  transition : all 500ms ease;
 }
 
-.event_area img:hover {
+.event_area > li> a:hover > img {
   transform: scale(1.1, 1.1);
-  transition : all 500ms ease;
 }
 
 
 
 .event_text {
   position : absolute;
+  bottom : 30px;
+  left : 20px;
   width : auto;
   height : auto;
   display: inline-block;
 }
 
-.event_area > li:nth-child(1) > a > .event_text {
-  top : 240px;
-  left : 20px;
-}
-
-.event_area > li:nth-child(2) > a > .event_text {
-  top : 240px;
-  left : 720px;
-}
-
-.event_area > li:nth-child(3) > a > .event_text {
-  top : 630px;
-  left : 20px;
-}
-
-.event_area > li:nth-child(4) > a > .event_text {
-  top : 630px;
-  left : 720px;
-}
 
 
 
 .event_coupon {
-  width : 75px;
-  height : 25px;
-  padding : 2px;
+  width : 80px;
+  height : 30px;
+  padding : 4px;
   border-radius: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   color : var(--color-white);
   text-align: center;
   box-sizing: border-box;
@@ -306,6 +365,7 @@
   color : var(--color-white);
   font-size : 20px;
   font-weight: 700;
+  margin-bottom : 5px;
 }
 
 

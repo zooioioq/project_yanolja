@@ -48,7 +48,7 @@
 
        <div class ="user_link">
          <a href="#"><span class="blind"> 좋아요 한 목록 </span></a>
-         <a href="./html/user/my_yanolja.html"><span class="blind"> 로그인 </span></a>
+         <a href="./html/user/login.html"><span class="blind"> 로그인 </span></a>
        </div>
 
       </header> <!------------------------------ header -->
@@ -56,44 +56,55 @@
 
       <nav id="nav">
        <h2 class="blind"> 네비게이션 </h2> 
-       <!-- <div id="nav_top"></div> -->
-       <div id="nav_bottom"></div>
+       <div id="nav_bg"></div>
        <div id="nav_link">
          <ul>
            <li>
              <a href="#"> 
-               <i></i>
-               <p>더보기</p> 
+               <span>
+                 <i></i>
+                 더보기
+               </span>
              </a>
            </li>
            <li>
              <a href="#"> 
-               <i></i>
-               <p>지역여행</p> 
+              <span>
+                <i></i>
+                지역여행
+              </span>
              </a>
              </li>
            <li>
              <a href="#"> 
-               <i></i>
-               <p>국내숙소</p> 
+              <span>
+                <i></i>
+                국내숙소
+              </span>
              </a>
            </li>
            <li>
              <a href="#"> 
-               <i></i>
-               <p>국내레저</p> 
+              <span>
+                <i></i>
+                국내레저
+              </span>
              </a>
            </li>
            <li>
              <a href="#"> 
-               <i></i>
-               <p>교통/항공</p> 
+              <span>
+                <i></i>
+                교통/항공
+              </span>
              </a>
            </li>
            <li>
              <a href="#"> 
-               <i></i>
-               <p>해외숙소</p> 
+              <span>
+                <i></i>
+                해외숙소
+              </span>
              </a>
            </li>
          </ul>
@@ -191,7 +202,9 @@
         <ul class="recom_hotel_list clearfix">
           <li>
             <a href="#">
-              <img src="img/img/recom/recom_cheong.jpg" class="recom_hotel_img">
+              <div class="recom_img_wrap">
+                <img src="img/img/recom/recom_cheong.jpg" class="recom_hotel_img">
+              </div>
               <span class="recom_title"> 오라카이 청계산 호텔 </span>
               <span class="recom_price"> 78,300원 </span>
             </a>
@@ -199,15 +212,19 @@
 
          <li>
            <a href="#">
-             <img src="img/img/recom/recom_ramada.jpg" class="recom_hotel_img">
+             <div class="recom_img_wrap">
+               <img src="img/img/recom/recom_ramada.jpg" class="recom_hotel_img">
+              </div>
              <span class="recom_title"> 라마다 서울 신도림 </span>
              <span class="recom_price"> 73,040원 </span>
           </a>
          </li>
 
           <li>
-            <a href="#">
-              <img src="img/img/recom/recom_fair.jpg" class="recom_hotel_img">
+            <a href="./html/domestic_hotel/domestic_marriott/marriott.html">
+              <div class="recom_img_wrap">
+                <img src="img/img/recom/recom_fair.jpg" class="recom_hotel_img" alt="">
+              </div>
               <span class="recom_title"> 페이필드 바이 메리어트 서울 </span>
               <span class="recom_price"> 52,800원 </span>
             </a>
@@ -215,7 +232,9 @@
 
           <li>
             <a href="#">
-              <img src="img/img/recom/recom_orakai.jpg" class="recom_hotel_img">
+              <div class="recom_img_wrap">
+                <img src="img/img/recom/recom_orakai.jpg" class="recom_hotel_img" alt="">
+              </div>
               <span class="recom_title"> 오라카이 대학로 호텔 </span>
               <span class="recom_price"> 70,000원 </span>
             </a>
@@ -227,9 +246,19 @@
 
       </div> <!--------------------------------recommend_box-->
 
-      <figure id="art_view">
-        <!-- <img src="../img/ad/con_view_01.jpg"> -->
-      </figure>
+      <div id="art_view">
+        <div class="art_view_area"> 
+          <a href="#">
+            <spen class="blind"></spen>
+          </a>
+        </div>
+
+        <div class="art_view_area"> 
+          <a href="#">
+            <spen class="blind"></spen>
+          </a>
+        </div>
+      </div> <!-------------------------------art_view-->
 
 
 

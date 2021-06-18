@@ -136,17 +136,7 @@ h2 {
 }
 
 
-/* #nav_top {
-  position:fixed;
-  top : 0;
-  width : 200px;
-    width : 12.5rem;
-  height : 100%;
-  background-color : var(--color-pink);
-} */
-
-
-#nav_bottom {
+#nav_bg {
   position:fixed;
   top : 0;
     /* top : 13.75rem; */
@@ -155,6 +145,7 @@ h2 {
   height : 100%;
   background: #5A5C71;
    background-color : var(--color-gray);
+   transition: all 0.7s ease;
 }
 
 #nav_link {
@@ -221,7 +212,7 @@ h2 {
 }
 
 
-#nav_link p {
+#nav_link span {
   width : 80px;
    width : 5rem;
   height: 20px;
@@ -229,10 +220,6 @@ h2 {
   color : #fff;
     color : var(--color-white);
 }
-/* 
-#nav_link li:nth-child(1) p {
-  color : var(--color-gray);
-} */
 
 
 
@@ -246,12 +233,9 @@ h2 {
   height : 100%;
   background: #5A5C71;
    background-color : var(--color-gray);
-  transition: all 0.7s ease;
+  /* transition: all 0.7s ease; */
 } 
 
-#nav:hover > #nav_top {
-  background-color : var(--color-gray);
-}
 
 
 /*네비호버를 따로 만들고 기본은 display:none;해두고
@@ -283,11 +267,11 @@ hover하면 display : block 되도록! */
   height : 40px;
   border-radius: 40px;
   background-color : var(--color-pink);
+  transition : all 400ms ease;
 }
 
 #quickButton li:hover {
   transform : scale(1.2, 1.2);
-  transition : all 200ms ease;
   box-shadow: 3px 3px 3px rgba(90,92,113,0.5);
 }
 
@@ -482,12 +466,12 @@ hover하면 display : block 되도록! */
   background-repeat: no-repeat;
   background-size : contain;
   background-position : 50% 50%;
+  transition: all 300ms ease;
 } 
 
 #sns_link a:hover {
   /* width : 120%; height : 120%; */
   transform : scale(1.2, 1.2);
-  transition: all 300ms ease;
 }
 
 

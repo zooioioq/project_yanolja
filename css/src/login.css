@@ -59,13 +59,13 @@
   font-size : 18px;
   border : 0;
   border-radius: 5px;
+  transition: all 200ms ease;
 }
 
 .log_in_btn > button:hover {
   font-weight: 700;
   color : var(--color-white);
   background-color : var(--color-pink);
-  transition: all 200ms ease;
 }
 
 
@@ -84,10 +84,10 @@
   border-radius: 5px;
   border : 1px solid var(--color-pink);
   box-sizing: border-box;
+  transition: all 200ms ease;
 }
 
 .join:hover {
   background-color : var(--color-pink);
   color : var(--color-white);
-  transition: all 200ms ease;
 }

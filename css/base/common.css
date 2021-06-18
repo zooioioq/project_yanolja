@@ -33,3 +33,5 @@
 .last-float > li { float : left; }
 
 .last-float > li:last-child { margin-left : 0; }
+
+.none { display: none ;}

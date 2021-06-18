@@ -10,6 +10,7 @@
 :root {
   --color-white : #fff;
   --color-bg-white : #f6f6f6;
+  --color-yellow : #FDBD00;
   --color-pink : #ff3478;
   --color-purple : #9A5ED2;
   --color-blue : #0152CC;
@@ -34,6 +35,38 @@ h2 {
     padding : 1.25rem;
   box-sizing: border-box;
 }
+
+
+
+/*-------------------------------------- icon */
+.fa-star,
+.fa-star-half-alt {
+  color : var(--color-yellow);
+}
+
+
+
+/*
+star <i class="fas fa-star"></i>
+star-half <i class="fas fa-star-half-alt"></i>
+star-empty <i class="far fa-star"></i>
+right-arrows <i class="fas fa-chevron-right"></i>
+location <i class="fas fa-map-marker-alt">
+
+parking <i class="fas fa-parking"></i>
+bread <i class="fas fa-bread-slice"></i>
+wifi <i class="fas fa-wifi"></i>
+restaurant <i class="fas fa-utensils"></i>
+walking <i class="fas fa-walking"></i>
+soap <i class="fas fa-soap"></i>
+diamond <i class="fas fa-gem"></i>
+concierge-bell <i class="fas fa-concierge-bell"></i>
+tshirt <i class="fas fa-tshirt"></i>
+business <i class="fas fa-briefcase"></i>
+
+smile <i class="far fa-smile"></i>
+*/
+
 
 
 

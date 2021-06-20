@@ -1,15 +1,6 @@
 <!DOCTYPE html>
-<!-- html/index.html -->
-
-
-<body>
-  <!-- layout -->
+<!-- premier_twin.html -->
   
-  <!-- script -->
-  <!-- <script src="./js/src/filename.js"></script> -->
-</body>
-</html>
-
 <html lang="ko-KR">
   <head>
     <meta charset="UTF-8">
@@ -17,44 +8,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--[if IE]>
-    <script src="./ie/html5shiv/dist/html5shiv.min.js"></script>
-    <script src="./ie/ie9-js/ie9.min.js"></script>
-    <script src="./ie/csspie/PIE.js"></script>
-    <script src="./ie/responsive.min.js"></script>
+      <script src="../../../ie/html5shiv/dist/html5shiv.min.js"></script>
+      <script src="../../../ie/ie9-js/ie9.min.js"></script>
+      <script src="../../../ie/csspie/PIE.js"></script>
+      <script src="../../../ie/responsive.min.js"></script>
     <![endif]-->
+    
+    <link rel="shortcut icon" href="../../img/oioioq.png" type="image/png">
+    <link rel="apple-touch-icon" href="../img/oioioq.png">
+    
+    <!-- font.google : noto sans -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap" rel="stylesheet">
+    
+    <!-- fontawesome5 -->
+    <link rel="stylesheet" href="../../../fonts/fontawesome5/css/all.min.css">
+    
+    <!-- css design -->
+    <link rel="stylesheet" href="../../../css/base/reset.css">
+    <link rel="stylesheet" href="../../../css/base/common.css">
+    <link rel="stylesheet" href="../../../css/base/base.css">
+    <link rel="stylesheet" href="../../../css/src/premier_twin.css">
 
-
-    <link rel="stylesheet" href="./css/base/reset.css">
-    <link rel="stylesheet" href="./css/base/common.css">
-    <link rel="stylesheet" href="./css/base/base.css">
-    <link rel="stylesheet" href="./css/src/index.css">
-
-    <title> 야놀자 </title>
+    <title> 페어필드 바이 메리어트 서울 | 야놀자 </title>
+    
   </head>
 
-
-
-
   <body>
+
+
     <div id="wrap">
+
       <header id="header" class="clearfix">
-       <h1 id="main_logo"><a href="#"><span class="blind"> 야놀자 </span></a></h1>
-       <form action="#" method="POST">
-         <input type="search" id="search" name="search" value="" />
-         <label for="search">
-           <span class="blind"> 검색어를 입력하세요 </span>
-         </label>
-       </form>
+        <h1 id="main_logo"><a href="../../../index.html"><span class="blind"> 야놀자 </span></a></h1>
+        <form action="#" method="POST">
+          <input type="search" id="search" name="search" value="" />
+          <label for="search">
+            <span class="blind"> 검색어를 입력하세요 </span>
+          </label>
+        </form>
+       
+        <div class ="user_link">
+          <a href="#"><span class="blind"> 좋아요 한 목록 </span></a>
+          <a href="../../user/login.html"><span class="blind"> 로그인 </span></a>
+        </div>
+       
+       </header> <!------------------------------ header -->
 
-       <div class ="user_link">
-         <a href="#"><span class="blind"> 좋아요 한 목록 </span></a>
-         <a href="./html/user/login.html"><span class="blind"> 로그인 </span></a>
-       </div>
-
-      </header> <!------------------------------ header -->
 
 
-      <nav id="nav">
+
+
+
+       <nav id="nav">
         <h2 class="blind"> 네비게이션 </h2> 
         <div id="nav_link">
           
@@ -119,7 +125,10 @@
 
 
 
-      <aside id="quickButton">
+
+
+
+       <aside id="quickButton">
         <div>
           <ul>
             <li class="up_button"> 
@@ -139,195 +148,138 @@
       </aside> <!---------------------------------quick_button-->
 
 
-      <section id="section">
-      <h2 class="blind"> 대표 광고 영역 </h2>
-      <div class="view_01">
-        <a href="./html/leisure/lotte_aquarium/lotte_aquarium.html">
-          <span class="blind"> 롯데월드 아쿠아리움 광고 </span>
-        </a>
-        <a href="./html/leisure/everland/everland.html">
-          <span class="blind"> 에버랜드 광고 </span>
-        </a>
-      </div>
-      </section> <!------------------------------ section -->
-
-
-      <article id="article">
-      <div id="popular_search_box">
-        <h2> 회원 인기 검색어 </h2>
-
-        <ul class="pop_list clearfix">
-          <li>
-            <a href="#">
-              <span> #프랜차이즈 프로모션 </span>
-              <img src="img/img/pop_search/pop_search_01.png">
-            </a>
-          </li> <!------------------------------------------->
-
-
-          <li>
-            <a href="#">
-              <span> #신축 / 리모델링</span>
-              <img src="img/img/pop_search/pop_search_02.png">
-            </a>
-          </li> <!------------------------------------------->
-
-
-          <li>
-            <a href="#">
-              <span> #초특가 호텔 </span>
-              <img src="img/img/pop_search/pop_search_03.png">
-            </a>
-          </li> <!------------------------------------------->
-
-
-          <li>
-            <a href="#">
-              <span> #파티룸 </span>
-              <img src="img/img/pop_search/pop_search_04.png">
-            </a>
-          </li> <!------------------------------------------->
-
-
-        </ul>
-      </div> <!--------------------------------popular_search_box-->
 
 
 
 
-      <div id="recommend_box">
-        <h2 class="blind"> 추천 숙소 </h2>
-        <p> 우리도 호캉스 갈까? </p>
 
-        <ul class="recom_location_list clearfix">
-          <li> <a href="#"> 서울 </a> </li>
-          <li> <a href="#"> 경기인천 </a> </li>
-          <li> <a href="#"> 강원 </a> </li>
-          <li> <a href="#"> 부산 </a> </li>
-        </ul>
 
-        <ul class="recom_hotel_list clearfix">
-          <li>
-            <a href="#">
-              <div class="recom_img_wrap">
-                <img src="img/img/recom/recom_cheong.jpg" class="recom_hotel_img">
-              </div>
-              <span class="recom_title"> 오라카이 청계산 호텔 </span>
-              <span class="recom_price"> 78,300원 </span>
-            </a>
-          </li>
+      <section id="viewBox">
+        <div id="view_img">
+          <ul class="view_img_area clearfix">
+            <li>
+              <div><!--css에서 background-image처리 --></div>
+            </li>
+            <li>
+              <div><!--css에서 background-image처리 --></div>
+            </li>
+            <li>
+              <div><!--css에서 background-image처리 --></div>
+            </li>
+            <li>
+              <div><!--css에서 background-image처리 --></div>
+            </li>
+          </ul> <!------------------view_img_area-->
+        </div> <!--------------------view_img-->
 
-         <li>
-           <a href="#">
-             <div class="recom_img_wrap">
-               <img src="img/img/recom/recom_ramada.jpg" class="recom_hotel_img">
-              </div>
-             <span class="recom_title"> 라마다 서울 신도림 </span>
-             <span class="recom_price"> 73,040원 </span>
-          </a>
-         </li>
 
-          <li>
-            <a href="./html/domestic_hotel/domestic_marriott/marriott.html">
-              <div class="recom_img_wrap">
-                <img src="img/img/recom/recom_fair.jpg" class="recom_hotel_img" alt="">
-              </div>
-              <span class="recom_title"> 페이필드 바이 메리어트 서울 </span>
-              <span class="recom_price"> 52,800원 </span>
-            </a>
-          </li>
-
-          <li>
-            <a href="#">
-              <div class="recom_img_wrap">
-                <img src="img/img/recom/recom_orakai.jpg" class="recom_hotel_img" alt="">
-              </div>
-              <span class="recom_title"> 오라카이 대학로 호텔 </span>
-              <span class="recom_price"> 70,000원 </span>
-            </a>
-          </li>
-        </ul>
+        <div id="view_info">
+          <dl>
+            <dt> 
+              <h2> PremierTwin 
+                <a href="./marriott.html"> > 페어필드 바이 메리어트 서울</a> 
+              </h2> 
+            </dt>
+            <dd> 10일간 Spring Flash Sale </dd>
+            <dd> 기준 2명 / 최대 2명 </dd>
+          </dl>
+        </div> <!---------------------view_info-->
+      </section> <!---------------------viewBox-->
 
 
 
+      <article id="informationBox">
 
-      </div> <!--------------------------------recommend_box-->
 
-      <div id="art_view">
-        <div class="art_view_area"> 
-          <a href="#">
-            <spen class="blind"></spen>
-          </a>
+        <div class="reservation_button">
+          <button type="button"> 예약하기 </button>
         </div>
 
-        <div class="art_view_area"> 
-          <a href="#">
-            <spen class="blind"></spen>
-          </a>
-        </div>
-      </div> <!-------------------------------art_view-->
+
+        <article id="mini_info_box" class="clearfix">
+          <dl>
+            <dt> 숙박 </dt>
+            <dd> 체크인 15:00부터 </dd>
+            <dd> 체크아웃 12:00까지 </dd>
+          </dl>
+
+          <dl>
+            <dt> 로그인 특가 </dd>
+            <dd> 55,000원 </dd>
+          </dl>
+
+          <dl>
+            <dt> 선착순 쿠폰 적용시 </dd>
+            <dd> 50,850원 </dd>
+          </dl>
+        </article> <!---------------------------mini_info_box-->
 
 
 
 
+         <article id="basic_info_link" class="basic_info_area">
+           <div class="basic_info_text">
 
+             <h3> 기본 정보 </h3>
 
-
-      <div id="event_box">
-        <h2> 기획전 </h2>
-
-        <ul class="event_area clearfix">
-          <li>
-            <a href="#">
-              <img src="img/img/content/con_01.png">
-              <ul class="event_text">
-                <li class="event_coupon"> 쿠폰혜택</li>
-                <li class="event_title"> 경상북도 모텔 선착순 할인</li>
-                <li class="event_narration"> 늦으면 예약 마감! 최대 10만원 할인 </li>
+              <ul>
+                <li> - Spring Flash Sale | Premier Twin </li>
+                <li> - 2인 기준 / 인원 추가 불가 </li>
+                <li> - 23㎡, 싱글 침대 2개 </li>
+                <li> - 에어컨, TV, 냉장고, 커피포트, 생수, 샤워시설, 욕실용품, 드라이기, 가운 </li>
+                <li> - 무료 wi-fi </li>
+                <li> - 금연객실 </li>
+                <li> - 취소 규정 : 2일전 17시까지 100% 환불 가능 </li>
               </ul>
-            </a>
-          </li>
+           </div>  <!-----------------------basic_info_text-->
 
 
-          <li>
-            <a href="#">
-              <img src="img/img/content/con_02.png">
-              <ul class="event_text">
-                <li class="event_coupon"> 할인혜택</li>
-                <li class="event_title"> 이번주만 특가 호캉스 </li>
-                <li class="event_narration"> 지금 놓치면 후회! </li>
-              </ul>
-            </a>
-          </li>
 
 
-          <li>
-            <a href="#">
-              <img src="img/img/content/con_03.png">
-              <ul class="event_text">
-                <li class="event_coupon"> MD추천 </li>
-                <li class="event_title"> 5월에 가기 좋은 테마파크 </li>
-                <li class="event_narration"> 친구랑 연인이랑 가족이랑! </li>
-              </ul>
-            </a>
-          </li>
+
+           <div class="basic_info_text">
+
+            <h3> 예약 공지 </h3>
+
+             <ul>
+               <li> - 상세 설명의 취소규정에 따라 취소가 가능하며, 취소를 원하시는 경우 고객센터로 연락 부탁 드립니다. </li>
+               <li> - 예약 시 기재하는 방문자정보는 호텔로 전달되지 않으며, 예약자가 아닌 다른 사람이 방문 예정인 경우 사전에 호텔로 문의 부탁드립니다. </li>
+               <li> - 부모동반 아동 투숙 가능(12세 이하 무료) </li>
+               <li> - 부대시설: 피트니스 센터, BISTRO 870 </li>
+               <li> - Bistro 870은 페어필드 바이 메리어트 서울 투숙객분들을 위해 3층에 마련된 캐주얼 라운지입니다. (운영시간 : 17:00-22:00, 월화 휴무) </li>
+               <li> - Bistro 870에서 간단한 스낵과 음료, 그리고 레트로 게임을 즐겨보세요. </li>
+               <li> - 주차 : 투숙객 이용 시 1일 15,000원(2021년 4월 1일부로 인상) </li>
+               <li> - 모든 추가비용 현장결제 </li>
+             </ul>
+          </div>  <!-----------------------basic_info_text-->
+
+          
 
 
-          <li>
-            <a href="#">
-              <img src="img/img/content/con_04.png">
-              <ul class="event_text">
-                <li class="event_coupon"> 할인혜택 </li>
-                <li class="event_title"> 신라스테이 호텔 브랜드 특가 </li>
-                <li class="event_narration"> 단 7일 단독특가 6만원대부터 </li>
-              </ul>
-            </a>
-          </li>
+
+          <div class="basic_info_text">
+
+            <h3> 취소 규정 </h3>
+
+             <ul>
+               <li> - 취소 및 환불 불가 </li>
+               <li> - 호텔의 경우 예약 완료 시각으로부터 10분 이내인 경우 고객센터를 통한 전액 취소가 가능합니다. 단, 예약 후 10분 이내 취소건이라도 입실시간이 지난 경우 취소가 불가합니다.  </li>
+             </ul>
+          </div>  <!-----------------------basic_info_text-->
 
 
-        </ul>
-      </div> <!--------------------------------event_box-->
-      </article> <!------------------------------ article -->
+ 
+         </article> <!----------------------------------basic_info_area-->
+
+
+
+
+
+
+      </article> <!---------------------------------------informationBox-->
+
+
+
 
 
 

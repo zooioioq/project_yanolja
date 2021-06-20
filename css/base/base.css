@@ -111,11 +111,11 @@ smile <i class="far fa-smile"></i>
     margin-top : 1.375rem;
   margin-left : 360px;
     margin-left : 22.5rem;
-  background-color : var(--color-pink);
+  border : 2px solid var(--color-pink);
   font-size : 24px;
     font-size : 1.5rem;
-  color : #fff;
-    color : var(--color-white);
+  color : var(--color-black);
+  text-indent: 1rem;
 }
 
 
@@ -163,32 +163,43 @@ smile <i class="far fa-smile"></i>
   position : fixed;
   top : 0;
   left : 50%;
-  z-index: 10;
+  z-index: 100;
   margin-left : -960px;
-    margin-left : -60rem;
-}
-
-
-#nav_bg {
-  position:fixed;
-  top : 0;
-    /* top : 13.75rem; */
-  width : 120px;
-    width : 7.5rem;
+  margin-left : -60rem;
+  width : 40px;
   height : 100%;
   background: #5A5C71;
    background-color : var(--color-gray);
    transition: all 0.7s ease;
 }
 
+
 #nav_link {
-  position : fixed;
-  top : 250px;
-    top : 15.625rem;
+  position : relative;
+  background-color : var(--color-gray);
+  z-index : 10;
+}
+
+#nav_link > .fa-chevron-right {
+  position : absolute;
+  top : 400px;
   left : 50%;
-  margin-left : -930px;
-    margin-left : -58.125rem;
-  /* z-index : 10; */
+  font-size : 1.125rem;
+  color : var(--color-white);
+}
+
+
+
+
+
+
+.nav_detail {
+  display : none;
+  position : absolute;
+  top : 120px;
+  left : 20px;
+  transition : all 500ms ease;
+  transition-delay: 300ms;
 }
 
 
@@ -197,18 +208,10 @@ smile <i class="far fa-smile"></i>
     width : 5rem;
   height : 100px;
     height : 6.25rem;
-  margin-bottom: 10px;
-    margin-bottom: 0.625rem;
+  margin-bottom: 50px;
   text-align: center;
 }
 
-#nav_link li > a {
-  display : block;
-  width : 100%;
-  height : 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
 
 
 #nav_link i {
@@ -225,33 +228,55 @@ smile <i class="far fa-smile"></i>
   background-size: contain;
 }
 
+
 #nav_link li:nth-child(1) i {
-  background-image : url("../../img/icon/nav/더보기_white.svg");
-}
-#nav_link li:nth-child(2) i {
   background-image : url("../../img/icon/nav/지역_white.svg");
 }
-#nav_link li:nth-child(3) i {
+#nav_link li:nth-child(2) i {
   background-image : url("../../img/icon/nav/국내_white.svg");
 }
-#nav_link li:nth-child(4) i {
+#nav_link li:nth-child(3) i {
   background-image : url("../../img/icon/nav/레저_white.svg");
 }
-#nav_link li:nth-child(5) i {
+#nav_link li:nth-child(4) i {
   background-image : url("../../img/icon/nav/교통_white.svg");
 }
-#nav_link li:nth-child(6) i {
+#nav_link li:nth-child(5) i {
   background-image : url("../../img/icon/nav/해외_white.svg");
 }
 
+.nav_detail dl {
+  position : relative;
+  width :  200px;
+}
 
-#nav_link span {
+.nav_detail dt {
+  float : left;
   width : 80px;
    width : 5rem;
   height: 20px;
    height: 1.25rem;
   color : #fff;
     color : var(--color-white);
+}
+
+.nav_detail .nav_dd {
+  position: absolute;
+  top : -65px;
+  left : 100px;
+  float : right;
+  width : 100px;
+  font-size : 14px;
+  line-height: 2;
+  color : var(--color-white);
+}
+
+.nav_detail li:nth-child(2) .nav_dd {
+  top : -90px;
+}
+
+.nav_detail li:nth-child(3) .nav_dd {
+  top : -50px;
 }
 
 
@@ -261,18 +286,29 @@ smile <i class="far fa-smile"></i>
 #nav:hover {
   position:fixed;
   top : 0;
-  width : 220px;
-    width : 13.75rem;
+  width : 240px;
+    /* width : 12.5rem; */
   height : 100%;
   background: #5A5C71;
    background-color : var(--color-gray);
-  /* transition: all 0.7s ease; */
 } 
+
+#nav:hover .fa-chevron-right {
+  display: none;
+}
+
+#nav:hover .nav_detail {
+  display: block;
+}
 
 
 
 /*네비호버를 따로 만들고 기본은 display:none;해두고
 hover하면 display : block 되도록! */
+
+
+
+
 
 
 

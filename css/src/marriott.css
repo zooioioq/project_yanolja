@@ -160,6 +160,7 @@
   font-weight : 700;
   border : 1px solid var(--color-gray);
   box-sizing: border-box;
+  transition : all 300ms ease;
 }
 
 .info_type li:hover {
@@ -201,7 +202,7 @@
 .room_type_area {
   width : 100%;
   height : auto;
-  padding-bottom : 100px;
+  margin-bottom : 200px;
 }
 
 .room_type_select_area {
@@ -210,19 +211,27 @@
   margin-top : 20px;
 }
 
-.room_type_select_area > dl {
+.room_type_select_area > a {
+  width : 100%;
+  height : 100%;
   position : relative;
   float : left;
   width : 48%;
   height : 300px;
   margin-right : 4%;
+  margin-bottom : 40px;
   border : 2px solid var(--color-bg-white);
   border-radius: 5px;
   box-sizing: border-box;
   transition: all 300ms ease;
 }
 
-.room_type_select_area > dl:hover {
+.room_type_select_area  dl {
+  width : 100%;
+  height : 100%;
+}
+
+.room_type_select_area > a:hover {
   transform: scale(1.05, 1.05);
   box-shadow: 5px 5px 5px rgba(90,92,113,0.05);
 }
@@ -254,23 +263,23 @@
   background-size: cover;
 }
 
-.room_type_select_area > dl:nth-child(1) > .room_type_img,
-.room_type_select_area > dl:nth-child(2) > .room_type_img {
+.room_type_select_area a:nth-child(1) .room_type_img,
+.room_type_select_area  a:nth-child(2) .room_type_img {
   background-image : url("../../img/img/domestic_hotel/domestic_marriott/room_type_img/room_type_img_01.jpg");
 }
 
-.room_type_select_area > dl:nth-child(3) > .room_type_img,
-.room_type_select_area > dl:nth-child(4) > .room_type_img {
+.room_type_select_area a:nth-child(3) .room_type_img,
+.room_type_select_area a:nth-child(4) .room_type_img {
   background-image : url("../../img/img/domestic_hotel/domestic_marriott/room_type_img/room_type_img_02.jpg");
 }
 
-.room_type_select_area > dl:nth-child(5) > .room_type_img,
-.room_type_select_area > dl:nth-child(6) > .room_type_img {
+.room_type_select_area a:nth-child(5) .room_type_img,
+.room_type_select_area a:nth-child(6) .room_type_img {
   background-image : url("../../img/img/domestic_hotel/domestic_marriott/room_type_img/room_type_img_03.png");
 }
 
-.room_type_select_area > dl:nth-child(7) > .room_type_img,
-.room_type_select_area > dl:nth-child(8) > .room_type_img {
+.room_type_select_area a:nth-child(7) .room_type_img,
+.room_type_select_area a:nth-child(8) .room_type_img {
   background-image : url("../../img/img/domestic_hotel/domestic_marriott/room_type_img/room_type_img_04.png");
 }
 
@@ -369,6 +378,7 @@
 .basic_info_text {
   width : 100%;
   height : auto;
+  margin-bottom : 200px;
 }
 
 .basic_info_text {
@@ -510,6 +520,7 @@
   width : 100%;
   height : auto;
   border-bottom : 1px solid var(--color-gray);
+  margin-bottom : 70px;
 }
 
 .review_area { margin-bottom : 200px;}
@@ -593,7 +604,7 @@
   float: left;
   width :48%;
   height: auto;
-  min-height : 200px;
+  min-height :250px;
   padding : 30px;
   box-sizing: border-box;
   margin-bottom : 50px;
@@ -601,6 +612,11 @@
   border-radius: 5px;
   border : 1px solid rgba(90,92,113,0.2);
   box-shadow: 5px 5px 5px rgba(90,92,113,0.05);
+  transition : all 500ms ease;
+}
+
+.review_card:hover {
+  transform: scale(1.1);
 }
 
 .review_list .margin_right_none {
@@ -609,21 +625,55 @@
 
 
 .review_summary {
+  position : relative;
   width : 100%;
   height : 100%;
-  padding-bottom : 10px;
+  padding-bottom : 20px;
   margin-bottom : 30px;
   border-bottom : 1px solid rgba(90,92,113,0.2);
 }
 
 
 
-.fa-smile {
-  font-size : 2rem;
+.fa-smile,
+.fa-angry,
+.fa-meh {
+  font-size : 2.7rem;
   color : var(--color-pink);
 }
 
 .star > li { float : left;}
 
+.star_area {
+  position : absolute;
+  top : -5px;
+  left : 60px;
+  /* background-color : #eee; */
+  width : auto;
+  height : 45px;
+}
+
 .star {
+  width : 500px;
+  height : auto;
+}
+.star_area .review_user_info {
+  margin-top : 10px;
+  width : 465px;
+  height : 50px;
+}
+
+.star_area .review_user_info li {
+  float : left;
+  margin-right : 20px;
+  padding-right : 20px;
+  font-size : 14px;
+  border-right : 1px solid rgba(90,92,113,0.2);
+}
+
+.star_area .review_user_info li:last-child {
+  float : right;
+  margin-right : 0;
+  padding-right : 0;
+  border-right : 0;
 }

@@ -36,6 +36,10 @@ h2 {
   box-sizing: border-box;
 }
 
+#nav > h2 {
+  padding : 0;
+}
+
 
 
 /*-------------------------------------- icon */
@@ -163,7 +167,7 @@ smile <i class="far fa-smile"></i>
   position : fixed;
   top : 0;
   left : 50%;
-  z-index: 100;
+  z-index: 1000;
   margin-left : -960px;
   margin-left : -60rem;
   width : 40px;
@@ -180,10 +184,17 @@ smile <i class="far fa-smile"></i>
   z-index : 10;
 }
 
-#nav_link > .fa-chevron-right {
+.nav_i_box {
   position : absolute;
   top : 400px;
   left : 50%;
+  z-index : 1000;
+  width : 40px;
+  height : 40px;
+}
+
+
+.nav_i_box > i {
   font-size : 1.125rem;
   color : var(--color-white);
 }
@@ -203,7 +214,7 @@ smile <i class="far fa-smile"></i>
 }
 
 
-#nav_link li {
+.nav_detail li {
   width : 80px;
     width : 5rem;
   height : 100px;
@@ -214,7 +225,7 @@ smile <i class="far fa-smile"></i>
 
 
 
-#nav_link i {
+.nav_detail i {
   display: block;
   width : 40px;
    width : 2.5rem;
@@ -228,20 +239,19 @@ smile <i class="far fa-smile"></i>
   background-size: contain;
 }
 
-
-#nav_link li:nth-child(1) i {
+.nav_detail li:nth-child(1) i {
   background-image : url("../../img/icon/nav/지역_white.svg");
 }
-#nav_link li:nth-child(2) i {
+.nav_detail li:nth-child(2) i {
   background-image : url("../../img/icon/nav/국내_white.svg");
 }
-#nav_link li:nth-child(3) i {
+.nav_detail li:nth-child(3) i {
   background-image : url("../../img/icon/nav/레저_white.svg");
 }
-#nav_link li:nth-child(4) i {
+.nav_detail li:nth-child(4) i {
   background-image : url("../../img/icon/nav/교통_white.svg");
 }
-#nav_link li:nth-child(5) i {
+.nav_detail li:nth-child(5) i {
   background-image : url("../../img/icon/nav/해외_white.svg");
 }
 
@@ -258,6 +268,12 @@ smile <i class="far fa-smile"></i>
    height: 1.25rem;
   color : #fff;
     color : var(--color-white);
+    transition : all 200ms ease;
+}
+
+.nav_detail dt:hover {
+  transform : scale(1.1);
+  font-weight: 700;
 }
 
 .nav_detail .nav_dd {
@@ -268,7 +284,17 @@ smile <i class="far fa-smile"></i>
   width : 100px;
   font-size : 14px;
   line-height: 2;
+  text-align: left;
   color : var(--color-white);
+}
+
+.nav_detail .nav_dd > dd {
+  transition : all 200ms ease;
+}
+
+.nav_detail .nav_dd >dd:hover {
+  transform : scale(1.1);
+  font-weight: 700;
 }
 
 .nav_detail li:nth-child(2) .nav_dd {

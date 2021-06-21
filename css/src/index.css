@@ -194,6 +194,7 @@
   background-color : rgba(255,52,120,0.3);
 }
 
+
 .recom_location_list > li:last-child {
   margin-right : 0;
 }
@@ -277,7 +278,7 @@
 
 
 #art_view > div:nth-child(1) > a {
-  background-image : url("../../img/ad/art_view_01.svg");
+  background-image : url("../../img/ad/art_view_01.png");
 }
 
 #art_view > div:nth-child(2) {
@@ -286,7 +287,7 @@
 
 
 #art_view > div:nth-child(2) > a {
-  background-image : url("../../img/ad/art_view_02.svg");
+  background-image : url("../../img/ad/art_view_02.png");
 }
 
 

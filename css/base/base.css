@@ -27,8 +27,10 @@
     width : 120rem;
   height : auto;
   background-color : var(--color-bg-white);
+    background-color : #f6f6f6;
   margin : auto;
 }
+
 
 h2 {
   padding : 20px;
@@ -36,9 +38,14 @@ h2 {
   box-sizing: border-box;
 }
 
+
+#quickButton > h2,
 #nav > h2 {
   padding : 0;
 }
+
+
+
 
 
 
@@ -46,7 +53,10 @@ h2 {
 .fa-star,
 .fa-star-half-alt {
   color : var(--color-yellow);
+    color : #FDBD00;
 }
+
+
 
 
 
@@ -84,6 +94,7 @@ smile <i class="far fa-smile"></i>
     background-color : var(--color-white);
 }
 
+
 #main_logo > a {
   float : left;
   width : 150px;
@@ -105,6 +116,7 @@ smile <i class="far fa-smile"></i>
   display: inline-block;
 }
 
+
 #header input {
   width: 400px;
     width: 25rem;
@@ -115,10 +127,12 @@ smile <i class="far fa-smile"></i>
     margin-top : 1.375rem;
   margin-left : 360px;
     margin-left : 22.5rem;
-  border : 2px solid var(--color-pink);
+  border : 2px solid  #ff3478;
+    border : 0.125rem solid var(--color-pink);
   font-size : 24px;
     font-size : 1.5rem;
-  color : var(--color-black);
+  color : #000;
+    color : var(--color-black);
   text-indent: 1rem;
 }
 
@@ -155,9 +169,17 @@ smile <i class="far fa-smile"></i>
   background-image : url("../../img/icon/header/찜.svg");
 }
 
+
 .user_link > a:nth-child(2) {
   background-image: url("../../img/icon/header/로그인.svg");
 }
+
+
+
+
+
+
+
 
 
 
@@ -169,46 +191,52 @@ smile <i class="far fa-smile"></i>
   left : 50%;
   z-index: 1000;
   margin-left : -960px;
-  margin-left : -60rem;
+   margin-left : -60rem;
   width : 40px;
+    width : 2.5rem;
   height : 100%;
   background: #5A5C71;
    background-color : var(--color-gray);
-   transition: all 0.7s ease;
+  transition: all 0.7s ease;
 }
 
 
 #nav_link {
   position : relative;
-  background-color : var(--color-gray);
+  background-color : #5A5C71;
+    background-color : var(--color-gray);
   z-index : 10;
 }
+
 
 .nav_i_box {
   position : absolute;
   top : 400px;
+    top : 25rem;
   left : 50%;
   z-index : 1000;
   width : 40px;
+    width : 2.5rem;
   height : 40px;
+    height : 2.5rem;
 }
 
 
 .nav_i_box > i {
-  font-size : 1.125rem;
-  color : var(--color-white);
+  font-size : 18px;
+    font-size : 1.125rem;
+  color : #fff;
+    color : var(--color-white);
 }
-
-
-
-
 
 
 .nav_detail {
   display : none;
   position : absolute;
   top : 120px;
+    top : 7.5rem;
   left : 20px;
+    left : 1.25rem;
   transition : all 500ms ease;
   transition-delay: 300ms;
 }
@@ -220,9 +248,9 @@ smile <i class="far fa-smile"></i>
   height : 100px;
     height : 6.25rem;
   margin-bottom: 50px;
+    margin-bottom : 3.125rem;
   text-align: center;
 }
-
 
 
 .nav_detail i {
@@ -231,13 +259,14 @@ smile <i class="far fa-smile"></i>
    width : 2.5rem;
   height : 40px;
    height : 2.5rem;
-   margin : auto;
+  margin : auto;
   margin-bottom : 10px;
     margin-bottom : 0.625rem;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: contain;
 }
+
 
 .nav_detail li:nth-child(1) i {
   background-image : url("../../img/icon/nav/지역_white.svg");
@@ -255,10 +284,13 @@ smile <i class="far fa-smile"></i>
   background-image : url("../../img/icon/nav/해외_white.svg");
 }
 
+
 .nav_detail dl {
   position : relative;
   width :  200px;
+    width : 12.5rem;
 }
+
 
 .nav_detail dt {
   float : left;
@@ -268,42 +300,57 @@ smile <i class="far fa-smile"></i>
    height: 1.25rem;
   color : #fff;
     color : var(--color-white);
-    transition : all 200ms ease;
+  transition : all 200ms ease;
 }
+
 
 .nav_detail dt:hover {
   transform : scale(1.1);
   font-weight: 700;
 }
 
+
 .nav_detail .nav_dd {
   position: absolute;
   top : -65px;
+    top : -4.0625rem;
   left : 100px;
+    left : 6.25rem;
   float : right;
   width : 100px;
+    width : 6.25rem;
   font-size : 14px;
+    font-size : 0.875rem;
   line-height: 2;
   text-align: left;
-  color : var(--color-white);
+  color : #fff;
+    color : var(--color-white);
 }
+
 
 .nav_detail .nav_dd > dd {
   transition : all 200ms ease;
 }
+
 
 .nav_detail .nav_dd >dd:hover {
   transform : scale(1.1);
   font-weight: 700;
 }
 
+
 .nav_detail li:nth-child(2) .nav_dd {
   top : -90px;
+    top : -5.625rem;
 }
+
 
 .nav_detail li:nth-child(3) .nav_dd {
   top : -50px;
+    top : -3.125rem;
 }
+
+
 
 
 
@@ -313,26 +360,21 @@ smile <i class="far fa-smile"></i>
   position:fixed;
   top : 0;
   width : 240px;
-    /* width : 12.5rem; */
+    width : 15rem;
   height : 100%;
   background: #5A5C71;
    background-color : var(--color-gray);
 } 
 
+
 #nav:hover .fa-chevron-right {
   display: none;
 }
 
+
 #nav:hover .nav_detail {
   display: block;
 }
-
-
-
-/*네비호버를 따로 만들고 기본은 display:none;해두고
-hover하면 display : block 되도록! */
-
-
 
 
 
@@ -348,8 +390,11 @@ hover하면 display : block 되도록! */
   position : fixed;
   z-index: 100;
   bottom : 50px;  right : 50px;
+    bottom : 3.125rem; right : 3.125rem;
   width : 40px; height : 90px;
+    width : 2.5rem; height : 5.625rem;
 }
+
 
 #quickButton > div,
 #quickButton ul {
@@ -357,18 +402,24 @@ hover하면 display : block 되도록! */
   height : 100%;
 }
 
+
 #quickButton li {
-  width :40px;
-  height : 40px;
+  width :40px;  height : 40px;
+    width : 2.5rem; height : 2.5rem;
   border-radius: 40px;
-  background-color : var(--color-pink);
+    border-radius: 2.5rem;
+  background-color : #ff3478;
+    background-color : var(--color-pink);
   transition : all 400ms ease;
 }
+
 
 #quickButton li:hover {
   transform : scale(1.2, 1.2);
   box-shadow: 3px 3px 3px rgba(90,92,113,0.5);
+    box-shadow: 0.1875rem 0.1875rem 0.1875rem rgba(90,92,113,0.5);
 }
+
 
 #quickButton li i {
   display: block;
@@ -380,19 +431,24 @@ hover하면 display : block 되도록! */
   background-position: 50% 50%;  
 }
 
+
 .down_button i {
   transform : rotate(180deg);
 }
 
+
 .up_button {
   margin-bottom : 10px;
+    margin-bottom : 0.625rem;
 }
+
 
 #quickButton li > a {
   display : block;
   width : 100%;
   height : 100%;
 }
+
 
 
 
@@ -438,9 +494,6 @@ hover하면 display : block 되도록! */
 }
 
 
-
-/* ------------------ */
-
 #foot_info ul {
   float: left;
   width : auto;
@@ -450,12 +503,6 @@ hover하면 display : block 되도록! */
 }
 
 
-
-
-
-
-/* ------------------ */
-
 #foot_link {
   float : right;
   width : 776px;
@@ -463,15 +510,11 @@ hover하면 display : block 되도록! */
 }
 
 
-
-
-/* ------------------ */
-
-
 #family_site {
   margin-top: 10px;
     margin-top : 0.625rem;
 }
+
 
 #family_site > dl {
   float : right;
@@ -487,8 +530,10 @@ hover하면 display : block 되도록! */
   text-align: center;
 }
 
+
 #family_site dt {
   margin-bottom : 5px;
+    margin-bottom : 0.3125rem;
 }
 
 
@@ -496,10 +541,14 @@ hover하면 display : block 되도록! */
   display: none;
   width : 100%;
   height : 30px;
+    height : 1.875rem;
   padding : 5px;
+    padding : 0.3125rem;
   box-sizing: border-box;
-  background-color : var(--color-bg-white);
-  border : 1px solid #333;
+  background-color : #f6f6f6;
+   background-color : var(--color-bg-white);
+  border : 1px solid #5A5C71;
+   border : 0.0625rem solid var(--color-gray);
 }
 
 
@@ -508,27 +557,13 @@ hover하면 display : block 되도록! */
 }
 
 
-
 #family_site a {
   display: block;
   width : 100%;
   height : 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* ------------------ */
-
-
- #sns_link {
+#sns_link {
   width : 100%;
   height : auto;
   margin-top : 10px;
@@ -564,63 +599,40 @@ hover하면 display : block 되도록! */
   transition: all 300ms ease;
 } 
 
+
 #sns_link a:hover {
-  /* width : 120%; height : 120%; */
   transform : scale(1.2, 1.2);
 }
 
 
- #sns_link .sns > li:nth-child(1) > a {
+#sns_link .sns > li:nth-child(1) > a {
   background-size: 80%;
   background-image : url("../../img/icon/footer/facebook.png");
 }
-
 #sns_link .sns > li:nth-child(2) > a {
   background-size: 80%;
   background-image : url("../../img/icon/footer/instagram.png");
 }
-
 #sns_link .sns > li:nth-child(3) > a {
   background-size: 80%;
   background-image : url("../../img/icon/footer/youtube.png");
 }
-
 #sns_link .sns > li:nth-child(4) > a {
   background-image : url("../../img/icon/footer/naver_tv.png");
 }
-
 #sns_link .sns > li:nth-child(5) > a {
   background-image : url("../../img/icon/footer/naver_blog.png");
 }
-
 #sns_link .sns > li:nth-child(6) > a {
   background-image : url("../../img/icon/footer/naver_post.png");
 }
 
 
-
-
-
-
-
-
-/* ------------------- */
-
-
-
 #foot_link > p {
+  text-align: right;
   margin-top : 10px;
     margin-top : 0.625rem;
-  text-align: right;
 }
-
-
-
-
-
-
-
-/* ------------------------- */
 
 
 #link_list {
@@ -629,6 +641,7 @@ hover하면 display : block 되도록! */
     margin-top : 0.625rem;
   text-align: right;
 }
+
 
 #link_list li{
   float : left;
@@ -642,11 +655,10 @@ hover하면 display : block 되도록! */
     border-right : 0.0625rem solid var(--color-gray);
 }
 
+
 #link_list li > a:hover {
  font-weight: 700;
 }
-
-
 
 
 #link_list li:last-child {

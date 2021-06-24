@@ -1,0 +1,88 @@
+/* css/base/root.css */
+
+
+
+
+
+:root {
+  --color-white : #fff;
+  --color-bg-white : #f6f6f6;
+  --color-yellow : #FDBD00;
+  --color-bright-pink : #FFD1E1;
+  --color-pink : #ff3478;
+  --color-purple : #9A5ED2;
+  --color-blue : #0152CC;
+  --color-navy : #0A496C;
+  --color-card-gray : #DCDEED;
+  --color-shadow-gray : #BEC0D2;
+  --color-border-gray : #9FA1B4;
+  --color-gray : #5A5C71;
+  --color-black : #000;
+
+  --box-shadow : 0.1875rem 0.1875rem 0.1875rem #BEC0D2;
+  --border-gray : 0.0625rem solid #9FA1B4;
+  --border-card : 0.0625rem solid #DCDEED;
+}
+
+
+
+
+
+#wrap {
+  width : 1920px;
+    width : 120rem;
+  height : auto;
+  background-color : #f6f6f6;
+    background-color : var(--color-bg-white);
+  margin : auto;
+}
+
+
+h2 {
+  padding : 20px;
+    padding : 1.25rem;
+  box-sizing: border-box;
+}
+
+
+#quickButton > h2,
+#nav > h2 {
+  padding : 0;
+}
+
+
+
+
+
+/*-------------------------------------- icon */
+.fa-star,
+.fa-star-half-alt {
+  color : var(--color-yellow);
+    color : #FDBD00;
+}
+
+
+
+
+
+
+/*
+star <i class="fas fa-star"></i>
+star-half <i class="fas fa-star-half-alt"></i>
+star-empty <i class="far fa-star"></i>
+right-arrows <i class="fas fa-chevron-right"></i>
+location <i class="fas fa-map-marker-alt">
+
+parking <i class="fas fa-parking"></i>
+bread <i class="fas fa-bread-slice"></i>
+wifi <i class="fas fa-wifi"></i>
+restaurant <i class="fas fa-utensils"></i>
+walking <i class="fas fa-walking"></i>
+soap <i class="fas fa-soap"></i>
+diamond <i class="fas fa-gem"></i>
+concierge-bell <i class="fas fa-concierge-bell"></i>
+tshirt <i class="fas fa-tshirt"></i>
+business <i class="fas fa-briefcase"></i>
+
+smile <i class="far fa-smile"></i>
+*/

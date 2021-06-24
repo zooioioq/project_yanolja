@@ -2,6 +2,8 @@
 /* css/base/common.css */
 
 
+* { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+
 
 .clearfix {
   height : auto;

@@ -1,0 +1,704 @@
+/* css/src/domestic_hotel/domestic_marriott/informationBox.css */
+
+
+
+
+
+#informationBox {
+  width : 100%; height : auto;
+  min-height : 800px;
+  margin-top : 50px;
+  padding : 25px 350px;
+    min-height : 50rem;
+    margin-top : 3.125rem;
+    padding : 1.5625rem 21.875rem;
+  box-sizing: border-box;
+  background-color : #fff;
+    background-color : var(--color-white);
+}
+
+
+#informationBox h3 {
+  font-size : 24px;
+    font-size : 1.5rem;
+  margin-bottom : 30px;
+    margin-bottom : 1.875rem;
+}
+
+
+.info_type {
+  margin-bottom : 100px;
+  padding-top : 25px;  padding-bottom : 50px;
+  border-bottom : 1px solid #9FA1B4;
+    margin-bottom : 6.25rem;
+    padding-top : 1.5625rem;  padding-bottom : 3.125rem;
+    border-bottom : var(--border-gray);
+}
+
+
+.info_type,
+.info_type > ul {
+  width : 100%; height : auto;
+}
+
+
+.info_type li {
+  float : left;
+  width : 30%;
+  height : 50px;  height : 3.125rem;
+  margin-right : 5%;
+  text-align: center;
+  padding : 12px; padding : 0.75rem;
+  font-weight : 700;
+  border : 1px solid #9FA1B4;
+    border : var(--border-gray);
+  box-sizing: border-box;
+  transition : all 300ms ease;
+}
+
+
+.info_type li:hover {
+  background-color : #FFD1E1;
+    background-color : var(--color-bright-pink);
+}
+
+
+.info_type li:nth-child(1) {
+  background-color : #FFD1E1;
+   background-color : var(--color-bright-pink);
+}
+
+
+.info_type li:last-child {
+  margin-right : 0;
+}
+
+
+.info_type a {
+  display: block;
+  width : 100%;
+  height : 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* reservation_area */
+.room_type_area {
+  width : 100%;
+  height : auto;
+  margin-bottom : 200px;
+   margin-bottom : 12.5rem;
+}
+
+
+.room_type_select_area {
+  width : 100%;
+  height : auto;
+  margin-top : 20px;
+    margin-top : 1.25rem;
+}
+
+
+.room_type_select_area > a {
+  position : relative;
+  float : left;
+  width : 48%;  height : 300px; height : 18.75rem;
+  margin-right : 4%;
+  margin-bottom : 40px;
+    margin-bottom : 2.5rem;
+  border : 1px solid #DCDEED;
+    border : var(--border-card);
+  border-radius: 5px;
+    border-radius: 0.3125rem;
+  box-sizing: border-box;
+  transition: all 300ms ease;
+}
+
+
+.room_type_select_area  dl {
+  width : 100%;  height : 100%;
+}
+
+
+.room_type_select_area > a:hover {
+  transform: scale(1.05, 1.05);
+  box-shadow: 3px 3px 3px #BEC0D2;
+    box-shadow: var(--box-shadow);
+}
+
+
+.room_type_select_area .margin_right_none {
+  margin-right : 0;
+}
+
+
+.room_type_select_area .room_type_title {
+  position : absolute;
+  top : 15px;  left : 330px;
+    top : 0.9375rem;  left : 20.625rem;
+  font-size : 20px;
+    font-size : 1.25rem;
+  font-weight: 700;
+}
+
+
+.room_type_select_area .room_type_img {
+  position : absolute;
+  display: block;
+  left : 10px;  top : 8px;
+  width : 300px;
+    left : 0.625rem;  top : 0.5rem;
+    width : 18.75rem;
+  height : 95%;
+  border-radius: 10px;
+    border-radius: 0.625rem;
+  background-position : 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.room_type_select_area a:nth-child(1) .room_type_img,
+.room_type_select_area  a:nth-child(2) .room_type_img {
+  background-image : url("../../../../img/img/domestic_hotel/domestic_marriott/room_type_img/room_type_img_01.jpg");
+}
+
+.room_type_select_area a:nth-child(3) .room_type_img,
+.room_type_select_area a:nth-child(4) .room_type_img {
+  background-image : url("../../../../img/img/domestic_hotel/domestic_marriott/room_type_img/room_type_img_02.jpg");
+}
+
+.room_type_select_area a:nth-child(5) .room_type_img,
+.room_type_select_area a:nth-child(6) .room_type_img {
+  background-image : url("../../../../img/img/domestic_hotel/domestic_marriott/room_type_img/room_type_img_03.png");
+}
+
+.room_type_select_area a:nth-child(7) .room_type_img,
+.room_type_select_area a:nth-child(8) .room_type_img {
+  background-image : url("../../../../img/img/domestic_hotel/domestic_marriott/room_type_img/room_type_img_04.png");
+}
+
+
+.room_type_select_area .title_remark {
+  position : absolute;
+  top : 45px;  left : 330px;
+    top : 2.8125rem;  left : 20.625rem;
+  height : 30px;  padding : 2px;
+    height : 1.875rem;  padding : 0.125rem; 
+  font-size : 14px;
+    font-size : 0.875rem;
+  font-weight: 700;
+}
+
+
+.room_type_select_area .count_of_person {
+  position : absolute;
+  top : 70px;  left : 330px;
+    top : 4.375rem;  left : 20.625rem;
+  font-size : 14px;
+   font-size : 0.875rem;
+  color : #5A5C71;
+   color : var(--color-gray);
+}
+
+
+.room_type_select_area .using_time {
+  position : absolute;
+  top : 95px;  left : 330px;
+    top : 5.9375rem;  left : 20.625rem;
+  color : #5A5C71;
+    color : var(--color-gray);
+  font-size : 14px;
+    font-size : 0.875rem;
+  }
+  
+  .using_time > span {
+    font-weight: 700;
+}
+
+
+.room_type_select_area .defualt_amount_remark {
+  position : absolute;
+  bottom : 95px;  right : 20px;
+    bottom : 5.9375rem;  right : 1.25rem;
+  color : #5A5C71;
+    color : var(--color-gray);
+  font-size : 13px;
+    font-size : 0.8125rem;
+}
+
+
+.room_type_select_area .defualt_amount {
+  position : absolute;
+  bottom : 75px;  right : 20px;
+    bottom : 4.6875rem;  right : 1.25rem;
+  color : #5A5C71;
+    color : var(--color-gray);
+  font-weight: 700;
+}
+
+
+.room_type_select_area .amount_remark {
+  position : absolute;
+  bottom : 45px;  right : 20px; 
+    bottom : 2.8125rem;  right :1.255rem;
+  font-size : 12px;
+    font-size : 0.75rem;
+  font-weight: 700;
+}
+
+
+.room_type_select_area .discount_percent {
+  float : left;
+  position : absolute;
+  bottom : 25px;   right : 110px;
+    bottom : 1.5625rem;   right : 6.875rem;
+  font-weight: 700;
+  font-size : 11.2px;
+    font-size : 0.7rem;
+}
+
+
+.room_type_select_area .amount {
+  float : right;
+  position : absolute;
+  bottom : 20px; right : 20px;
+    bottom : 1.25rem; right : 1.25rem;
+  font-size : 20px;
+    font-size : 1.25rem;
+  font-weight: 700;
+  color : #ff3478; 
+    color : var(--color-pink);
+}
+
+
+
+
+
+
+
+
+
+
+/* basic_info_area */
+.basic_info_area,
+.basic_info_text {
+  width : 100%;
+  height : auto;
+  margin-bottom : 200px;
+    margin-bottom : 12.5rem;
+}
+
+
+.basic_info_text {
+  margin-bottom : 100px;
+    margin-bottom : 6.25rem;
+}
+
+
+.basic_info_text li {
+  padding-left : 10px;
+  margin-bottom : 5px;
+    padding-left : 0.625rem;
+    margin-bottom : 0.3125rem;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+/* service_info_area */
+.service_info_area {
+  width : 100%;
+  height : auto;
+  margin-bottom : 100px;  
+    margin-bottom : 6.25rem;
+}
+
+
+.service_list {
+  width : 100%;
+  height : 100%;
+  padding : 25px;
+    padding : 1.5625rem;
+  box-sizing: border-box;
+  border : 1px solid #9FA1B4;
+    border : var(--border-gray);
+}
+
+
+.service_list > li {
+  float : left;
+  width : 98px;
+    width : 6.125rem;
+  height : auto;
+  margin-right : 20px;
+   margin-right : 1.25rem;
+  line-height : 40px;
+   line-height : 2.5rem;
+  text-align: center;
+  font-size : 15px;
+   font-size : 0.9375rem;
+  transition : all 500ms ease;
+}
+
+
+.service_list > li:last-child {
+  margin-right : 0;
+}
+
+
+.service_list > li:hover {
+  transform: scale(1.1);
+  border-radius: 10px;
+    border-radius: 0.625rem;
+ box-shadow: 3px 3px 3px #BEC0D2;
+    box-shadow: var(--box-shadow);
+}
+
+
+.service_list i {
+  font-size : 70px;
+    font-size : 4.375rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*seller_info_area*/
+.seller_info_area > dl {
+  width : 90%;
+  height : auto;
+  margin : auto;
+  box-sizing: border-box;
+  border-top : 1px solid #9FA1B4;
+  border-bottom : 1px solid #9FA1B4;
+    border-top : var(--border-gray);
+   border-bottom : var(--border-gray);
+}
+
+
+.seller_info_area dt {
+  float : left;
+  width : 30%;
+  padding : 10px;  padding-left : 20px;
+    padding : 0.625rem;  padding-left : 1.25rem;
+  box-sizing: border-box;
+  border-bottom : 1px solid #9FA1B4;
+    border-bottom : var(--border-gray);
+  background-color : #FFD1E1;
+    background-color : var(--color-bright-pink);
+}
+
+
+.seller_info_area dd {
+  float : left;
+  width : 70%;
+  padding: 0.625rem;  padding-left: 1.25rem;
+    padding: 10px;  padding-left: 20px;
+  box-sizing: border-box;
+  border-bottom : 1px solid #9FA1B4;
+    border-bottom : var(--border-gray);
+}
+
+
+.seller_info_area dt:last-child,
+.seller_info_area dd:last-child {
+  border-bottom : 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* review_area */
+
+.review_area {
+  margin-bottom : 200px;
+    margin-bottom : 12.5rem;
+}
+
+
+.review_area,
+.review_preview_area {
+  width : 100%; height : auto;
+  margin-bottom : 100px;
+    margin-bottom : 6.25rem;
+}
+
+
+.review_preview_area { 
+  border-bottom : 1px solid #9FA1B4;
+    border-bottom : var(--border-gray);
+}
+
+
+.review_preview_area > .review_title {
+  float : left; 
+  width : auto;  height : auto;
+}
+
+
+.review_title > i { font-size : 2.2rem; }
+
+
+.review_title > span {
+  font-weight: 700;
+  font-size : 32px;
+    font-size : 2rem;
+}
+
+
+.review_small {
+  color : #5A5C71;
+    color : var(--color-gray);
+  font-size : 17.6px;
+    font-size : 1.1rem;
+}
+
+
+.review_info {
+  position : relative;
+  float : right;
+  width : 1010px; height : 35px;
+    width : 63.125rem; height : 2.1875rem;
+  font-size : 13px;
+    font-size : 0.8125rem;
+  color : #5A5C71;
+    color : var(--color-gray);
+}
+
+
+.review_info dt {
+  float : right;
+  width : 190px;
+    width : 11.875rem;
+  height : auto;
+  padding : 5px;
+    padding : 0.3125rem;
+}
+
+
+.review_info dt > i {
+  margin-right : 5px;
+    margin-right : 0.3125rem;
+  font-size : 18px;
+    font-size : 1.125rem;
+}
+
+
+.review_info dd {
+  position : absolute;
+  bottom : -40px; right : 10px;
+    bottom : -2.5rem; right : 0.625rem;
+  display: none;
+  float : right;
+  width : auto; height : auto;
+  padding: 5px;
+    padding: 0.3125rem;
+  border : 1px solid #9FA1B4;
+    border : var(--border-gray);
+}
+
+
+.review_info:hover dt {
+  font-weight: 700;
+}
+
+
+.review_info:hover dd {
+  display : block;
+}
+
+
+.review_point {
+  float : left;
+  width : 100%; height : auto;  margin : auto;
+  margin-top : 70px;
+    margin-top : 4.375rem;
+  margin-bottom : 100px;    
+    margin-bottom : 6.25rem;
+}
+
+
+.review_point > div {
+  float : left;
+  width : 200px;
+    width : 12.5rem;
+  height : auto;
+  margin-right : 65px;
+  padding-right : 65px;
+  border-right : 1px solid #9FA1B4;
+    margin-right : 4.0625rem;
+    padding-right : 4.0625rem;
+    border-right : var(--border-gray);
+}
+
+
+.review_point > div:last-child {
+  margin-right : 0;
+  padding-right : 0;
+  border-right : 0;
+}
+
+
+.review_point > div > dt {
+  float : left;
+  width : 100px;  padding : 5px;
+   width : 6.25rem;  padding : 0.3125rem;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+
+.review_point > div > dd {
+  float : right;
+  width : 30px;  padding : 5px;
+   width : 1.875rem;  padding : 0.3125rem;
+  color : #ff3478;
+   color : var(--color-pink);
+  font-weight: 700;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+.review_list_area {
+  width : 100%;
+  height : auto;
+}
+
+
+.review_list {
+  width :100%;
+  height : auto;
+}
+
+
+.review_card {
+  float: left;
+  width :48%;
+  height: auto;
+  min-height :250px;  padding : 30px;
+    min-height :15.625rem;  padding : 1.875rem;
+  box-sizing: border-box;
+  margin-bottom : 50px;
+    margin-bottom : 3.125rem;
+  margin-right : 4%;
+  border-radius: 5px;
+    border-radius: 0.3125rem;
+  border : 1px solid #DCDEED;
+    border : var(--border-card);
+    transition : all 500ms ease;
+  }
+  
+  
+.review_card:hover {
+  box-shadow: 3px 3px 3px #BEC0D2;
+     box-shadow: var(--box-shadow);
+  transform: scale(1.1);
+}
+
+
+.review_list .margin_right_none {
+  margin-right : 0;
+}
+
+
+.review_summary {
+  position : relative;
+  width : 100%;
+  height : 100%;
+  padding-bottom : 20px;
+    padding-bottom : 1.25rem;
+  margin-bottom : 30px;
+    margin-bottom : 1.875rem;
+  border-bottom : 1px solid #9FA1B4;
+    border-bottom : var(--border-gray);
+}
+
+
+.fa-smile,
+.fa-angry,
+.fa-meh {
+  font-size : 43.2px;
+    font-size : 2.7rem;
+  color : #ff3478;
+    color : var(--color-pink);
+}
+
+
+.star > li { float : left;}
+
+
+.star_area {
+  position : absolute;
+  top : -5px;  left : 60px;
+    top : -0.3125rem;  left : 3.75rem;
+  width : auto;
+  height : 45px;
+    height : 2.8125rem;  
+}
+
+
+.star {
+  width : 500px;
+    width : 31.25rem;
+  height : auto;
+}
+
+
+.star_area .review_user_info {
+  margin-top : 10px;
+  width : 465px;
+  height : 50px;
+   margin-top : 0.625rem;
+   width : 29.0625rem;
+   height : 3.125rem;
+}
+
+
+.star_area .review_user_info li {
+  float : left;
+  margin-right : 20px;
+  padding-right : 20px;
+  font-size : 14px;
+  border-right : 1px solid #9FA1B4;
+    margin-right : 1.25rem;
+    padding-right : 1.25rem;
+    font-size : 0.875rem;
+    border-right : var(--border-gray);
+  font-weight: 700;
+}
+
+
+.star_area .review_user_info li:last-child {
+  float : right;
+  margin-right : 0;
+  padding-right : 0;
+  border-right : 0;
+}

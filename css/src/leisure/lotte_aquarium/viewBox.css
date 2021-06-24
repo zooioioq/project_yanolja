@@ -1,0 +1,117 @@
+/* css/src/leisure/lotte_aquarium/viewBox.css */
+
+
+
+
+
+#viewBox {
+  width : 100%; height : auto;
+  min-height : 600px;
+    min-height : 37.5rem;
+  margin-top : 50px;
+    margin-top : 3.125rem;
+  padding : 25px 350px;
+    padding : 1.5625rem 21.875rem;
+  box-sizing: border-box;
+  background-color: #fff;
+    background-color : var(--color-white);
+}
+
+
+#view_img {
+  width : 1200px; height : 550px;
+    width : 75rem; height : 34.375rem;
+  box-sizing: border-box;
+}
+
+
+.view_img_area {
+  width : 100%; height : 100%;
+}
+
+
+.view_img_area > li {
+  float : right;
+  width : 280px;  height : 173px;
+    width : 17.5rem; height : 10.8125rem;
+  margin-bottom: 15px;
+    margin-bottom : 0.9375rem;
+}
+
+
+.view_img_area > li:nth-child(1) {
+  float : left;
+  width : 900px;
+    width : 56.25rem;
+  height : 100%;
+}
+
+
+.view_img_area > li:nth-child(1),
+.view_img_area > li:nth-child(4) {
+  margin-bottom: 0;
+}
+
+
+.view_img_area > li > div {
+  width : 100%;
+  height : 100%;
+  transition : all 500ms ease;
+  background-repeat: no-repeat;
+  background-size : cover;
+  background-position: 50% 50%;
+}
+
+
+.view_img_area > li:hover > div {
+  transform: scale(1.03);
+  box-shadow: 3px 3px 3px #BEC0D2;
+    box-shadow: var(--box-shadow);
+}
+
+
+.view_img_area > li:nth-child(1) > div {background-image : url("../../../../img/img/leisure/lotte_aquarium/view_img_area/view_img_01.jpg");}
+
+.view_img_area > li:nth-child(2) > div {background-image : url("../../../../img/img/leisure/lotte_aquarium/view_img_area/view_img_02.jpg");}
+
+.view_img_area > li:nth-child(3) > div {background-image : url("../../../../img/img/leisure/lotte_aquarium/view_img_area/view_img_03.jpg");}
+
+.view_img_area > li:nth-child(4) > div {background-image : url("../../../../img/img/leisure/lotte_aquarium/view_img_area/view_img_04.jpg");}
+
+
+#view_info {
+  width : 100%;
+  height : auto;
+}
+
+
+#view_info > dl,
+#view_info > dl > dt {
+  width : 100%;
+  height : auto;
+}
+
+
+#view_info h2 {
+  font-size : 32px;
+    font-size : 2rem;
+}
+
+
+#view_info dd {
+  padding-left : 20px;
+    padding-left : 1.25rem;
+  line-height: 2;
+}
+
+
+#view_info dd:first-child {
+  color :  #5A5C71;
+    color : var(--color-gray);
+}
+
+
+#view_info dd:last-child {
+  color : #0152CC;
+    color : var(--color-blue);
+}

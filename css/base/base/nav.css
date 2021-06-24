@@ -127,44 +127,34 @@
 
 
 .nav_detail .nav_dd {
-  position: absolute;
-  top : -65px;
-    top : -4.0625rem;
+  position : absolute;
   left : 100px;
     left : 6.25rem;
-  float : right;
-  width : 100px;
-    width : 6.25rem;
   font-size : 14px;
     font-size : 0.875rem;
-  line-height: 2;
   text-align: left;
   color : #fff;
     color : var(--color-white);
 }
 
+.nav_detail .kangwon { top :-50px;}
+.nav_detail .busan { top : -25px;}
+.nav_detail .jeju { top : 0; }
 
-.nav_detail .nav_dd > dd {
-  transition : all 200ms ease;
-}
+.nav_detail .motel { top : -75px;}
+.nav_detail .hotel { top : -50px;}
+.nav_detail .condo { top : -25px;}
+.nav_detail .camping { top : 0;}
+.nav_detail .guesthouse { top : 25px;}
+
+.nav_detail .leisure { top : -40px;}
+.nav_detail .brand { top : -15px;}
+
+.nav_detail .ktx { top : -50px;}
+.nav_detail .rentacar { top : -25px;}
+.nav_detail .airline { top : 0;}
 
 
-.nav_detail .nav_dd >dd:hover {
-  transform : scale(1.1);
-  font-weight: 700;
-}
-
-
-.nav_detail li:nth-child(2) .nav_dd {
-  top : -90px;
-    top : -5.625rem;
-}
-
-
-.nav_detail li:nth-child(3) .nav_dd {
-  top : -50px;
-    top : -3.125rem;
-}
 
 
 

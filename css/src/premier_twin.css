@@ -71,8 +71,8 @@
 
 .view_img_area > li:hover > div {
   transform: scale(1.03);
-  box-shadow: 5px 5px 5px rgba(90,92,113,0.2);
-   box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(90,92,113,0.2);
+  box-shadow: 3px 3px 3px #BEC0D2;
+    box-shadow: var(--box-shadow);
 }
 
 
@@ -190,8 +190,8 @@
   color : #fff;
     color : var(--color-white);
   font-weight: 700;
-  box-shadow: 5px 5px 5px rgba(90,92,113,0.2);
-    box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(90,92,113,0.2);
+  box-shadow: 3px 3px 3px #BEC0D2;
+    box-shadow: var(--box-shadow);
 }
 
 
@@ -214,8 +214,8 @@
 
 #mini_info_box > dl {
   float : left;
-  border-right : 1px solid #5A5C71;
-    border-right : 0.0625rem solid var(--color-gray);
+  border-right : 1px solid #9FA1B4;
+    border-right : var(--border-gray);
   width : 33.333333%; height : auto;
   box-sizing: border-box;
   padding : 10px;

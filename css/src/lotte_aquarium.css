@@ -71,8 +71,8 @@
 
 .view_img_area > li:hover > div {
   transform: scale(1.03);
-  box-shadow: 5px 5px 5px rgba(90,92,113,0.2);
-    box-sizing: 0.3125rem 0.3125rem 0.3125rem rgba(90,92,113,0.2);
+  box-shadow: 3px 3px 3px #BEC0D2;
+    box-shadow: var(--box-shadow);
 }
 
 
@@ -118,8 +118,8 @@
 
 
 #view_info dd:last-child {
-  color : #ff3478;
-    color : var(--color-pink);
+  color : #0152CC;
+    color : var(--color-blue);
 }
 
 
@@ -157,8 +157,8 @@
     margin-bottom : 6.25rem;
   padding-top : 25px; padding-bottom : 50px;
     padding-top : 1.5625rem; padding-bottom : 3.125rem;
-  border-bottom : 1px solid #5A5C71;
-    border-bottom : 0.0625rem solid var(--color-gray);
+  border-bottom : 1px solid #9FA1B4;
+    border-bottom : var(--border-gray);
 }
 
 
@@ -178,16 +178,22 @@
     padding : 0.75rem;
   font-weight : 700;
   text-align: center;
-  border : 1px solid #5A5C71;
-    border : 0.0625rem solid var(--color-gray);
+  border : 1px solid #9FA1B4;
+    border : var(--border-gray);
   box-sizing: border-box;
   transition : all 300ms ease;
 }
 
 
-.info_type li:hover { background-color : rgba(255,52,120,0.3); }
+.info_type li:hover {   
+  background-color : #FFD1E1;
+    background-color : var(--color-bright-pink); 
+}
 
-.info_type li:nth-child(2) { background-color : rgba(255,52,120,0.3); }
+.info_type li:nth-child(2) {   
+  background-color : #FFD1E1;
+   background-color : var(--color-bright-pink); 
+}
 
 
 .info_type li:last-child { margin-right : 0; }
@@ -206,10 +212,10 @@
 
 
 
-
+/*-------------------------------------------------------------------------*/
 /* basic_info_area */
 .basic_info_area {
-  display: none; /*-------------------------------------------------------------------------*/
+  /* display: none;  */
 }
 
 
@@ -235,8 +241,8 @@
   box-sizing: border-box;
   text-align: center;
   line-height: 1.7;
-  border-right : 1px solid #5A5C71;
-    border-right : 0.0625rem solid var(--color-gray);
+  border-right : 1px solid #9FA1B4;
+    border-right : var(--border-gray);
 }
 
 
@@ -265,27 +271,18 @@
     width : 62.5rem;
   margin-top : -4px;
     margin-top : -0.25rem;
-  height : 2000px;
+  height : auto;
+  min-height : 2500px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 
-.basic_info_img > div:nth-child(1) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_.01.jpg");}
-.basic_info_img > div:nth-child(2) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_.02.jpg");}
-.basic_info_img > div:nth-child(3) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_.03.jpg");}
-.basic_info_img > div:nth-child(4) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_.04.jpg");}
-.basic_info_img > div:nth-child(5) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_.05.jpg");}
-.basic_info_img > div:nth-child(6) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_.06.jpg");}
-.basic_info_img > div:nth-child(7) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_.07.jpg");}
-.basic_info_img > div:nth-child(8) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_.08.jpg");}
-.basic_info_img > div:nth-child(9) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_.09.jpg");}
-.basic_info_img > div:nth-child(10) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_.10.jpg");}
-.basic_info_img > div:nth-child(11) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_.11.jpg");}
-.basic_info_img > div:nth-child(12) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_.12.jpg");}
-.basic_info_img > div:nth-child(13) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_.13.jpg");}
-.basic_info_img > div:nth-child(14) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_.14.jpg");}
+.basic_info_img > div:nth-child(1) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_01.jpg");}
+.basic_info_img > div:nth-child(2) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_02.jpg");}
+.basic_info_img > div:nth-child(3) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_03.jpg");}
+.basic_info_img > div:nth-child(4) { background-image : url("../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_04.jpg");}
 
 
 
@@ -325,8 +322,8 @@
   height : 250px;
     height : 15.625rem;
   margin-right : 5%;
-  border: 1px solid rgba(90,92,113,0.2);
-    border: 0.0625rem solid rgba(90,92,113,0.2);  
+  border: 1px solid #DCDEED;
+    border: var(--border-card);
   border-radius: 5px;
     border-radius: 0.3125rem;
   box-sizing: border-box;
@@ -336,8 +333,8 @@
 
 .ticket_select_area > dl:hover {
   transform: scale(1.05, 1.05);
-  box-shadow: 5px 5px 5px rgba(90,92,113,0.05);
-    box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(90,92,113,0.05);
+  box-shadow: 3px 3px 3px #BEC0D2;
+    box-shadow: var(--box-shadow);
 }
 
 
@@ -347,6 +344,9 @@
 
 
 .ticket_select_area > dl > dt {
+  position : absolute;
+  top : 16px; left : 16px;
+    top : 1rem; left :  1rem;
   margin : 10px;
     margin : 0.625rem;
   font-size : 18px;
@@ -357,47 +357,32 @@
 
 .use_remark {
   position : absolute;
-  top : 50px; left : 10px;
-    top : 3.125rem; left : 0.625rem;
-  height : 30px;  padding : 2px;
-    height : 1.875rem;  padding : 0.125rem;
+  top : 60px; left : 20px;
+    top : 3.75rem; left : 1.5rem;
+  height : 30px;  padding : 5px;
+    height : 1.875rem;  padding : 0.3125rem;
   font-size : 12px;
     font-size : 0.75rem;
   box-sizing: border-box;
   border-radius: 5px;
     border-radius : 0.3125rem;
-  border : 1px solid #f6f6f6;
-    border : 0.0625rem solid var(--color-bg-white);
+  border : 1px solid #DCDEED;
+    border : var(--border-card);;
   text-align: center;
 }
 
 
 .count_of_ticket {
   position : absolute;
-  bottom : 10px;  left : 10px;
-    bottom : 0.625rem;  left : 0.625rem;
-}
-
-
-.refund_remark {
-  position : absolute;
-  bottom : 50px;  right : 20px;
-    bottom : 3.125rem;  right : 1.25rem;
-  padding : 3px;  padding : 0.1875rem;
-  background-color : #ff3478;
-    background-color : var(--color-pink);
-  color : #fff;
-    color : var(--color-white);
-  font-size : 14px;
-    font-size : 0.75rem;
-  font-weight: 700;
+  bottom : 24px;  left : 24px;
+    bottom : 1.5rem;  left : 1.5rem;
 }
 
 
 .defult_amount {
   position : absolute;
-  bottom : 30px;  right : 60px;
-    bottom : 1.875rem;  right : 3.75rem;
+  bottom : 76px;  right : 24px;
+    bottom : 4.75rem;  right : 1.5rem;
   color : #5A5C71;
     color : var(--color-gray);
   font-size : 14px;
@@ -405,25 +390,36 @@
 }
 
 
+.refund_remark {
+  position : absolute;
+  bottom : 52px;  right : 20px;
+    bottom : 3.25rem;  right : 1.25rem;
+  padding : 3px;  padding : 0.1875rem;
+  font-size : 14px;
+    font-size : 0.75rem;
+  font-weight: 700;
+}
+
+
 .discount_percent {
   position : absolute;
-  bottom : 10px;  right : 90px;
-    bottom : 0.625rem;  right : 5.625rem;
-  color : #ff3478;
-    color : var(--color-pink);
+  bottom : 24px;  right : 1128px;
+    bottom : 1.5rem;  right : 8rem;
   font-weight: 700;
-  font-size : 11.2px;
-    font-size : 0.7rem;
+  font-size : 13px;
+    font-size : 0.8125rem;
 }
 
 
 .amount {
   position : absolute;
-  bottom : 10px;  right : 10px;
-    bottom : 0.625rem;  right : 0.625rem;
-  font-size : 18px;
-    font-size : 1.125rem;
+  bottom : 24px;  right : 24px;
+    bottom : 1.5rem;  right : 1.5rem;
+  font-size : 22px;
+    font-size : 1.375rem;
   font-weight: 700;
+  color : #ff3478;
+    color : var(--color-pink);
 }
 
 
@@ -462,8 +458,8 @@
   color : #fff;
     color : var(--color-white);
   font-weight: 700;
-  box-shadow: 5px 5px 5px rgba(90,92,113,0.2);
-  box-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(90,92,113,0.2);
+  box-shadow: 3px 3px 3px #BEC0D2;
+    box-shadow: var(--box-shadow);
 }
 
 
@@ -521,10 +517,10 @@
 
 
 
-
+/*-------------------------------------------------------------------------*/
 /* refund_info_area */
 .refund_info_area {
-  display : none; /*-------------------------------------------------------------------------*/
+  /* display : none;  */
   width : 100%;
   height : auto;
   line-height: 1.5;
@@ -561,10 +557,10 @@
   width : 90%;  height : auto;
   margin : auto;
   box-sizing: border-box;
-  border-top : 1px solid var(--color-gray);
-  border-bottom : 1px solid var(--color-gray);
-    border-top : 0.0625rem solid #5A5C71;
-    border-bottom : 0.0625rem solid #5A5C71;
+  border-top : 1px solid #9FA1B4;
+  border-bottom : 1px solid #9FA1B4;
+    border-top : var(--border-gray);
+    border-bottom : var(--border-gray);
 }
 
 
@@ -574,9 +570,10 @@
   padding : 10px; padding-left : 20px;
     padding : 0.625rem; padding-left : 1.25rem;
   box-sizing: border-box;
-  border-bottom : 1px solid rgba(90,92,113,0.5);
-    border-bottom : 0.0625rem solid rgba(90,92,113,0.5);
-  background-color : rgba(255,52,120,0.3);
+  border-bottom : 1px solid #9FA1B4;
+    border-bottom : var(--border-gray);
+  background-color : #FFD1E1;
+    background-color : var(--color-bright-pink);
 }
 
 
@@ -586,12 +583,12 @@
   padding: 10px;  padding-left: 20px;
     padding: 0.625rem;  padding-left: 1.25rem;
   box-sizing: border-box;
-  border-bottom : 1px solid rgba(90,92,113,0.5);
-    border-bottom : 0.0625rem solid rgba(90,92,113,0.5);
+  border-bottom : 1px solid #9FA1B4;
+    border-bottom : var(--border-gray);
 }
 
 
-.seller_info_area dt:last-child,
-.seller_info_area dd:last-child {
+.seller_info_area dt:last-of-type,
+.seller_info_area dd:last-of-type {
   border-bottom : 0;
 }

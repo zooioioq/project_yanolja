@@ -189,10 +189,10 @@
    width : 82.5rem; height : 3.125rem;
   margin-left : 20px;
     margin-left : 1.25rem;
-  border-top : 1px solid #5A5C71;
-    border-top : 0.0625rem solid var(--color-gray);
-  border-bottom : 1px solid #5A5C71;
-    border-bottom : 0.0625rem solid var(--color-gray);
+  border-top : 1px solid #9FA1B4;
+    border-top : var(--border-gray);
+  border-bottom : 1px solid #9FA1B4;
+    border-bottom : var(--border-gray);
 }
 
 
@@ -217,12 +217,14 @@
 
 .recom_location_list > li:hover {
   font-weight : 700;
-  background-color : rgba(255,52,120,0.3);
+  background-color : #FFD1E1;
+    background-color : var(--color-bright-pink);
 }
 
 
 .recom_location_list > li:first-child {
-  background-color : rgba(255,52,120,0.3);
+  background-color : #FFD1E1;
+    background-color : var(--color-bright-pink);
 }
 
 
@@ -419,6 +421,7 @@
     margin-bottom : 0.625rem;
   box-sizing: border-box;
   text-align: center;
+  font-weight: 700;
   color : #fff;
     color : var(--color-white);
   background-color :  #9A5ED2;

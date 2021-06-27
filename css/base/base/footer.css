@@ -32,10 +32,11 @@
    margin-top : 3.125rem;
   margin-right : 50px;
     margin-right : 3.125rem;
-  background-image: url("../../../img/icon/footer/logo_yanolja_gray.svg");
+  background-image: url("../../../img/icon/footer/logo_yanolja_pink.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
+  /* 명도대비 3.2:1 이지만 50px 이상이므로 최소 명암 조건 부합 */
 }
 
 

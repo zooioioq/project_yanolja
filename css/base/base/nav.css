@@ -14,6 +14,7 @@
   background: #5A5C71;
    background-color : var(--color-gray);
   transition: all 0.7s ease;
+  overflow: hidden;
 }
 
 
@@ -29,7 +30,7 @@
   position : absolute;
   top : 400px;
     top : 25rem;
-  left : 50%;
+  left : 40%;
   z-index : 1000;
   width : 40px;
     width : 2.5rem;
@@ -120,12 +121,6 @@
 }
 
 
-.nav_detail dt:hover {
-  transform : scale(1.1);
-  font-weight: 700;
-}
-
-
 .nav_detail .nav_dd {
   position : absolute;
   left : 100px;
@@ -135,6 +130,7 @@
   text-align: left;
   color : #fff;
     color : var(--color-white);
+  transition : all 200ms ease;
 }
 
 .nav_detail .kangwon { top :-50px;}
@@ -162,6 +158,7 @@
 
 
 
+
 /* -----nav:hover */
 
 #nav:hover {
@@ -175,6 +172,12 @@
 } 
 
 
+.nav_detail dt:hover {
+  transform : scale(1.1);
+  font-weight: 700;
+}
+
+
 #nav:hover .fa-chevron-right {
   display: none;
 }
@@ -182,4 +185,10 @@
 
 #nav:hover .nav_detail {
   display: block;
+}
+
+
+.nav_detail .nav_dd:hover {
+  transform : scale(1.1);
+  font-weight: 700;
 }

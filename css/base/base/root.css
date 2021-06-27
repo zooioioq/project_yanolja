@@ -51,6 +51,9 @@ h2 {
 }
 
 
+.hyphen:before { content: "- "; }
+
+
 
 
 
@@ -67,22 +70,63 @@ h2 {
 
 
 /*
-star <i class="fas fa-star"></i>
-star-half <i class="fas fa-star-half-alt"></i>
-star-empty <i class="far fa-star"></i>
-right-arrows <i class="fas fa-chevron-right"></i>
-location <i class="fas fa-map-marker-alt">
+별 
+<i class="fas fa-star"></i>
 
-parking <i class="fas fa-parking"></i>
-bread <i class="fas fa-bread-slice"></i>
-wifi <i class="fas fa-wifi"></i>
-restaurant <i class="fas fa-utensils"></i>
-walking <i class="fas fa-walking"></i>
-soap <i class="fas fa-soap"></i>
-diamond <i class="fas fa-gem"></i>
-concierge-bell <i class="fas fa-concierge-bell"></i>
-tshirt <i class="fas fa-tshirt"></i>
-business <i class="fas fa-briefcase"></i>
+반별 
+<i class="fas fa-star-half-alt"></i>
 
-smile <i class="far fa-smile"></i>
+빈별 
+<i class="far fa-star"></i>
+
+오른쪽 화살표 
+<i class="fas fa-chevron-right"></i>
+
+위치 
+<i class="fas fa-map-marker-alt">
+
+주차 
+<i class="fas fa-parking"></i>
+
+조식 ( 빵 ) 
+<i class="fas fa-bread-slice"></i>
+
+wifi 
+<i class="fas fa-wifi"></i>
+
+restaurant 
+<i class="fas fa-utensils"></i>
+
+walking 
+<i class="fas fa-walking"></i>
+
+비누 
+<i class="fas fa-soap"></i>
+
+diamond 
+<i class="fas fa-gem"></i>
+
+concierge-bell 
+<i class="fas fa-concierge-bell"></i>
+
+tshirt 
+<i class="fas fa-tshirt"></i>
+
+business 
+<i class="fas fa-briefcase"></i>
+
+smile 
+<i class="far fa-smile"></i>
+
+체크박스
+<i class="far fa-check-square"></i>
+
+인포써클
+<i class="fas fa-info-circle"></i>
+
+확성기
+<i class="fas fa-bullhorn"></i>
+
+사람
+<i class="fas fa-user"></i>
 */

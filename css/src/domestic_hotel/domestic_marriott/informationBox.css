@@ -421,8 +421,8 @@
 }
 
 
-.seller_info_area dt:last-child,
-.seller_info_area dd:last-child {
+.seller_info_area dt:last-of-type,
+.seller_info_area dd:last-of-type {
   border-bottom : 0;
 }
 
@@ -581,6 +581,8 @@
    width : 1.875rem;  padding : 0.3125rem;
   color : #ff3478;
    color : var(--color-pink);
+  font-size : 19px;
+    font-size : 1.1875rem;
   font-weight: 700;
   text-align: center;
   box-sizing: border-box;

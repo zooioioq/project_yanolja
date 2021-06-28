@@ -4,45 +4,13 @@
 
 
 
-#articleBox > div {
-  width : 100%; height : auto;
-  box-sizing: border-box;
-  padding-left : 250px; padding-bottom : 50px;
-    padding-left : 15.625rem; padding-bottom : 3.125rem;
-  margin-bottom : 250px;
-    margin-bottom : 15.625rem;
-  background-color : #fff;
-    background-color : var(--color-white);
-}
-
-
-#articleBox > div:nth-child(3) {
-  padding-left : 0;
-  padding-bottom : 0;
-}
-
-
-#articleBox > div:last-child {
-  margin-bottom : 0;
-  padding-bottom : 300px;
-    padding-bottom : 18.75rem;
-}
 
 
 
 
 
 
-
-
-
-
-/* ----------------------------pupular_search_box */
-#popular_search_box {
-  min-height : 250px;
-    min-height : 15.625rem;
-}
-
+/* ----------------------------pupularSearchBox */
 
 .pop_list > li {
   position : relative;
@@ -95,15 +63,6 @@
 }
 
 
-/* .pop_list > li:nth-child(1) span { left : 280px;  left : 17.5rem; }
-
-.pop_list > li:nth-child(2) span { left : 610px; left : 38.125rem; }
-
-.pop_list > li:nth-child(3) span { left : 940px; left : 58.75rem; }
-
-.pop_list > li:nth-child(4) span { left : 1270px;  left : 79.375rem; } */
-
-
 .pop_list div:hover { transform: scale(1.1, 1.1); }
 
 
@@ -115,13 +74,8 @@
 
 
 /* --------------------------------- recommend_box */
-#recommend_box {
-  min-height : 380px;
-    min-height : 23.75rem;
-}
 
-
-#recommend_box > p {
+#recommendBox > p {
   padding : 20px;
     padding : 1.25rem;
   font-size : 24px;
@@ -134,8 +88,8 @@
 .recom_location_list {
   width  : 1320px;  height : 50px;
    width : 82.5rem; height : 3.125rem;
-  margin-left : 20px;
-    margin-left : 1.25rem;
+  margin : 20px; margin-top : 0;
+    margin : 1.25rem; margin-top : 0;
   border-top : 1px solid #9FA1B4;
     border-top : var(--border-gray);
   border-bottom : 1px solid #9FA1B4;
@@ -203,7 +157,7 @@
   transition : all 500ms ease;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size : cover;
+  background-size : cover; 
 }
 
 
@@ -227,10 +181,14 @@
 }
 
 
+.recom_hotel_list dl {
+  width: 100%; height : 100%;
+}
+
 .recom_title {
   display: block;
-  margin-top : 10px;
-    margin-top : 0.625rem;
+  margin-top : 16px;
+    margin-top : 1rem;
   font-size : 16px;
     font-size : 1rem;
 }
@@ -238,6 +196,8 @@
 
 .recom_price {
   display: block;
+  margin-top : 16px;
+    margin-top : 1rem;
   font-size : 18px;
     font-size : 1.125rem;
   font-weight: 700;
@@ -254,9 +214,10 @@
 
 
 /* ------------------------------------------ art_view */
-#art_view {
-  width : 100%;
-  height : auto;  margin : auto;
+#artViewBox {
+  width : 100%; height : auto; 
+  margin-bottom : 250px;
+    margin-bottom : 15.625rem;
 }
 
 
@@ -276,12 +237,11 @@
 }
 
 
-#art_view > div:nth-child(1) > a { background-image : url("../../../img/ad/art_view_01.png"); }
+#artViewBox > div:nth-child(1) > a { background-image : url("../../../img/ad/art_view_01.png"); }
 
-#art_view > div:nth-child(2) { display : none; }
+#artViewBox > div:nth-child(2) > a { background-image : url("../../../img/ad/art_view_02.png"); }
 
-#art_view > div:nth-child(2) > a { background-image : url("../../../img/ad/art_view_02.png"); }
-
+#artViewBox > div:nth-child(2) { display : none; }
 
 
 
@@ -292,9 +252,11 @@
 
 
 /* --------------------------------event_box */
-#event_box {
-  min-height : 1050px;
-    min-height : 65.625rem;
+
+#eventBox {
+  margin-bottom : 0;
+  padding-bottom : 300px;
+    padding-bottom : 18.75rem;
 }
 
 

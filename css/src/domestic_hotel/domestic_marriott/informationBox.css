@@ -127,7 +127,8 @@
 }
 
 
-.room_type_select_area > a:hover {
+.room_type_select_area > a:hover,
+.room_type_select_area > a:focus {
   transform: scale(1.05, 1.05);
   box-shadow: 3px 3px 3px #BEC0D2;
     box-shadow: var(--box-shadow);

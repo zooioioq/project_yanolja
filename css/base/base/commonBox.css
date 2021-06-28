@@ -29,6 +29,20 @@ h2 {
 
 
 
+.contain {
+  width : 100%; height : auto;
+  min-height : 250px;
+   min-height : 15.625rem;
+  box-sizing: border-box;
+  padding : 40px 250px 70px;
+    padding : 2.5rem 15.625rem 4.375rem;
+  margin-bottom : 250px;
+    margin-bottom : 15.625rem;
+  background-color : #fff;
+    background-color : var(--color-white);
+}
+
+
 
 
 /*-------------------------------#viewBox*/
@@ -96,6 +110,8 @@ h2 {
   box-shadow: 3px 3px 3px #BEC0D2;
     box-shadow: var(--box-shadow);
 }
+
+
 #view_info {
   width : 100%;
   height : auto;

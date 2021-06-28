@@ -57,7 +57,9 @@
 
 
 
-    <nav id="nav">
+
+
+    <nav id="nav" tabindex="0">
       <h2 class="blind"> 네비게이션 </h2> 
       <div id="nav_link">
         
@@ -113,12 +115,12 @@
           <li>
             <i><span class="blind"> 해외숙소 아이콘 </span></i>
             <dl>
-              <dt> <a href="#">해외숙소</a> </dt>
+              <dt> 해외숙소 </dt>
               <dd class="nav_dd hyphen global"> <a href="#">해외숙소</a> </dd>
             </dl>
           </li>
 
-        </ul> <!-- nav_detail -->
+        </ul> <!--nav_detail -->
       </div> <!-- nav_link -->
     </nav> <!--.............................. nav -->
 
@@ -170,9 +172,11 @@
           <a href="#"> 비밀번호 찾기 </a>
        </p>
 
-       <p class="join">
-        <a href="#"> 야놀자 회원가입 </a>
-       </p>
+
+        <div class="join_area">
+          <a href="#" class="join"> 야놀자 회원가입 </a>
+        </div>
+
       </div> <!--.................ogin_area-->
     </section> <!--..................sectionBox-->
 
@@ -187,23 +191,77 @@
 
 
     <div id="foot_info">
+
       <h3 class="blind"> 야놀자 회사 소개 </h3>
 
       <address>
-        <ul>
-          <li> ㈜야놀자 </li>
-          <li> 대표이사 : 이수진 </li>
-          <li> 사업자 등록 번호 : 220-87-42885 </li>
-          <li> 통신판매업 신고 : 강남-14211호 </li>
-          <li> 메일 : help@yanolja.com </li>
-          <li> 관광사업자 등록번호 : 제 2016-31호 </li>
-          <li> 주소 : 서울 강남구 테헤란로 108길 42 </li>
-          <li> 호스팅 서비스 제공자 : 주식회사 야놀자 </li>
-          <li> 고객센터 : 1644-1346 ( 오전 09시 - 익일 새벽 03시 ) </li>
+        <ul class="clearfix">
+          <li>
+            <dl>
+              <dt class="blind"> 회사 명 </dt>
+              <dd> ㈜야놀자 </dd>
+            </dl>
+          </li>
+
+          <li> 
+            <dl>
+              <dt> 대표이사 &colon; </dt>
+              <dd> 이수진 </dd>
+            </dl>
+          </li>
+
+          <li> 
+            <dl>
+              <dt> 사업자 등록 번호 &colon; </dt>
+              <dd> 220-87-42885 </dd>
+            </dl>
+          </li>
+
+          <li> 
+            <dl>
+              <dt> 통신판매업 신고 &colon; </dt>
+              <dd> 강남-14211호 </dd>
+            </dl>
+          </li>
+
+          <li> 
+            <dl>
+              <dt> 메일 &colon; </dt>
+              <dd> help@yanolja.com </dd>
+            </dl>
+          </li>
+
+          <li> 
+            <dl>
+              <dt> 관광사업자 등록번호 &colon; </dt>
+              <dd> 제 2016-31호 </dd>
+            </dl>
+          </li>
+
+          <li> 
+            <dl>
+              <dt> 주소 &colon; </dt>
+              <dd> 서울 강남구 테헤란로 108길 42 </dd>
+            </dl>
+          </li>
+
+          <li> 
+            <dl>
+              <dt> 호스팅 서비스 제공자 &colon; </dt>
+              <dd> 주식회사 야놀자 </dd>
+            </dl>
+          </li>
+
+          <li> 
+            <dl>
+              <dt> 고객센터 &colon; </dt>
+              <dd> 1644-1346 &lpar; 오전 09시 - 익일 새벽 03시 &rpar; </dd>
+            </dl>
+          </li>
         </ul>
       </address>
 
-    </div> <!--..................................site_info -->
+    </div> <!--.................................. foot_info -->
 
 
     <div id="foot_link">
@@ -211,10 +269,11 @@
       
       <div id="family_site" class="clearfix">
        <h3 class="blind"> 패밀리 사이트 </h3>
-       <dl>
+
+
+       <dl tabindex="0">
          <dt> 패밀리 사이트 </dt>
-         <dd><a href="https://www.yanoljalab.com/?utm_source=yanolja&utm_medium=site&
-           utm_campaign=family"> 좋은 숙박 연구소 </a></dd>
+         <dd><a href="https://www.yanoljalab.com/?utm_source=yanolja&utm_medium=site&utm_campaign=family"> 좋은 숙박 연구소 </a></dd>
          <dd><a href="https://partner.yanolja.com/intro"> 파트너 센터 </a></dd>
          <dd><a href="https://www.hotelup.com/"> 호텔업 </a></dd>
        </dl>

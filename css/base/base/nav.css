@@ -133,6 +133,12 @@
   transition : all 200ms ease;
 }
 
+
+.nav_detail .nav_dd a {
+  transition : all 200ms ease;
+}
+
+
 .nav_detail .kangwon { top :-50px;}
 .nav_detail .busan { top : -25px;}
 .nav_detail .jeju { top : 0; }
@@ -161,7 +167,8 @@
 
 /* -----nav:hover */
 
-#nav:hover {
+#nav:hover,
+#nav:focus {
   position:fixed;
   top : 0;
   width : 240px;
@@ -178,17 +185,26 @@
 }
 
 
-#nav:hover .fa-chevron-right {
+#nav:hover .fa-chevron-right,
+#nav:focus .fa-chevron-right {
   display: none;
 }
 
 
-#nav:hover .nav_detail {
+#nav:hover .nav_detail,
+#nav:focus .nav_detail {
   display: block;
 }
 
 
 .nav_detail .nav_dd:hover {
   transform : scale(1.1);
+  font-weight: 700;
+}
+
+
+.nav_detail .nav_dd a:focus {
+  font-size : 15.4px;
+    font-size : 0.9625rem;
   font-weight: 700;
 }

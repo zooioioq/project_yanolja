@@ -81,7 +81,8 @@
 }
 
 
-.log_in_btn > button:hover {
+.log_in_btn > button:hover,
+.log_in_btn > button:focus {
   font-weight: 700;
   color : #fff;
     color : var(--color-white);
@@ -98,7 +99,14 @@
 }
 
 
+.join_area {
+  width : auto;
+  height : auto;
+}
+
+
 .join {
+  display: block;
   width : 50%;
   height : 50px;
     height : 3.125rem;
@@ -119,7 +127,8 @@
 }
 
 
-.join:hover {
+.join:hover,
+.join:focus {
   background-color : #ff3478;
     background-color : var(--color-pink);
   color : #fff;

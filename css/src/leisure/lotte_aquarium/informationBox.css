@@ -203,7 +203,8 @@
 }
 
 
-.ticket_select_area > dl:hover {
+.ticket_select_area > dl:hover,
+.ticket_select_area > dl:focus {
   transform: scale(1.05, 1.05);
   box-shadow: 3px 3px 3px #BEC0D2;
     box-shadow: var(--box-shadow);
@@ -331,7 +332,8 @@
 }
 
 
-.reservation_button button:hover {
+.reservation_button button:hover,
+.reservation_button button:focus {
   transform: scale(1.03);
   background-color : #ff3478;
     background-color : var(--color-pink);

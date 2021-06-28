@@ -40,6 +40,9 @@
 }
 
 
+#foot_info { float : left; }
+
+
 #foot_info,
 address {
   width : auto; height : auto;
@@ -48,30 +51,55 @@ address {
 
 #foot_info ul {
   float: left;
-  width : auto; height : auto;
+  width : 300px; height : auto;
   padding : 10px;
     padding: 0.625rem;
 }
 
+
 #foot_info li {
-  width : 100%; height: 100%;
+  float :left;
+  width : 100%; height: auto;
+  line-height: 0.5;
 }
+
+
+#foot_info dl {
+  width : auto; height: auto;
+}
+
+
+#foot_info dt,
+#foot_info dd {
+  float : left;
+  width : auto; height: auto;
+} 
 
 
 #foot_link {
   float : right;
-  width : 776px;
-    width : 48.5rem;
+  width : 55%;
+  height : auto;
 }
 
 
+
+
+
+/* family_site*/
 #family_site {
+  position: relative;
+  float : right;
+  width: 100%; height : 100%;
   margin-top: 10px;
     margin-top : 0.625rem;
 }
 
 
 #family_site > dl {
+  position: absolute;
+  top : 0;
+  right : 0;
   float : right;
   width: 150px;
     width: 9.375rem;
@@ -107,9 +135,15 @@ address {
 }
 
 
-#family_site > dl:hover dd{
+#family_site > dl:hover dd,
+#family_site > dl:focus dd{
   display: block;
 }
+
+
+#family_site > dl:focus { z-index: 100;}
+
+#family_site a:focus { font-weight: 700;}
 
 
 #family_site a {
@@ -118,11 +152,16 @@ address {
   height : 100%;
 }
 
+
+
+
+/*sns_link*/
 #sns_link {
+  float : right;
   width : 100%;
   height : auto;
-  margin-top : 10px;
-    margin-top : 0.625rem;
+  margin-top : 50px;
+    margin-top : 3.125rem;
 }
 
 
@@ -155,7 +194,8 @@ address {
 } 
 
 
-#sns_link a:hover {
+#sns_link a:hover,
+#sns_link a:focus {
   transform : scale(1.2, 1.2);
 }
 
@@ -184,6 +224,7 @@ address {
 
 
 #foot_link > p {
+  float : right;
   text-align: right;
   margin-top : 10px;
     margin-top : 0.625rem;
@@ -192,6 +233,7 @@ address {
 
 #link_list {
   float : right;
+  width : auto; height :auto;
   margin-top : 10px;
     margin-top : 0.625rem;
   text-align: right;
@@ -211,9 +253,8 @@ address {
 }
 
 
-#link_list li:hover {
- font-weight: 700;
-}
+#link_list li:hover { font-weight: 700; }
+#link_list a:focus { font-weight: 700; }
 
 
 #link_list li:last-child {

@@ -36,8 +36,10 @@
 
   <div id="wrap">
     <header id="header" class="clearfix">
+
     <h1 id="main_logo"><a href="../main.html"><span class="blind"> 야놀자 </span></a></h1>
-    <form action="#" method="POST">
+
+    <form action="#" method="GET">
       <input type="search" id="search" name="search" value="" />
       <label for="search">
         <span class="blind"> 검색어를 입력하세요 </span>
@@ -49,7 +51,7 @@
       <a href="#"><span class="blind"> 로그인 </span></a>
     </div>
 
-    </header> <!------------------------------ header -->
+    </header> <!--................................................... header -->
 
 
 
@@ -60,57 +62,59 @@
       <div id="nav_link">
         
         <div class="nav_i_box">
-          <i class="fas fa-chevron-right"></i>
+          <i class="fas fa-chevron-right">
+            <span class="blind"> 네비게이션 확장 버튼 </span>
+          </i>
         </div>
 
         <ul class="nav_detail">
 
           <li>
-              <i></i>
+              <i><i><span class="blind"> 지역여행 아이콘 </span></i></i>
               <dl>
                 <dt> 지역여행 </dt>
-                <dd class="nav_dd hyphen kangwon"> <a href=""> 강원도 야놀자</a> </dd>
-                <dd class="nav_dd hyphen busan"> <a href=""> 부산 야놀자</a> </dd>
-                <dd class="nav_dd hyphen jeju"> <a href=""> 제주 야놀자</a> </dd>
+                <dd class="nav_dd hyphen kangwon"> <a href="#"> 강원도 야놀자</a> </dd>
+                <dd class="nav_dd hyphen busan"> <a href="#"> 부산 야놀자</a> </dd>
+                <dd class="nav_dd hyphen jeju"> <a href="#"> 제주 야놀자</a> </dd>
               </dl>
             </li>
 
           <li>
-            <i></i>
+            <i><span class="blind"> 국내숙소 아이콘 </span></i>
             <dl>
               <dt> 국내숙소 </dt>
-                <dd class="nav_dd hyphen motel"> <a href=""> 모텔</a> </dd>
-                <dd class="nav_dd hyphen hotel"> <a href=""> 호텔</a> </dd>
-                <dd class="nav_dd hyphen condo"> <a href=""> 리조트/콘도</a> </dd>
-                <dd class="nav_dd hyphen camping"> <a href=""> 글램핑/캠핑</a></dd>
-                <dd class="nav_dd hyphen guesthouse"> <a href=""> 게하/한옥</a></dd>
+                <dd class="nav_dd hyphen motel"> <a href="#"> 모텔</a> </dd>
+                <dd class="nav_dd hyphen hotel"> <a href="#"> 호텔</a> </dd>
+                <dd class="nav_dd hyphen condo"> <a href="#"> 리조트/콘도</a> </dd>
+                <dd class="nav_dd hyphen camping"> <a href="#"> 글램핑/캠핑</a></dd>
+                <dd class="nav_dd hyphen guesthouse"> <a href="#"> 게스트하우스 </a></dd>
             </dl>
           </li> 
 
           <li>
-            <i></i>
+            <i><span class="blind"> 국내레저 아이콘 </span></i>
             <dl>
               <dt> 국내레저 </dt>
-                <dd class="nav_dd hyphen leisure"> <a href=""> 레저/티켓</a> </dd>
-                <dd class="nav_dd hyphen brand"> <a href=""> 브랜드관</a> </dd>
+                <dd class="nav_dd hyphen leisure"> <a href="#"> 레저/티켓</a> </dd>
+                <dd class="nav_dd hyphen brand"> <a href="#"> 브랜드관</a> </dd>
             </dl>
           </li>
 
           <li>
-            <i></i>
+            <i><span class="blind"> 교통/항공 아이콘 </span></i>
             <dl>
               <dt> 교통/항공 </dt>
-                <dd class="nav_dd hyphen ktx"> <a href=""> KTX</a> </dd>
-                <dd class="nav_dd hyphen rentacar"> <a href=""> 렌터카</a> </dd>
-                <dd class="nav_dd hyphen airline"> <a href=""> 항공권</a> </dd>
+                <dd class="nav_dd hyphen ktx"> <a href="#"> <abbr title="Korea Train eXpress(한국고속철도)">KTX</abbr> </a> </dd>
+                <dd class="nav_dd hyphen rentacar"> <a href="#"> 렌터카</a> </dd>
+                <dd class="nav_dd hyphen airline"> <a href="#"> 항공권</a> </dd>
             </dl>
           </li>
 
           <li>
-            <i></i>
+            <i><span class="blind"> 해외숙소 아이콘 </span></i>
             <dl>
-              <dt> <a href="">해외숙소</a> </dt>
-              <dd class="nav_dd hyphen global"> <a href=""> 해외숙소</a> </dd>
+              <dt> <a href="#">해외숙소</a> </dt>
+              <dd class="nav_dd hyphen global"> <a href="#">해외숙소</a> </dd>
             </dl>
           </li>
 
@@ -121,27 +125,11 @@
 
 
 
-    <aside id="quickButton">
-
-      <h2 class="blind"> 페이지 상하 이동 버튼 </h2>
-      
-      <div>
-        <ul>
-          <li class="up_button"> 
-            <a href="#header">
-              <i></i>
-              <span class="blind"> 페이지 최상단으로 이동 </span>
-            </a>
-          </li>
-          <li class="down_button"> 
-            <a href="#footer">
-              <i></i>
-              <span class="blind"> 페이지 최하단으로 이동 </span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </aside> <!---------------------------------quick_button-->
+    <div id="quickButtonDown">
+      <a href="#footer">
+        <i><span class="blind"> 페이지 최하단으로 이동 </span></i>
+      </a>
+     </div> <!--.............................quickButtonDown-->
 
 
 
@@ -185,8 +173,8 @@
        <p class="join">
         <a href="#"> 야놀자 회원가입 </a>
        </p>
-      </div> <!---------------------login_area-->
-    </section> <!-----------------sectionBox-->
+      </div> <!--.................ogin_area-->
+    </section> <!--..................sectionBox-->
 
 
 
@@ -200,18 +188,22 @@
 
     <div id="foot_info">
       <h3 class="blind"> 야놀자 회사 소개 </h3>
-      <ul>
-        <li> ㈜야놀자 </li>
-        <li> 대표이사 : 이수진 </li>
-        <li> 사업자 등록 번호 : 220-87-42885 </li>
-        <li> 통신판매업 신고 : 강남-14211호 </li>
-        <li> 메일 : help@yanolja.com </li>
-        <li> 관광사업자 등록번호 : 제 2016-31호 </li>
-        <li> 주소 : 서울 강남구 테헤란로 108길 42 </li>
-        <li> 호스팅 서비스 제공자 : 주식회사 야놀자 </li>
-        <li> 고객센터 : 1644-1346 ( 오전 09시 - 익일 새벽 03시 ) </li>
-      </ul>
-    </div> <!------------------------------ site_info -->
+
+      <address>
+        <ul>
+          <li> ㈜야놀자 </li>
+          <li> 대표이사 : 이수진 </li>
+          <li> 사업자 등록 번호 : 220-87-42885 </li>
+          <li> 통신판매업 신고 : 강남-14211호 </li>
+          <li> 메일 : help@yanolja.com </li>
+          <li> 관광사업자 등록번호 : 제 2016-31호 </li>
+          <li> 주소 : 서울 강남구 테헤란로 108길 42 </li>
+          <li> 호스팅 서비스 제공자 : 주식회사 야놀자 </li>
+          <li> 고객센터 : 1644-1346 ( 오전 09시 - 익일 새벽 03시 ) </li>
+        </ul>
+      </address>
+
+    </div> <!--..................................site_info -->
 
 
     <div id="foot_link">
@@ -226,7 +218,7 @@
          <dd><a href="https://partner.yanolja.com/intro"> 파트너 센터 </a></dd>
          <dd><a href="https://www.hotelup.com/"> 호텔업 </a></dd>
        </dl>
-      </div> <!---------------------------family_site-->
+      </div> <!--..................................family_site-->
 
 
       <div id="sns_link" class="clearfix">
@@ -268,7 +260,7 @@
           </a>
           </li>
         </ul>
-      </div> <!---------------------------------------foot_sns-->
+      </div> <!--..................................foot_sns-->
 
 
 
@@ -293,13 +285,21 @@
           <li><a href="https://www.ftc.go.kr/bizCommPopView.do" target="_blank"> 사업자 정보 확인 </a></li>
           <li><a href="https://policy.yanolja.com/?t=location&d=m" target="_blank"> 위치정보 이용약관 </a></li>
         </ul>
-      </div> <!-------------------------------------------------link_list-->
+      </div> <!--...................................................link_list-->
 
-    </div> <!--------------------------------------------foot_link-->
+    </div> <!--...................................................foot_link-->
     
-    </footer> <!------------------------------ footer -->
+    </footer> <!--................................................... footer -->
 
 
-  </div>
+    <div id="quickButtonUp">
+      <a href="#header">
+        <i><span class="blind"> 페이지 최상단으로 이동 </span></i>
+      </a>
+    </div> <!--.............................quickButtonUp-->
+
+
+
+  </div> <!--.............................................wrap-->
 </body>
 </html>

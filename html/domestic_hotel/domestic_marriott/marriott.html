@@ -45,7 +45,7 @@
           </a>
         </h1>
 
-        <form action="#" method="POST">
+        <form action="#" method="GET">
           <input type="search" id="search" name="search" value="" />
           <label for="search">
             <span class="blind"> 검색어를 입력하세요 </span>
@@ -68,60 +68,64 @@
 
         <h2 class="blind"> 네비게이션 </h2> 
 
+
+
         <div id="nav_link">
           
           <div class="nav_i_box">
-            <i class="fas fa-chevron-right"></i>
+            <i class="fas fa-chevron-right">
+              <span class="blind"> 네비게이션 확장 버튼 </span>
+            </i>
           </div>
 
           <ul class="nav_detail">
 
             <li>
-                <i></i>
+                <i><span class="blind"> 지역여행 아이콘 </span></i>
                 <dl>
                   <dt> 지역여행 </dt>
-                  <dd class="nav_dd hyphen kangwon"> <a href=""> 강원도 야놀자</a> </dd>
-                  <dd class="nav_dd hyphen busan"> <a href=""> 부산 야놀자</a> </dd>
-                  <dd class="nav_dd hyphen jeju"> <a href=""> 제주 야놀자</a> </dd>
+                  <dd class="nav_dd hyphen kangwon"> <a href="#"> 강원도 야놀자</a> </dd>
+                  <dd class="nav_dd hyphen busan"> <a href="#"> 부산 야놀자</a> </dd>
+                  <dd class="nav_dd hyphen jeju"> <a href="#"> 제주 야놀자</a> </dd>
                 </dl>
               </li>
 
             <li>
-              <i></i>
+              <i><span class="blind"> 국내숙소 아이콘 </span></i>
               <dl>
                 <dt> 국내숙소 </dt>
-                  <dd class="nav_dd hyphen motel"> <a href=""> 모텔</a> </dd>
-                  <dd class="nav_dd hyphen hotel"> <a href=""> 호텔</a> </dd>
-                  <dd class="nav_dd hyphen condo"> <a href=""> 리조트/콘도</a> </dd>
-                  <dd class="nav_dd hyphen camping"> <a href=""> 글램핑/캠핑</a></dd>
-                  <dd class="nav_dd hyphen guesthouse"> <a href=""> 게하/한옥</a></dd>
+                  <dd class="nav_dd hyphen motel"> <a href="#"> 모텔</a> </dd>
+                  <dd class="nav_dd hyphen hotel"> <a href="#"> 호텔</a> </dd>
+                  <dd class="nav_dd hyphen condo"> <a href="#"> 리조트/콘도</a> </dd>
+                  <dd class="nav_dd hyphen camping"> <a href="#"> 글램핑/캠핑</a></dd>
+                  <dd class="nav_dd hyphen guesthouse"> <a href="#"> 게스트하우스</a> </dd>
               </dl>
             </li> 
 
             <li>
-              <i></i>
+              <i><span class="blind"> 국내레저 아이콘 </span></i>
               <dl>
                 <dt> 국내레저 </dt>
-                  <dd class="nav_dd hyphen leisure"> <a href=""> 레저/티켓</a> </dd>
-                  <dd class="nav_dd hyphen brand"> <a href=""> 브랜드관</a> </dd>
+                  <dd class="nav_dd hyphen leisure"> <a href="#"> 레저/티켓</a> </dd>
+                  <dd class="nav_dd hyphen brand"> <a href="#"> 브랜드관</a> </dd>
               </dl>
             </li>
 
             <li>
-              <i></i>
+              <i><span class="blind"> 교통/항공 아이콘 </span></i>
               <dl>
                 <dt> 교통/항공 </dt>
-                  <dd class="nav_dd hyphen ktx"> <a href=""> KTX</a> </dd>
-                  <dd class="nav_dd hyphen rentacar"> <a href=""> 렌터카</a> </dd>
-                  <dd class="nav_dd hyphen airline"> <a href=""> 항공권</a> </dd>
+                  <dd class="nav_dd hyphen ktx"> <a href="#"><abbr title="Korea Train eXpress(한국고속철도)">KTX</abbr></a> </dd>
+                  <dd class="nav_dd hyphen rentacar"> <a href="#"> 렌터카</a> </dd>
+                  <dd class="nav_dd hyphen airline"> <a href="#"> 항공권</a> </dd>
               </dl>
             </li>
 
             <li>
-              <i></i>
+              <i><span class="blind"> 해외숙소 아이콘 </span></i>
               <dl>
-                <dt> <a href="">해외숙소</a> </dt>
-                <dd class="nav_dd hyphen global"> <a href="">해외숙소</a> </dd>
+                <dt> <a href="#">해외숙소</a> </dt>
+                <dd class="nav_dd hyphen global"> <a href="#">해외숙소</a> </dd>
               </dl>
             </li>
 
@@ -135,27 +139,11 @@
 
 
 
-       <aside id="quickButton">
-
-        <h2 class="blind"> 페이지 상하 이동 버튼 </h2>
-
-        <div>
-          <ul>
-            <li class="up_button"> 
-              <a href="#header">
-                <i></i>
-                <span class="blind"> 페이지 최상단으로 이동 </span>
-              </a>
-            </li>
-            <li class="down_button"> 
-              <a href="#footer">
-                <i></i>
-                <span class="blind"> 페이지 최하단으로 이동 </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside> <!--.................................quick_button-->
+      <div id="quickButtonDown">
+        <a href="#footer">
+          <i><span class="blind"> 페이지 최하단으로 이동 </span></i>
+        </a>
+       </div> <!--.............................quickButtonDown-->
 
 
 
@@ -168,16 +156,16 @@
         <div id="view_img">
           <ul class="view_img_area clearfix">
             <li>
-              <div><!--css에서 background-image처리 --></div>
+              <div><span class="blind"> 호텔 대표 이미지 - 호텔 외관 </span></div>
             </li>
             <li>
-              <div><!--css에서 background-image처리 --></div>
+              <div><span class="blind"> 호텔 대표 이미지 - 대표 객실 사진 </span></div>
             </li>
             <li>
-              <div><!--css에서 background-image처리 --></div>
+              <div><span class="blind"> 호텔 대표 이미지 - 레스토랑 사진 </span></div>
             </li>
             <li>
-              <div><!--css에서 background-image처리 --></div>
+              <div><span class="blind"> 호텔 대표 이미지 - 부대시설 사진 </span></div>
             </li>
           </ul> <!--........................view_img_area-->
         </div> <!--..............................view_img-->
@@ -191,19 +179,19 @@
             </dt>
             <dd> 
               <a href="#review_link">
-                <i class="fas fa-star icon"></i>
+                <i class="fas fa-star icon"> <span class="blind"> 별점 아이콘 </span> </i>
                 4.7 / 5
               </a>
             </dd>
             <dd> 
               <a href="#review_link">
                 후기 10,524개
-                <i class="fas fa-chevron-right"></i>
+                <i class="fas fa-chevron-right"> <span class="blind"> 후기 페이지 이동 버튼 </span> </i>
               </a>             
             </dd>
             <dd> 
               <a href="#basic_info_link">
-                <i class="fas fa-map-marker-alt"></i>
+                <i class="fas fa-map-marker-alt"> <span class="blind"> 위치 아이콘 </span> </i>
                 영등포역 5번 출구 도보 3분
               </a>
             </dd>
@@ -244,9 +232,9 @@
             <div class="room_type_select_area clearfix">
                 <a href="./premier_twin.html">
                   <dl>
-                    <dt class="room_type_title"> Premier Twin </dt>
-                    <dd class="room_type_img"> <i></i> </dd>
-                    <dd class="title_remark"> 10일간 Spring Flash Sale </dd>
+                    <dt class="room_type_title"> premier twin </dt>
+                    <dd class="room_type_img"> <i><span class="blind"> premier twin 대표 사진 </span></i> </dd>
+                    <dd class="title_remark"> 10일간 spring flash sale </dd>
                     <dd class="count_of_person"> 기준 2명 / 최대 2명 </dd>
                     <dd class="using_time"> 숙박 <span>15:00</span>부터 </dd>
                     <dd class="defualt_amount_remark"> 로그인 특가 </dd>
@@ -259,9 +247,9 @@
 
                 <a href="./premier_twin.html" class="margin_right_none">
                   <dl>
-                   <dt class="room_type_title"> Premier King </dt>
-                   <dd class="room_type_img"> <i></i> </dd>
-                   <dd class="title_remark"> 10일간 Spring Flash Sale </dd>
+                   <dt class="room_type_title"> premier king </dt>
+                   <dd class="room_type_img"> <i><span class="blind"> premier king 대표 사진 </span></i> </dd>
+                   <dd class="title_remark"> 10일간 spring flash sale </dd>
                    <dd class="count_of_person"> 기준 2명 / 최대 2명 </dd>
                    <dd class="using_time"> 숙박 <span>15:00</span>부터 </dd>
                    <dd class="defualt_amount_remark"> 로그인 특가 </dd>
@@ -274,9 +262,9 @@
 
                <a href="./premier_twin.html">
                  <dl>
-                   <dt class="room_type_title"> Premier Twin </dt>
-                   <dd class="room_type_img"> <i></i> </dd>
-                   <dd class="title_remark"> 2인 조식 PKG </dd>
+                   <dt class="room_type_title"> premier twin </dt>
+                   <dd class="room_type_img"> <i><span class="blind"> 조식 패키지 대표 사진 </span></i> </dd>
+                   <dd class="title_remark"> 2인 조식 pkg </dd>
                    <dd class="count_of_person"> 기준 2명 / 최대 2명 </dd>
                    <dd class="using_time"> 숙박 <span>12:00</span>부터 </dd>
                    <dd class="defualt_amount_remark"> 로그인 특가 </dd>
@@ -289,9 +277,9 @@
 
                <a href="./premier_twin.html" class="margin_right_none">
                 <dl>
-                   <dt class="room_type_title"> Premier King </dt>
-                   <dd class="room_type_img"> <i></i> </dd>
-                   <dd class="title_remark"> 2인 조식 PKG </dd>
+                   <dt class="room_type_title"> premier king </dt>
+                   <dd class="room_type_img"> <i><span class="blind"> 조식 패키지 대표 사진 </span></i> </dd>
+                   <dd class="title_remark"> 2인 조식 pkg </dd>
                    <dd class="count_of_person"> 기준 2명 / 최대 2명 </dd>
                    <dd class="using_time"> 숙박 <span>12:00</span>부터 </dd>
                    <dd class="defualt_amount_remark"> 로그인 특가 </dd>
@@ -304,9 +292,9 @@
 
                <a href="./premier_twin.html">
                  <dl>
-                   <dt class="room_type_title"> Premier King </dt>
-                   <dd class="room_type_img"> <i></i> </dd>
-                   <dd class="title_remark"> WINE To-Go PKG </dd>
+                   <dt class="room_type_title"> premier king </dt>
+                   <dd class="room_type_img"> <i><span class="blind"> 와인 패키지 대표 사진 </span></i> </dd>
+                   <dd class="title_remark"> wine to-go pkg </dd>
                    <dd class="count_of_person"> 기준 2명 / 최대 2명 </dd>
                    <dd class="using_time"> 숙박 <span>15:00</span>부터 </dd>
                    <dd class="defualt_amount_remark"> 로그인 특가 </dd>
@@ -319,9 +307,9 @@
 
                <a href="./premier_twin.html" class="margin_right_none">
                  <dl>
-                   <dt class="room_type_title"> Premier King </dt>
-                   <dd class="room_type_img"> <i></i> </dd>
-                   <dd class="title_remark"> WINE To-Go PKG </dd>
+                   <dt class="room_type_title"> premier king </dt>
+                   <dd class="room_type_img"> <i><span class="blind"> 와인 패키지 대표 사진 </span></i> </dd>
+                   <dd class="title_remark"> wine to-go pkg </dd>
                    <dd class="count_of_person"> 기준 2명 / 최대 2명 </dd>
                    <dd class="using_time"> 숙박 <span>15:00</span>부터 </dd>
                    <dd class="defualt_amount_remark"> 로그인 특가 </dd>
@@ -334,9 +322,9 @@
 
                <a href="./premier_twin.html">
                  <dl>
-                   <dt class="room_type_title"> Premier King </dt>
-                   <dd class="room_type_img"> <i></i> </dd>
-                   <dd class="title_remark"> Bowling and more </dd>
+                   <dt class="room_type_title"> premier king </dt>
+                   <dd class="room_type_img"> <i><span class="blind"> 볼링 패키지 대표 사진 </span></i> </dd>
+                   <dd class="title_remark"> bowling and more </dd>
                    <dd class="count_of_person"> 기준 2명 / 최대 2명 </dd>
                    <dd class="using_time"> 숙박 <span>15:00</span>부터 </dd>
                    <dd class="defualt_amount_remark"> 로그인 특가 </dd>
@@ -349,9 +337,9 @@
 
                <a href="./premier_twin.html" class="margin_right_none">
                  <dl>
-                   <dt class="room_type_title"> Premier King </dt>
-                   <dd class="room_type_img"> <i></i> </dd>
-                   <dd class="title_remark"> Bowling and more </dd>
+                   <dt class="room_type_title"> premier king </dt>
+                   <dd class="room_type_img"> <i><span class="blind"> 볼링 패키지 대표 사진 </span></i> </dd>
+                   <dd class="title_remark"> bowling and more </dd>
                    <dd class="count_of_person"> 기준 2명 / 최대 2명 </dd>
                    <dd class="using_time"> 숙박 <span>15:00</span>부터 </dd>
                    <dd class="defualt_amount_remark"> 로그인 특가 </dd>
@@ -391,52 +379,52 @@
 
           <ul class="service_list clearfix">
             <li>
-              <i class="fas fa-parking"></i></br>
+              <i class="fas fa-parking"> <span class="blind"> 주차가능 아이콘 </span> </i></br>
               <span> 주차가능 </span>
             </li>
 
             <li>
-              <i class="fas fa-bread-slice"></i></br>
+              <i class="fas fa-bread-slice"> <span class="blind"> 조식운영 아이콘 </span> </i></br>
               <span> 조식운영 </span>
             </li>
 
             <li>
-              <i class="fas fa-wifi"></i></br>
+              <i class="fas fa-wifi"> <span class="blind"> 와이파이 아이콘 </span> </i></br>
               <span> 와이파이 </span>
             </li>
 
              <li>
-               <i class="fas fa-utensils"></i></br>
+               <i class="fas fa-utensils"> <span class="blind"> 레스토랑 아이콘 </span> </i></br>
                <span> 레스토랑 </span>
              </li>
 
              <li>
-               <i class="fas fa-gem"></i></br>
+               <i class="fas fa-gem"> <span class="blind"> 연회장 아이콘 </span> </i></br>
                <span> 연회장 </span>
              </li>
 
              <li>
-               <i class="fas fa-walking"></i></br>
+               <i class="fas fa-walking"> <span class="blind"> 피트니스 아이콘 </span> </i></br>
                <span> 피트니스 </span>
              </li>
 
              <li>
-               <i class="fas fa-soap"></i></br>
+               <i class="fas fa-soap"> <span class="blind"> 어메니티 아이콘 </span> </i></br>
                <span> 어메니티 </span>
              </li>
 
              <li>
-               <i class="fas fa-concierge-bell"></i></br>
+               <i class="fas fa-concierge-bell"> <span class="blind"> 24시간 데스크 아이콘 </span> </i></br>
                <span> 24시간 데스크 </span>
              </li>
 
             <li>
-              <i class="fas fa-tshirt"></i></br>
+              <i class="fas fa-tshirt"> <span class="blind"> 유료세탁 아이콘 </span> </i></br>
               <span> 유료세탁 </span>
             </li>
 
             <li>
-              <i class="fas fa-briefcase"></i></br>
+              <i class="fas fa-briefcase"> <span class="blind"> 비즈니스 아이콘 </span> </i></br>
               <span> 비즈니스 </span>
             </li>
           </ul>
@@ -478,13 +466,13 @@
            <div class="review_preview_area clearfix">
              <h3> 후기 </h3>
              <div class="review_title">
-               <i class="fas fa-star"></i>
+               <i class="fas fa-star"> <span class="blind"> 1점 </span>  <span class="blind"> 별점 아이콘 </span> </i>
                <span> 4.7 <span class="review_small">/ 5</span> </span>
              </div>
 
             <div class="review_info">
               <dl>
-                <dt> <i class="fas fa-info-circle"></i> 
+                <dt> <i class="fas fa-info-circle"> <span class="blind"> 후기 수 및 평가기준 안내 아이콘 </span> </i> 
                   후기 수 및 평가 기준 안내 
                 </dt>
                 <dd>
@@ -521,19 +509,19 @@
 
               <li class="review_card">
                 <div class="review_summary">
-                  <i class="far fa-smile"></i>
+                  <i class="far fa-smile"> <span class="blind"> 만족 </span> </i>
                   <div class="star_area">
                     <ul class="star clearfix">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star-half-alt"></i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star-half-alt"> <span class="blind"> 0.5점 </span> </i></li>
                     </ul>
                     
                     <ul class="review_user_info clearfix">
                       <li> 프런트 지박령 </li>
-                      <li> Premier King </li>
+                      <li> premier king </li>
                       <li> 1시간 전 </li>
                     </ul>
                   </div> <!-- star_area-->
@@ -546,19 +534,19 @@
 
               <li class="review_card margin_right_none">
                 <div class="review_summary">
-                  <i class="far fa-smile"></i>
+                  <i class="far fa-smile"> <span class="blind"> 만족 </span></i>
                   <div class="star_area">
-                    <ul class="star">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <i class="far fa-star"></i>
+                    <ul class="star clearfix">
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="far fa-star"> <span class="blind"> 0점 </span></i></li>
                     </ul>
                     
                     <ul class="review_user_info clearfix">
-                      <li> SJP </li>
-                      <li> Premier King + WINE PKG </li>
+                      <li> folcy </li>
+                      <li> premier king + wine pkg </li>
                       <li> 3시간 전 </li>
                     </ul>
                   </div> <!-- star_area-->
@@ -571,19 +559,19 @@
 
               <li class="review_card">
                 <div class="review_summary">
-                  <i class="far fa-smile"></i>
+                  <i class="far fa-smile"> <span class="blind"> 만족 </span></i>
                   <div class="star_area">
-                    <ul class="star">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star-half-alt"></i></li>
-                      <i class="far fa-star"></i>
+                    <ul class="star clearfix">
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star-half-alt"> <span class="blind"> 0.5점 </span> </i></li>
+                      <li><i class="far fa-star"> <span class="blind"> 0점 </span></i></li>
                     </ul>
                     
                     <ul class="review_user_info clearfix">
                       <li> 디스이스저스디스 </li>
-                      <li> Premier Twin </li>
+                      <li> premier twin </li>
                       <li> 14시간 전 </li>
                     </ul>
                   </div> <!-- star_area-->
@@ -596,19 +584,19 @@
 
               <li class="review_card margin_right_none">
                 <div class="review_summary">
-                  <i class="far fa-smile"></i>
+                  <i class="far fa-smile"> <span class="blind"> 만족 </span></i>
                   <div class="star_area">
                     <ul class="star clearfix">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star-half-alt"></i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star-half-alt"> <span class="blind"> 0.5점 </span> </i></li>
                     </ul>
                     
                     <ul class="review_user_info clearfix">
                       <li> 배고픈 쿼카 </li>
-                      <li> Premier Twin + 2인 조식 PKG </li>
+                      <li> premier twin + 2인 조식 pkg </li>
                       <li> 1일 전 </li>
                     </ul>
                   </div> <!-- star_area-->
@@ -621,19 +609,19 @@
 
               <li class="review_card">
                 <div class="review_summary">
-                  <i class="far fa-smile"></i>
+                  <i class="far fa-smile"> <span class="blind"> 만족 </span></i>
                   <div class="star_area">
-                    <ul class="star">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star-half-alt"></i></li>
-                      <i class="far fa-star"></i>
+                    <ul class="star clearfix">
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star-half-alt"> <span class="blind"> 0.5점 </span> </i></li>
+                      <li><i class="far fa-star"> <span class="blind"> 0점 </span></i></li>
                     </ul>
                     
                     <ul class="review_user_info clearfix">
                       <li> 땅개잡는 해병대 </li>
-                      <li> Premier King </li>
+                      <li> premier king </li>
                       <li> 1일 전 </li>
                     </ul>
                   </div> <!-- star_area-->
@@ -646,19 +634,19 @@
 
               <li class="review_card margin_right_none">
                 <div class="review_summary">
-                  <i class="far fa-smile"></i>
+                  <i class="far fa-smile"> <span class="blind"> 만족 </span></i>
                   <div class="star_area">
                     <ul class="star clearfix">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star-half-alt"></i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star-half-alt"> <span class="blind"> 0.5점 </span> </i></li>
                     </ul>
                     
                     <ul class="review_user_info clearfix">
-                      <li> 한라산 볼리베어 </li>
-                      <li> Premier Twin </li>
+                      <li> 한라산 그리즐리 </li>
+                      <li> premier twin </li>
                       <li> 1일 전 </li>
                     </ul>
                   </div> <!-- star_area-->
@@ -671,19 +659,19 @@
 
               <li class="review_card">
                 <div class="review_summary">
-                  <i class="far fa-smile"></i>
+                  <i class="far fa-smile"> <span class="blind"> 만족 </span></i>
                   <div class="star_area">
-                    <ul class="star">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star-half-alt"></i></li>
-                      <i class="far fa-star"></i>
+                    <ul class="star clearfix">
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star-half-alt"> <span class="blind"> 0.5점 </span> </i></li>
+                      <li><i class="far fa-star"> <span class="blind"> 0점 </span></i></li>
                     </ul>
                     
                     <ul class="review_user_info clearfix">
-                      <li> 췡팽 </li>
-                      <li> Premier Twin </li>
+                      <li> 챙팽 </li>
+                      <li> premier twin </li>
                       <li> 3일 전 </li>
                     </ul>
                   </div> <!-- star_area-->
@@ -696,19 +684,19 @@
 
               <li class="review_card margin_right_none">
                 <div class="review_summary">
-                  <i class="far fa-meh"></i>
+                  <i class="far fa-meh"> <span class="blind"> 보통 </span> </i>
                   <div class="star_area">
                     <ul class="star clearfix">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star-half-alt"></i></li>
-                      <li><i class="far fa-star"></i></li>
-                      <li><i class="far fa-star"></i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star-half-alt"> <span class="blind"> 0.5점 </span> </i></li>
+                      <li><i class="far fa-star"> <span class="blind"> 0점 </span></i></li>
+                      <li><i class="far fa-star"> <span class="blind"> 0점 </span></i></li>
                     </ul>
                     
                     <ul class="review_user_info clearfix">
                       <li> 고정업 </li>
-                      <li> Premier Twin + 2인 조식 PKG </li>
+                      <li> premier king + 2인 조식 pkg </li>
                       <li> 3일 전 </li>
                     </ul>
                   </div> <!-- star_area-->
@@ -721,19 +709,19 @@
 
               <li class="review_card">
                 <div class="review_summary">
-                  <i class="far fa-angry"></i>
+                  <i class="far fa-angry"> <span class="blind"> 불만족 </span> </i>
                   <div class="star_area">
-                    <ul class="star">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="far fa-star"></i></li>
-                      <li><i class="far fa-star"></i></li>
-                      <li><i class="far fa-star"></i></li>
-                      <i class="far fa-star"></i>
+                    <ul class="star clearfix">
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="far fa-star"> <span class="blind"> 0점 </span></i></li>
+                      <li><i class="far fa-star"> <span class="blind"> 0점 </span></i></li>
+                      <li><i class="far fa-star"> <span class="blind"> 0점 </span></i></li>
+                      <li><i class="far fa-star"> <span class="blind"> 0점 </span></i></li>
                     </ul>
                     
                     <ul class="review_user_info clearfix">
-                      <li> 마스터 </li>
-                      <li> Premier King + WINE PKG </li>
+                      <li> 세계정복 </li>
+                      <li> premier king + wine pkg </li>
                       <li> 5일 전 </li>
                     </ul>
                   </div> <!-- star_area-->
@@ -746,19 +734,19 @@
 
               <li class="review_card margin_right_none">
                 <div class="review_summary">
-                  <i class="far fa-smile"></i>
+                  <i class="far fa-smile"> <span class="blind"> 만족 </span></i>
                   <div class="star_area">
                     <ul class="star clearfix">
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star"></i></li>
-                      <li><i class="fas fa-star-half-alt"></i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star"> <span class="blind"> 1점 </span> </i></li>
+                      <li><i class="fas fa-star-half-alt"> <span class="blind"> 0.5점 </span> </i></li>
                     </ul>
                     
                     <ul class="review_user_info clearfix">
                       <li> 우체국장 </li>
-                      <li> Premier King + WINE PKG </li>
+                      <li> premier king + wine pkg </li>
                       <li> 일주일 전 </li>
                     </ul>
                   </div> <!-- star_area-->
@@ -795,17 +783,21 @@
 
         <div id="foot_info">
           <h3 class="blind"> 야놀자 회사 소개 </h3>
-          <ul>
-            <li> ㈜야놀자 </li>
-            <li> 대표이사 : 이수진 </li>
-            <li> 사업자 등록 번호 : 220-87-42885 </li>
-            <li> 통신판매업 신고 : 강남-14211호 </li>
-            <li> 메일 : help@yanolja.com </li>
-            <li> 관광사업자 등록번호 : 제 2016-31호 </li>
-            <li> 주소 : 서울 강남구 테헤란로 108길 42 </li>
-            <li> 호스팅 서비스 제공자 : 주식회사 야놀자 </li>
-            <li> 고객센터 : 1644-1346 ( 오전 09시 - 익일 새벽 03시 ) </li>
-          </ul>
+          
+          <address>
+            <ul>
+              <li> ㈜야놀자 </li>
+              <li> 대표이사 : 이수진 </li>
+              <li> 사업자 등록 번호 : 220-87-42885 </li>
+              <li> 통신판매업 신고 : 강남-14211호 </li>
+              <li> 메일 : help@yanolja.com </li>
+              <li> 관광사업자 등록번호 : 제 2016-31호 </li>
+              <li> 주소 : 서울 강남구 테헤란로 108길 42 </li>
+              <li> 호스팅 서비스 제공자 : 주식회사 야놀자 </li>
+              <li> 고객센터 : 1644-1346 ( 오전 09시 - 익일 새벽 03시 ) </li>
+            </ul>
+          </address>
+
         </div> <!--........................................ site_info -->
 
 
@@ -893,6 +885,14 @@
         </div> <!--..............................................foot_link-->
 
         </footer> <!--............................................. footer-->
+
+
+
+        <div id="quickButtonUp">
+          <a href="#header">
+            <i><span class="blind"> 페이지 최상단으로 이동 </span></i>
+          </a>
+        </div> <!--.............................quickButtonUp-->
 
      </div> <!--......................................................wrap-->
 

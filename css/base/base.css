@@ -6,4 +6,5 @@
 @import url("./base/header.css");
 @import url("./base/nav.css");
 @import url("./base/quickButton.css");
+@import url("../base/base/commonBox.css");
 @import url("./base/footer.css");

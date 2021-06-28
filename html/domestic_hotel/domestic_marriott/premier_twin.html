@@ -36,8 +36,10 @@
     <div id="wrap">
 
       <header id="header" class="clearfix">
+
         <h1 id="main_logo"><a href="../../main.html"><span class="blind"> 야놀자 </span></a></h1>
-        <form action="#" method="POST">
+
+        <form action="#" method="GET">
           <input type="search" id="search" name="search" value="" />
           <label for="search">
             <span class="blind"> 검색어를 입력하세요 </span>
@@ -49,7 +51,7 @@
           <a href="../../user/login.html"><span class="blind"> 로그인 </span></a>
         </div>
        
-       </header> <!------------------------------ header -->
+       </header> <!--................................................... header -->
 
 
 
@@ -61,57 +63,59 @@
         <div id="nav_link">
           
           <div class="nav_i_box">
-            <i class="fas fa-chevron-right"></i>
+            <i class="fas fa-chevron-right">
+              <span class="blind"> 네비게이션 확장 버튼 </span>
+            </i>
           </div>
 
           <ul class="nav_detail">
 
             <li>
-                <i></i>
+                <i><span class="blind"> 지역여행 아이콘 </span></i>
                 <dl>
                   <dt> 지역여행 </dt>
-                  <dd class="nav_dd hyphen kangwon"> <a href=""> 강원도 야놀자</a> </dd>
-                  <dd class="nav_dd hyphen busan"> <a href=""> 부산 야놀자</a> </dd>
-                  <dd class="nav_dd hyphen jeju"> <a href=""> 제주 야놀자</a> </dd>
+                  <dd class="nav_dd hyphen kangwon"> <a href="#"> 강원도 야놀자</a> </dd>
+                  <dd class="nav_dd hyphen busan"> <a href="#"> 부산 야놀자</a> </dd>
+                  <dd class="nav_dd hyphen jeju"> <a href="#"> 제주 야놀자</a> </dd>
                 </dl>
               </li>
 
             <li>
-              <i></i>
+              <i><span class="blind"> 국내숙소 아이콘 </span></i>
               <dl>
                 <dt> 국내숙소 </dt>
-                  <dd class="nav_dd hyphen motel"> <a href=""> 모텔</a> </dd>
-                  <dd class="nav_dd hyphen hotel"> <a href=""> 호텔</a> </dd>
-                  <dd class="nav_dd hyphen condo"> <a href=""> 리조트/콘도</a> </dd>
-                  <dd class="nav_dd hyphen camping"> <a href=""> 글램핑/캠핑</a></dd>
-                  <dd class="nav_dd hyphen guesthouse"> <a href=""> 게하/한옥</a></dd>
+                  <dd class="nav_dd hyphen motel"> <a href="#"> 모텔</a> </dd>
+                  <dd class="nav_dd hyphen hotel"> <a href="#"> 호텔</a> </dd>
+                  <dd class="nav_dd hyphen condo"> <a href="#"> 리조트/콘도</a> </dd>
+                  <dd class="nav_dd hyphen camping"> <a href="#"> 글램핑/캠핑</a></dd>
+                  <dd class="nav_dd hyphen guesthouse"> <a href="#"> 게스트하우스 </a></dd>
               </dl>
             </li> 
 
             <li>
-              <i></i>
+              <i><span class="blind"> 국내레저 아이콘 </span></i>
               <dl>
                 <dt> 국내레저 </dt>
-                  <dd class="nav_dd hyphen leisure"> <a href=""> 레저/티켓</a> </dd>
-                  <dd class="nav_dd hyphen brand"> <a href=""> 브랜드관</a> </dd>
+                  <dd class="nav_dd hyphen leisure"> <a href="#"> 레저/티켓</a> </dd>
+                  <dd class="nav_dd hyphen brand"> <a href="#"> 브랜드관</a> </dd>
               </dl>
             </li>
 
             <li>
-              <i></i>
+              <i><span class="blind"> 교통/항공 아이콘 </span></i>
               <dl>
                 <dt> 교통/항공 </dt>
-                  <dd class="nav_dd hyphen ktx"> <a href=""> KTX</a> </dd>
-                  <dd class="nav_dd hyphen rentacar"> <a href=""> 렌터카</a> </dd>
-                  <dd class="nav_dd hyphen airline"> <a href=""> 항공권</a> </dd>
+                  <dd class="nav_dd hyphen ktx"> <a href="#"> <abbr title="Korea Train eXpress(한국고속철도)">KTX</abbr> </a> </dd>
+                  <dd class="nav_dd hyphen rentacar"> <a href="#"> 렌터카</a> </dd>
+                  <dd class="nav_dd hyphen airline"> <a href="#"> 항공권</a> </dd>
               </dl>
             </li>
 
             <li>
-              <i></i>
+              <i><span class="blind"> 해외숙소 아이콘 </span></i>
               <dl>
-                <dt> <a href="">해외숙소</a> </dt>
-                <dd class="nav_dd hyphen global"> <a href="">해외숙소</a> </dd>
+                <dt> <a href="#">해외숙소</a> </dt>
+                <dd class="nav_dd hyphen global"> <a href="#">해외숙소</a> </dd>
               </dl>
             </li>
 
@@ -125,27 +129,11 @@
 
 
 
-       <aside id="quickButton">
-
-        <h2 class="blind"> 페이지 상하 이동 버튼 </h2>
-
-        <div>
-          <ul>
-            <li class="up_button"> 
-              <a href="#header">
-                <i></i>
-                <span class="blind"> 페이지 최상단으로 이동 </span>
-              </a>
-            </li>
-            <li class="down_button"> 
-              <a href="#footer">
-                <i></i>
-                <span class="blind"> 페이지 최하단으로 이동 </span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside> <!---------------------------------quick_button-->
+    <div id="quickButtonDown">
+      <a href="#footer">
+        <i><span class="blind"> 페이지 최하단으로 이동 </span></i>
+      </a>
+   </div> <!--.............................quickButtonDown-->
 
 
 
@@ -158,19 +146,19 @@
         <div id="view_img">
           <ul class="view_img_area clearfix">
             <li>
-              <div><!--css에서 background-image처리 --></div>
+              <div><span class="blind"> 객실 상세 이미지 - 침실 </span></div>
             </li>
             <li>
-              <div><!--css에서 background-image처리 --></div>
+              <div><span class="blind"> 객실 상세 이미지 - 욕실 1 </span></div>
             </li>
             <li>
-              <div><!--css에서 background-image처리 --></div>
+              <div><span class="blind"> 객실 상세 이미지 - 객실 전체 </span></div>
             </li>
             <li>
-              <div><!--css에서 background-image처리 --></div>
+              <div><span class="blind"> 객실 상세 이미지 - 부대시설 </span></div>
             </li>
-          </ul> <!------------------view_img_area-->
-        </div> <!--------------------view_img-->
+          </ul> <!--..................................view_img_area-->
+        </div> <!--..................................view_img-->
 
 
         <div id="view_info">
@@ -181,10 +169,13 @@
               </h2> 
             </dt>
             <dd> 10일간 Spring Flash Sale </dd>
-            <dd> <i class="fas fa-user"></i> 기준 2명 / 최대 2명 </dd>
+            <dd> 
+              <i class="fas fa-user"> <span class="blind"> 사람 아이콘 </span></i> 
+              기준 2명 / 최대 2명 
+            </dd>
           </dl>
-        </div> <!---------------------view_info-->
-      </section> <!---------------------viewBox-->
+        </div> <!--..................................view_info-->
+      </section> <!--..................................viewBox-->
 
 
 
@@ -208,15 +199,15 @@
           </dl>
 
           <dl>
-            <dt> 로그인 특가 </dd>
+            <dt> 로그인 특가 </dt>
             <dd> 55,000원 </dd>
           </dl>
 
           <dl>
-            <dt> 선착순 쿠폰 적용시 </dd>
+            <dt> 선착순 쿠폰 적용시 </dt>
             <dd> 50,850원 </dd>
           </dl>
-        </article> <!---------------------------mini_info_box-->
+        </article> <!--..................................mini_info_box-->
 
 
 
@@ -235,7 +226,7 @@
                 <li class="hyphen"> 금연객실 </li>
                 <li class="hyphen"> 취소 규정 : 2일전 17시까지 100% 환불 가능 </li>
               </ul>
-           </div>  <!-----------------------basic_info_text-->
+           </div>  <!--..................................basic_info_text-->
 
 
 
@@ -255,7 +246,7 @@
                <li class="hyphen"> 주차 : 투숙객 이용 시 1일 15,000원(2021년 4월 1일부로 인상) </li>
                <li class="hyphen"> 모든 추가비용 현장결제 </li>
              </ul>
-          </div>  <!-----------------------basic_info_text-->
+          </div>  <!--..................................basic_info_text-->
 
           
 
@@ -269,18 +260,18 @@
                <li class="hyphen"> 취소 및 환불 불가 </li>
                <li class="hyphen"> 호텔의 경우 예약 완료 시각으로부터 10분 이내인 경우 고객센터를 통한 전액 취소가 가능합니다. 단, 예약 후 10분 이내 취소건이라도 입실시간이 지난 경우 취소가 불가합니다.  </li>
              </ul>
-          </div>  <!-----------------------basic_info_text-->
+          </div>  <!--...................................................basic_info_text-->
 
 
  
-         </article> <!----------------------------------basic_info_area-->
+         </article> <!--..................................basic_info_area-->
 
 
 
 
 
 
-      </article> <!---------------------------------------informationBox-->
+      </article> <!--..................................informationBox-->
 
 
 
@@ -301,18 +292,22 @@
 
         <div id="foot_info">
           <h3 class="blind"> 야놀자 회사 소개 </h3>
-          <ul>
-            <li> ㈜야놀자 </li>
-            <li> 대표이사 : 이수진 </li>
-            <li> 사업자 등록 번호 : 220-87-42885 </li>
-            <li> 통신판매업 신고 : 강남-14211호 </li>
-            <li> 메일 : help@yanolja.com </li>
-            <li> 관광사업자 등록번호 : 제 2016-31호 </li>
-            <li> 주소 : 서울 강남구 테헤란로 108길 42 </li>
-            <li> 호스팅 서비스 제공자 : 주식회사 야놀자 </li>
-            <li> 고객센터 : 1644-1346 ( 오전 09시 - 익일 새벽 03시 ) </li>
-          </ul>
-        </div> <!------------------------------ site_info -->
+
+          <address>
+            <ul>
+              <li> ㈜야놀자 </li>
+              <li> 대표이사 : 이수진 </li>
+              <li> 사업자 등록 번호 : 220-87-42885 </li>
+              <li> 통신판매업 신고 : 강남-14211호 </li>
+              <li> 메일 : help@yanolja.com </li>
+              <li> 관광사업자 등록번호 : 제 2016-31호 </li>
+              <li> 주소 : 서울 강남구 테헤란로 108길 42 </li>
+              <li> 호스팅 서비스 제공자 : 주식회사 야놀자 </li>
+              <li> 고객센터 : 1644-1346 ( 오전 09시 - 익일 새벽 03시 ) </li>
+            </ul>
+          </address>
+          
+        </div> <!--.................................. site_info -->
 
 
         <div id="foot_link">
@@ -322,12 +317,11 @@
            <h3 class="blind"> 패밀리 사이트 </h3>
            <dl>
              <dt> 패밀리 사이트 </dt>
-             <dd><a href="https://www.yanoljalab.com/?utm_source=yanolja&utm_medium=site&
-               utm_campaign=family"> 좋은 숙박 연구소 </a></dd>
+             <dd><a href="https://www.yanoljalab.com/?utm_source=yanolja&utm_medium=site&utm_campaign=family"> 좋은 숙박 연구소 </a></dd>
              <dd><a href="https://partner.yanolja.com/intro"> 파트너 센터 </a></dd>
              <dd><a href="https://www.hotelup.com/"> 호텔업 </a></dd>
            </dl>
-          </div> <!---------------------------family_site-->
+          </div> <!--..................................family_site-->
 
 
           <div id="sns_link" class="clearfix">
@@ -369,7 +363,7 @@
               </a>
               </li>
             </ul>
-          </div> <!---------------------------------------foot_sns-->
+          </div> <!--..................................foot_sns-->
 
 
 
@@ -394,12 +388,21 @@
               <li><a href="https://www.ftc.go.kr/bizCommPopView.do" target="_blank"> 사업자 정보 확인 </a></li>
               <li><a href="https://policy.yanolja.com/?t=location&d=m" target="_blank"> 위치정보 이용약관 </a></li>
             </ul>
-          </div> <!-------------------------------------------------link_list-->
+          </div> <!--..................................link_list-->
 
-        </div> <!--------------------------------------------foot_link-->
+        </div> <!--..................................foot_link-->
 
-        </footer> <!------------------------------ footer -->
+        </footer> <!--.................................. footer -->
 
-     </div> <!------------------------------------wrap-->
+
+        <div id="quickButtonUp">
+          <a href="#header">
+            <i><span class="blind"> 페이지 최상단으로 이동 </span></i>
+          </a>
+        </div> <!--.............................quickButtonUp-->
+
+
+        
+     </div> <!--..................................wrap-->
   </body>
 </html> 

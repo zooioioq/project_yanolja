@@ -66,6 +66,7 @@
 
 
 .user_link {
+  position : relative;
   float : right;
   width : auto;
   height : auto;
@@ -95,6 +96,43 @@
 
 .user_link > a:nth-child(1) {
   background-image : url("../../../img/icon/header/찜.svg");
+}
+
+
+.user_link > a::after {
+  position : absolute;
+  display: none;
+  width : 200px;
+  height : auto;
+  font-size : 14px;
+    font-size : 0.875rem;
+  color : #5A5C71;
+    color : var(--color-gray);
+
+}
+
+
+.user_link > a:nth-child(1)::after { 
+  bottom : -40px;
+  left : -70px;   
+  content: "찜 목록\a로그인 후 이용 가능";
+  white-space: pre;
+  text-align: center;
+}
+
+
+.user_link > a:nth-child(2)::after { 
+  bottom : -20px;
+  left : 30px;   
+  content: "로그인 바로가기";
+}
+
+
+.user_link > a:nth-child(1):hover::after,
+.user_link > a:nth-child(1):focus::after,
+.user_link > a:nth-child(2):hover::after,
+.user_link > a:nth-child(2):focus::after { 
+  display: block;
 }
 
 

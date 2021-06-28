@@ -146,6 +146,7 @@
   font-size : 20px;
     font-size : 1.25rem;
   font-weight: 700;
+  text-transform: capitalize;
 }
 
 
@@ -195,6 +196,7 @@
   font-size : 14px;
     font-size : 0.875rem;
   font-weight: 700;
+  text-transform: capitalize;
 }
 
 
@@ -695,6 +697,10 @@
     font-size : 0.875rem;
     border-right : var(--border-gray);
   font-weight: 700;
+}
+
+.star_area .review_user_info li:nth-child(2) {
+  text-transform: capitalize;
 }
 
 

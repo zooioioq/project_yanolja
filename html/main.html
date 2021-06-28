@@ -49,7 +49,7 @@
 
 
 
-       <form action="#" method="POST">
+       <form action="#" method="GET">
          <input type="search" id="search" name="search" value="" />
          <label for="search">
            <span class="blind"> 검색어를 입력하세요 </span>
@@ -104,7 +104,7 @@
                   <dd class="nav_dd hyphen hotel"> <a href="#"> 호텔</a> </dd>
                   <dd class="nav_dd hyphen condo"> <a href="#"> 리조트/콘도</a> </dd>
                   <dd class="nav_dd hyphen camping"> <a href="#"> 글램핑/캠핑</a></dd>
-                  <dd class="nav_dd hyphen guesthouse"> <a href="#"> 게하/한옥</a></dd>
+                  <dd class="nav_dd hyphen guesthouse"> <a href="#"> 게스트하우스</a> </dd>
               </dl>
             </li> 
 
@@ -121,7 +121,7 @@
               <i><span class="blind"> 교통/항공 아이콘 </span></i>
               <dl>
                 <dt> 교통/항공 </dt>
-                  <dd class="nav_dd hyphen ktx"> <a href="#"> KTX</a> </dd>
+                  <dd class="nav_dd hyphen ktx"> <a href="#"><abbr title="Korea Train eXpress(한국고속철도)">KTX</abbr></a> </dd>
                   <dd class="nav_dd hyphen rentacar"> <a href="#"> 렌터카</a> </dd>
                   <dd class="nav_dd hyphen airline"> <a href="#"> 항공권</a> </dd>
               </dl>
@@ -143,31 +143,11 @@
 
 
 
-      <aside id="quickButton">
-
-        <h2 class="blind"> 페이지 위치 이동 체크 </h2>
-        
-        <div>
-
-          <ul>
-
-            <li class="up_button"> 
-              <a href="#header">
-                <i><span class="blind"> 페이지 최상단으로 이동 </span></i>
-              </a>
-            </li>
-
-            <li class="down_button"> 
-              <a href="#footer">
-                <i><span class="blind"> 페이지 최하단으로 이동 </span></i>
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-
-      </aside> <!--.............................quick_button-->
+      <div id="quickButtonDown">
+       <a href="#footer">
+         <i><span class="blind"> 페이지 최하단으로 이동 </span></i>
+       </a>
+      </div> <!--.............................quickButtonDown-->
 
 
 
@@ -175,21 +155,21 @@
 
       <section id="sectionBox">
 
-      <h2 class="blind"> 대표 광고 영역 </h2>
+        <h2 class="blind"> 대표 광고 영역 </h2>
 
 
 
-      <div class="view_01">
+        <div class="view_01">
 
-        <a href="./leisure/lotte_aquarium/lotte_aquarium.html">
-          <span class="blind"> 롯데월드 아쿠아리움 광고 </span>
-        </a>
+         <a href="./leisure/lotte_aquarium/lotte_aquarium.html">
+           <span class="blind"> 롯데월드 아쿠아리움 광고 </span>
+         </a>
 
-        <a href="./leisure/everland/everland.html">
-          <span class="blind"> 에버랜드 광고 </span>
-        </a>
+          <a href="./leisure/everland/everland.html">
+           <span class="blind"> 에버랜드 광고 </span>
+         </a>
 
-      </div>
+        </div>
 
       </section> <!--................................ section -->
 
@@ -413,17 +393,19 @@
 
           <h3 class="blind"> 야놀자 회사 소개 </h3>
 
-          <ul>
-            <li> ㈜야놀자 </li>
-            <li> 대표이사 : 이수진 </li>
-            <li> 사업자 등록 번호 : 220-87-42885 </li>
-            <li> 통신판매업 신고 : 강남-14211호 </li>
-            <li> 메일 : help@yanolja.com </li>
-            <li> 관광사업자 등록번호 : 제 2016-31호 </li>
-            <li> 주소 : 서울 강남구 테헤란로 108길 42 </li>
-            <li> 호스팅 서비스 제공자 : 주식회사 야놀자 </li>
-            <li> 고객센터 : 1644-1346 ( 오전 09시 - 익일 새벽 03시 ) </li>
-          </ul>
+          <address>
+            <ul>
+              <li> ㈜야놀자 </li>
+              <li> 대표이사 : 이수진 </li>
+              <li> 사업자 등록 번호 : 220-87-42885 </li>
+              <li> 통신판매업 신고 : 강남-14211호 </li>
+              <li> 메일 : help@yanolja.com </li>
+              <li> 관광사업자 등록번호 : 제 2016-31호 </li>
+              <li> 주소 : 서울 강남구 테헤란로 108길 42 </li>
+              <li> 호스팅 서비스 제공자 : 주식회사 야놀자 </li>
+              <li> 고객센터 : 1644-1346 ( 오전 09시 - 익일 새벽 03시 ) </li>
+            </ul>
+          </address>
 
         </div> <!--.................................. site_info -->
 
@@ -520,6 +502,13 @@
         </div> <!--.........................................foot_link-->
 
         </footer> <!--.................................... footer -->
+
+
+        <div id="quickButtonUp">
+         <a href="#header">
+           <i><span class="blind"> 페이지 최상단으로 이동 </span></i>
+         </a>
+       </div> <!--.............................quickButtonUp-->
 
 
 

@@ -2,7 +2,7 @@
 /* css/base/common.css */
 
 
-* { font-family: 'Spoqa Han Sans Neo', 'sans-serif'; }
+
 
 
 .clearfix {
@@ -28,12 +28,12 @@
 }
 
 
-.first_float > li { float : left; }
-
-.first_float > li:first-child { margin-left : 0; }
-
-.last-float > li { float : left; }
-
-.last-float > li:last-child { margin-left : 0; }
-
 .none { display: none ;}
+
+
+.hyphen:before { content: "- "; }
+
+
+abbr { text-decoration: none;}
+
+address { font-style: normal;}

@@ -251,6 +251,13 @@
 }
 
 
+.count_of_ticket select {
+  width : 70px;
+  height : 30px;
+  text-indent: 0.2rem;
+} /* 수량 버튼 사이즈 확대*/
+
+
 .defult_amount {
   position : absolute;
   bottom : 76px;  right : 24px;

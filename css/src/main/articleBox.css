@@ -320,10 +320,10 @@
 
 
 .event_coupon {
-  width : 80px; height : 30px;
-    width : 5rem; height : 1.875rem;
-  padding : 4px;
-    padding : 0.25rem;
+  width : 90px; height : 40px;
+    width : 5.625rem; height : 2.5rem;
+  padding : 7px;
+    padding : 0.4375rem;
   border-radius: 20px;
     border-radius : 1.25rem;
   margin-bottom: 10px;
@@ -331,6 +331,9 @@
   box-sizing: border-box;
   text-align: center;
   font-weight: 700;
+  font-size : 18px;
+    font-size : 1.125rem; 
+  /* 명도대비 4.3 : 1 이므로, 18px + Bold 설정함 */
   color : #fff;
     color : var(--color-white);
   background-color :  #9A5ED2;

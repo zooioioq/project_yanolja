@@ -144,8 +144,9 @@ h2 {
 /*-------------------------------------- icon */
 .fa-star,
 .fa-star-half-alt {
-  color : var(--color-yellow);
-    color : #FDBD00;
+  color : #FDBD00;
+    color : var(--color-yellow);
+  text-shadow: 2px 2px 3px var(--color-gray);
 }
 
 

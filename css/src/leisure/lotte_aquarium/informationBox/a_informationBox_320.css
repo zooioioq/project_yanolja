@@ -1,0 +1,471 @@
+/* css/src/leisure/lotte_aquarium/informationBox/a_information_320.css */
+
+
+
+@media screen and (min-width:320px) and (max-width:767px) {
+
+  #informationBox {
+    width : 100%; height : auto;
+    min-height : 800px;
+      min-height : 50rem;
+    margin-top : 50px;
+      margin-top : 3.125rem;
+    padding : 25px 350px;
+      padding : 1.5625rem 21.875rem;
+    box-sizing: border-box;
+    background-color : #fff;
+      background-color : var(--color-white);
+  }
+  
+  
+  #informationBox h3 {
+    font-size : 24px;
+      font-size : 1.5rem;
+  }
+  
+  
+  .info_type {
+    margin-bottom : 100px;
+      margin-bottom : 6.25rem;
+    padding-top : 25px; padding-bottom : 50px;
+      padding-top : 1.5625rem; padding-bottom : 3.125rem;
+    border-bottom : 1px solid #9FA1B4;
+      border-bottom : var(--border-gray);
+  }
+  
+  
+  .info_type,
+  .info_type > ul {
+    width : 100%;  height : auto;
+  }
+  
+  
+  .info_type li {
+    float : left;
+    width : 30%;
+    height : 50px;
+      height : 3.125rem;
+    margin-right : 5%;
+    border : 1px solid #9FA1B4;
+    border : var(--border-gray);
+    box-sizing: border-box;
+    transition : all 300ms ease;
+  }
+  
+  
+  .info_type li:hover,
+  .info_type li.act {   
+    background-color : #FFD1E1;
+    background-color : var(--color-bright-pink); 
+  }
+  
+  
+  .info_type li:last-child { margin-right : 0; }
+  
+  
+  .info_type button {
+    display: block;
+    width : 100%; height : 100%;
+    background-color : transparent;
+    border: 0;
+    padding : 12px;
+      padding : 0.75rem;
+    font-size : 16px;
+      font-size : 1rem;
+    font-weight : 700;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*-------------------------------------------------------------------------*/
+  /* basic_info_area */
+  
+  
+  
+  .basic_info_area,
+  .basic_info_text {
+    width : 100%;
+    height : auto;
+  }
+  
+  
+  .basic_info_text {
+    margin-bottom : 100px;
+    margin-bottom : 6.25rem;
+  }
+  
+  
+  .basic_info_text div {
+    float : left;
+    width : 400px;  height : 80px;
+      width : 25rem; height: 5rem;
+    padding : 10px 50px;
+      padding : 0.625rem 3.125rem;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 1.7;
+    border-right : 1px solid #9FA1B4;
+      border-right : var(--border-gray);
+  }
+  
+  
+  .basic_info_text div:last-child {
+    border-right : none;
+  }
+  
+  
+  .basic_info_text div > dt {
+    font-weight : 700;
+  }
+  
+  
+  .basic_info_img {
+    width : 1200px;
+      width : 75rem;
+    margin-left : 100px;
+      margin-left : 6.25rem;
+    padding-bottom : 300px;
+      padding-bottom : 18.75rem;
+  }
+  
+  
+  .basic_info_img > div {
+    width : 1000px;
+      width : 62.5rem;
+    margin-top : -4px;
+      margin-top : -0.25rem;
+    height : auto;
+    min-height : 2500px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*-----------------------------------------------------------------------------------------*/
+  /* .detail_info_area {
+    display : none;
+  } */
+  
+  
+  .ticket_area {
+    width : 100%;
+    height : auto;
+    padding-bottom : 100px;
+      padding-bottom : 6.25rem;
+  }
+  
+  
+  .ticket_select_area {
+    width : 100%;
+    height : auto;
+    margin-top : 20px;
+      margin-top : 1.25rem;
+  }
+  
+  
+  .ticket_select_area > dl {
+    position : relative;
+    float : left;
+    width : 30%;
+    height : 250px;
+      height : 15.625rem;
+    margin-right : 5%;
+    border: 1px solid #DCDEED;
+      border: var(--border-card);
+    border-radius: 5px;
+      border-radius: 0.3125rem;
+    box-sizing: border-box;
+    transition: all 300ms ease;
+  }
+  
+  
+  .ticket_select_area > dl:hover,
+  .ticket_select_area > dl:focus {
+    transform: scale(1.05, 1.05);
+    box-shadow: 3px 3px 3px #BEC0D2;
+      box-shadow: var(--box-shadow);
+  }
+  
+  
+  .ticket_select_area > dl:last-child {
+    margin-right : 0;
+  }
+  
+  
+  .ticket_select_area > dl > dt {
+    position : absolute;
+    top : 16px; left : 16px;
+      top : 1rem; left :  1rem;
+    margin : 10px;
+      margin : 0.625rem;
+    font-size : 18px;
+      font-size : 1.125rem;
+    font-weight: 700;
+  }
+  
+  
+  .use_remark {
+    position : absolute;
+    top : 60px; left : 20px;
+      top : 3.75rem; left : 1.5rem;
+    height : 30px;  padding : 5px;
+      height : 1.875rem;  padding : 0.3125rem;
+    font-size : 12px;
+      font-size : 0.75rem;
+    box-sizing: border-box;
+    border-radius: 5px;
+      border-radius : 0.3125rem;
+    border : 1px solid #DCDEED;
+      border : var(--border-card);;
+    text-align: center;
+  }
+  
+  
+  .count_of_ticket {
+    position : absolute;
+    bottom : 24px;  left : 24px;
+      bottom : 1.5rem;  left : 1.5rem;
+  }
+  
+  
+  .count_of_ticket select {
+    width : 70px;
+    height : 30px;
+    text-indent: 0.2rem;
+  } /* 수량 버튼 사이즈 확대*/
+  
+  
+  .defult_amount {
+    position : absolute;
+    bottom : 76px;  right : 24px;
+      bottom : 4.75rem;  right : 1.5rem;
+    color : #5A5C71;
+      color : var(--color-gray);
+    font-size : 14px;
+      font-size : 0.875rem;
+  }
+  
+  
+  .refund_remark {
+    position : absolute;
+    bottom : 52px;  right : 20px;
+      bottom : 3.25rem;  right : 1.25rem;
+    padding : 3px;  padding : 0.1875rem;
+    font-size : 14px;
+      font-size : 0.75rem;
+    font-weight: 700;
+  }
+  
+  
+  .discount_percent {
+    position : absolute;
+    bottom : 24px;  right : 1128px;
+      bottom : 1.5rem;  right : 8rem;
+    font-weight: 700;
+    font-size : 13px;
+      font-size : 0.8125rem;
+  }
+  
+  
+  .amount {
+    position : absolute;
+    bottom : 24px;  right : 24px;
+      bottom : 1.5rem;  right : 1.5rem;
+    font-size : 22px;
+      font-size : 1.375rem;
+    font-weight: 700;
+    color : #ff3478;
+      color : var(--color-pink);
+  }
+  
+  
+  .reservation_button {
+    width: 70%;
+    height : 80px;
+      height : 5rem;
+    margin: auto;
+    margin-top : 50px;
+      margin-top : 3.125rem;
+  }
+  
+  
+  .reservation_button button {
+    width : 100%;
+    height : 100%;
+    border : 0.125rem solid #ff3478;
+      border : 2px solid var(--color-pink);
+    box-sizing: border-box;
+    border-radius: 10px;
+      border-radius: 0.625rem;
+    color : #ff3478;
+      color : var(--color-pink);
+    font-size : 20px;
+      font-size : 1.25rem;
+    font-weight: 700;
+    transition : all 500ms ease;
+    background-color : transparent;
+    cursor: pointer;
+  }
+  
+  
+  .reservation_button button:hover,
+  .reservation_button button:focus {
+    transform: scale(1.03);
+    background-color : #ff3478;
+      background-color : var(--color-pink);
+    color : #fff;
+      color : var(--color-white);
+    font-weight: 700;
+    box-shadow: 3px 3px 3px #BEC0D2;
+      box-shadow: var(--box-shadow);
+  }
+  
+  
+  .use_info_area {
+    width : 100%;
+    height : auto;
+    line-height: 1.5;
+    padding-top : 100px;  padding-bottom : 200px;
+    padding-top : 6.25rem;  padding-bottom : 12.5rem;
+  }
+  
+  
+  .use_info_subdivide {
+    width : 100%;
+    height : auto;
+    padding : 10px;
+      padding : 0.625rem;
+    margin : 50px 0;
+      margin : 3.125rem 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .use_info_subdivide:first-of-type {
+    margin-top : 20px;
+      margin-top : 1.25rem;
+  }
+  
+  
+  .use_sub_title {
+    font-weight: 700;
+    margin-bottom : 10px;
+      margin-bottom : 0.625rem;
+  }
+  
+  
+  .use_info_subdivide > dd {
+    width : 100%;
+    height : auto;
+    padding-left : 10px;
+      padding-left : 0.625rem;
+  }
+  
+  
+  .use_info_area:last-child dd {
+    padding-left : 10px;
+      padding-left : 0.625rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*-------------------------------------------------------------------------*/
+  /* refund_info_area */
+  .refund_info_area {
+    /* display : none;  */
+    width : 100%;
+    height : auto;
+    line-height: 1.5;
+    padding-bottom : 200px;
+      padding-bottom : 12.5rem;
+  }
+  
+  
+  .refund_info_area > div {
+    margin-bottom: 100px;
+      margin-bottom: 6.25rem;
+  }
+  
+  
+  .refund_info_area h3 {
+    margin-bottom : 20px;
+     margin-bottom : 1.25rem;
+  }
+  
+  
+  .refund_info_area li {
+    padding-left : 10px;
+     padding-left : 0.625rem;
+  }
+  
+  
+  .refund_area {
+    width : 100%;
+    height: auto;
+  }
+  
+  
+  .seller_info_area > dl {
+    width : 90%;  height : auto;
+    margin : auto;
+    box-sizing: border-box;
+    border-top : 1px solid #9FA1B4;
+    border-bottom : 1px solid #9FA1B4;
+      border-top : var(--border-gray);
+      border-bottom : var(--border-gray);
+  }
+  
+  
+  .seller_info_area dt {
+    float : left;
+    width : 30%;
+    padding : 10px; padding-left : 20px;
+      padding : 0.625rem; padding-left : 1.25rem;
+    box-sizing: border-box;
+    border-bottom : 1px solid #9FA1B4;
+      border-bottom : var(--border-gray);
+    background-color : #FFD1E1;
+      background-color : var(--color-bright-pink);
+  }
+  
+  
+  .seller_info_area dd {
+    float : left;
+    width : 70%;
+    padding: 10px;  padding-left: 20px;
+      padding: 0.625rem;  padding-left: 1.25rem;
+    box-sizing: border-box;
+    border-bottom : 1px solid #9FA1B4;
+      border-bottom : var(--border-gray);
+  }
+  
+  
+  .seller_info_area dt:last-of-type,
+  .seller_info_area dd:last-of-type {
+    border-bottom : 0;
+  }
+
+}

@@ -1,0 +1,25 @@
+/* css/base/base/quickButton/b_quickButton_1280.css */
+
+
+
+@media screen and (min-width:1280px) {
+  
+#quickButtonDown,
+#quickButtonUp {
+  right : 50px; right : 3.125rem;
+  width : 40px; height : 40px;
+    width : 2.5rem; height : 2.5rem;
+}
+
+
+#quickButtonDown {
+  bottom : 50px; bottom : 3.125rem;
+}
+
+
+#quickButtonUp {
+  bottom : 100px; bottom : 6.25rem;
+}
+
+}
+

@@ -1,0 +1,35 @@
+/* css/base/base/header/b_header_768.css */
+
+
+
+@media screen and (min-width:768px) and (max-width:1279px) {
+  #header {
+    margin-top : 40px;
+    height : 100px;
+  }
+  
+  
+  #main_logo > a {
+    margin-left : 50px;
+     /* margin-left : 15rem; */
+  }
+  
+  
+  #header input {
+    width: 250px;
+      /* width: 25rem; */
+    margin-left : 70px;
+      /* margin-left : 22.5rem; */
+  }
+
+
+  .user_link {
+    margin-top : 25px;
+      margin-top : 1.5625rem;
+    margin-right : 50px;
+      /* margin-right : 16.875rem; */
+  }
+
+
+}
+

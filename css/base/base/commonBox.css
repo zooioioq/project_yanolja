@@ -1,140 +1,17 @@
 /* css/base/base/commonBox.css */
 
 
+@import url("./commonBox/z_commonBox_basic.css");
 
-
-
-#wrap {
-  width : 1920px;
-    width : 120rem;
-  height : auto;
-  background-color : #f6f6f6;
-    background-color : var(--color-bg-white);
-  margin : auto;
-}
-
-
-h2 {
-  padding : 20px;
-    padding : 1.25rem;
-  box-sizing: border-box;
-}
-
-
-#quickButton > h2,
-#nav > h2 {
-  padding : 0;
-}
+@import url("./commonBox/a_commonBox_320.css");
+@import url("./commonBox/b_commonBox_768.css");
+@import url("./commonBox/c_commonBox_1280.css");
+@import url("./commonBox/d_commonBox_1600.css");
+@import url("./commonBox/e_commonBox_1920.css");
 
 
 
 
-.contain {
-  width : 100%; height : auto;
-  min-height : 250px;
-   min-height : 15.625rem;
-  box-sizing: border-box;
-  padding : 40px 250px 70px;
-    padding : 2.5rem 15.625rem 4.375rem;
-  margin-bottom : 250px;
-    margin-bottom : 15.625rem;
-  background-color : #fff;
-    background-color : var(--color-white);
-}
-
-
-
-
-/*-------------------------------#viewBox*/
-#viewBox {
-  width : 100%; height : auto;
-  min-height : 600px;
-    min-height : 37.5rem;
-  margin-top : 50px;
-    margin-top : 3.125rem;
-  padding : 25px 350px;
-    padding : 1.5625rem 21.875rem;
-  box-sizing: border-box;
-  background-color: #fff;
-    background-color : var(--color-white);
-}
-
-
-#view_img {
-  width : 1200px; height : 550px;
-    width : 75rem; height : 34.375rem;
-  box-sizing: border-box;
-}
-
-
-.view_img_area {
-  width : 100%; height : 100%;
-}
-
-
-.view_img_area > li {
-  float : right;
-  width : 280px;  height : 173px;
-    width : 17.5rem; height : 10.8125rem;
-  margin-bottom: 15px;
-    margin-bottom : 0.9375rem;
-}
-
-
-.view_img_area > li:nth-child(1) {
-  float : left;
-  width : 900px;
-    width : 56.25rem;
-  height : 100%;
-}
-
-
-.view_img_area > li:nth-child(1),
-.view_img_area > li:nth-child(4) {
-  margin-bottom: 0;
-}
-
-
-.view_img_area > li > div {
-  width : 100%;
-  height : 100%;
-  transition : all 500ms ease;
-  background-repeat: no-repeat;
-  background-size : cover;
-  background-position: 50% 50%;
-}
-
-
-.view_img_area > li:hover > div {
-  transform: scale(1.03);
-  box-shadow: 3px 3px 3px #BEC0D2;
-    box-shadow: var(--box-shadow);
-}
-
-
-#view_info {
-  width : 100%;
-  height : auto;
-}
-
-
-#view_info > dl,
-#view_info > dl > dt {
-  width : 100%;
-  height : auto;
-}
-
-
-#view_info h2 {
-  font-size : 32px;
-    font-size : 2rem;
-}
-
-#view_info dd {
-  padding-left : 20px;
-    padding-left : 1.25rem;
-  line-height: 2;
-}
 
 
 

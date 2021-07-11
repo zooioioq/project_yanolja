@@ -78,5 +78,7 @@
 
 
   // blur 되면 content는 그대로 있어도 infoTypeLi에 있던 .act가 사라짐. 안사라지게 할 수 있는지?
+  // focus / blur / mouseenter / mouseleave 등등 전부 따로 설정하면 가능~!~!~!~!~!~!
+  // + 마우스 엔터하면 내부로 들어가서 포커스 되도록
 
 })(jQuery);

@@ -1,0 +1,40 @@
+/* css/src/domestic_hotel/domestic_marriott/viewBox/z_viewBox_basic.css */
+
+
+
+.view_img_area > li:nth-child(1) > div {
+  background-image: url("../../../../../img/img/domestic_hotel/domestic_marriott/view_img/view_img_01.jpg");
+}
+
+.view_img_area > li:nth-child(2) > div {
+  background-image: url("../../../../../img/img/domestic_hotel/domestic_marriott/view_img/view_img_02.jpg");
+}
+
+.view_img_area > li:nth-child(3) > div {
+  background-image: url("../../../../../img/img/domestic_hotel/domestic_marriott/view_img/view_img_03.jpg");
+}
+
+.view_img_area > li:nth-child(4) > div {
+  background-image: url("../../../../../img/img/domestic_hotel/domestic_marriott/view_img/view_img_04.jpg");
+}
+
+
+
+#view_info dd {
+  font-size : 18px;
+    font-size : 1.125rem;
+}
+
+
+#view_info dd:first-child {
+  color :  #5A5C71;
+    color : var(--color-gray);
+}
+
+
+#view_info dd:last-child {
+  color :  #ff3478;
+    color : var(--color-pink);
+  font-weight: 700;
+  /* 명도대비 3.5 : 1 ---> font-size : 18px + Bold로 설정 */
+}

@@ -1,0 +1,325 @@
+/* css/src/main/articleBox/d_information_1600.css */
+
+
+
+
+@media screen and (min-width:1600px) and (max-width:1919px) {
+  
+/* ----------------------------pupularSearchBox */
+
+.pop_list > li {
+  position : relative;
+  float : left;
+  width : 300px;  height : 180px;
+    width : 18.75rem; height : 11.25rem;
+  margin-left : 30px;
+    margin-left : 1.875rem;
+}
+
+
+.pop_list a {
+  display: block;
+  width : 100%; height : 100%;
+  overflow : hidden;
+}
+
+
+.pop_list div {
+  width : 100%; height : 100%;
+  background-size : cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition : all 500ms ease;
+}
+
+
+.pop_list span {
+  position : absolute;
+  z-index : 100;
+  top : 0; left : 0;
+    /* top : 4.5rem; */
+  padding : 7px;
+    padding : 0.4375rem;
+  font-size : 16px;
+    font-size : 1rem;
+  color : #fff;
+    color : var(--color-white);
+  background-color : #5A5C71;
+    background-color : var(--color-gray);
+}
+
+
+.pop_list div:hover { transform: scale(1.1, 1.1); }
+
+
+
+
+
+
+
+
+
+/* --------------------------------- recommend_box */
+
+#recommendBox > p {
+  padding : 20px;
+    padding : 1.25rem;
+  font-size : 24px;
+    font-size: 1.5em;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+
+.recom_location_list {
+  width  : 1320px;  height : 50px;
+   width : 82.5rem; height : 3.125rem;
+  margin : 20px; margin-top : 0;
+    margin : 1.25rem; margin-top : 0;
+  border-top : 1px solid #9FA1B4;
+    border-top : var(--border-gray);
+  border-bottom : 1px solid #9FA1B4;
+    border-bottom : var(--border-gray);
+}
+
+
+.recom_location_list > li {
+  float : left;
+  width : 25%;  height : 100%;
+  padding : 10px;
+    padding: 0.625rem;
+  box-sizing: border-box;
+  transition : all 300ms ease;
+}
+
+
+.recom_location_list > li > a {
+  display: block;
+  width : 100%; height : 100%;
+  font-size : 16px;
+    font-size : 1rem;
+  text-align: center;
+}
+
+
+.recom_location_list > li:hover {
+  font-weight : 700;
+  background-color : #FFD1E1;
+    background-color : var(--color-bright-pink);
+}
+
+
+.recom_location_list > li:first-child {
+  background-color : #FFD1E1;
+    background-color : var(--color-bright-pink);
+}
+
+
+.recom_location_list > li:last-child {
+  margin-right : 0;
+}
+
+
+.recom_hotel_list > li {
+  float : left;
+  width : 340px;
+    width : 21.25rem;
+  height : auto;
+  box-sizing: border-box;
+  padding : 20px;
+    padding : 1.25rem;
+}
+
+
+.recom_img_wrap {
+  overflow: hidden;
+  width : 300px;  height : 190px;
+    width : 18.75rem;  height : 11.875rem;
+}
+
+
+.recom_img {
+  width : 100%; height: 100%;
+  transition : all 500ms ease;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size : cover; 
+}
+
+
+.recom_hotel_list > li > a {
+  width : 300px;  height : 190px;
+    width : 18.75rem;  height : 11.875rem;
+}
+
+
+.recom_hotel_list > li > a:hover .recom_img {  
+  transform: scale(1.1, 1.1);
+}
+
+
+.recom_hotel_list dl {
+  width: 100%; height : 100%;
+}
+
+.recom_title {
+  display: block;
+  margin-top : 16px;
+    margin-top : 1rem;
+  font-size : 16px;
+    font-size : 1rem;
+}
+
+
+.recom_price {
+  display: block;
+  margin-top : 16px;
+    margin-top : 1rem;
+  font-size : 18px;
+    font-size : 1.125rem;
+  font-weight: 700;
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------ art_view */
+#artViewBox {
+  width : 100%; height : auto; 
+  margin-bottom : 250px;
+    margin-bottom : 15.625rem;
+}
+
+
+.art_view_area {
+  width : 1920px; height : 300px;
+  width : 120rem; height : 18.75rem;
+}
+
+
+.art_view_area > a {
+  display : block;
+  width : 100%;
+  height : 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+
+#artViewBox > div:nth-child(2) { display : none; }
+
+
+
+
+
+
+
+
+
+/* --------------------------------event_box */
+
+#eventBox {
+  margin-bottom : 0;
+  padding-bottom : 300px;
+    padding-bottom : 18.75rem;
+}
+
+
+.event_area {
+  margin-left : 20px;
+    margin-left : 1.25rem;
+}
+
+
+.event_area > li {
+  position : relative;
+  float : left;
+  width : 600px;
+    width : 37.5rem;
+  height : auto;
+  margin-right : 100px; margin-bottom : 50px;
+    margin-right : 6.25rem; margin-bottom : 3.125rem;
+}
+
+
+.event_area > li > a {
+  display : block;
+  width : 100%;
+  height : 338.5px;
+    height : 21.15625rem;
+  overflow: hidden;
+}
+
+
+.event_area div {
+  width : 100%;
+  height : 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition : all 500ms ease;
+}
+
+
+.event_area > li> a:hover > div {
+  transform: scale(1.1);
+}
+
+
+.event_text {
+  position : absolute;
+  bottom : 30px;  left : 20px;
+    bottom : 1.875rem;  left : 1.25rem;
+  width : auto; height : auto;
+  display: inline-block;
+}
+
+
+.event_coupon {
+  width : 90px; height : 40px;
+    width : 5.625rem; height : 2.5rem;
+  padding : 7px;
+    padding : 0.4375rem;
+  border-radius: 20px;
+    border-radius : 1.25rem;
+  margin-bottom: 10px;
+    margin-bottom : 0.625rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: 700;
+  font-size : 18px;
+    font-size : 1.125rem; 
+  /* 명도대비 4.3 : 1 이므로, 18px + Bold 설정함 */
+  color : #fff;
+    color : var(--color-white);
+  background-color :  #9A5ED2;
+    background-color : var(--color-purple);
+}
+
+
+.event_title {
+  margin-bottom : 5px;
+    margin-bottom : 0.3125rem;
+  color : #fff;
+    color : var(--color-white);
+  font-size : 20px;
+    font-size : 1.25rem;
+  font-weight: 700;
+}
+
+
+.event_narration {
+  font-size : 16px;
+    font-size : 1rem;
+  color : #fff;
+    color : var(--color-white);
+}
+}

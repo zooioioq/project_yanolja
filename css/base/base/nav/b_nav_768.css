@@ -1,0 +1,176 @@
+/* css/base/base/nav/b_nav_768.css */
+
+
+
+@media screen and (min-width:768px) and (max-width:1279px) {
+  
+#nav {
+  width : 100%;
+    /* width : 2.5rem; */
+  height : 40px;
+}
+
+
+
+.nav_i_box {
+  top : 10px;
+    /* top : 25rem; */
+  left : 50%;
+  width : 20px;
+    /* width : 2.5rem; */
+  height : 20px;
+    /* height : 2.5rem; */
+}
+
+
+.nav_i_box > i {
+  transform: rotate(90deg);
+}
+
+
+.nav_detail {
+  display : none;
+  position : absolute;
+  top : 120px;
+    top : 7.5rem;
+  left : 20px;
+    left : 1.25rem;
+  transition : all 500ms ease;
+  transition-delay: 300ms;
+}
+
+
+.nav_detail li {
+  width : 80px;
+    width : 5rem;
+  height : 100px;
+    height : 6.25rem;
+  margin-bottom: 50px;
+    margin-bottom : 3.125rem;
+  text-align: center;
+}
+
+
+.nav_detail i {
+  display: block;
+  width : 40px;
+   width : 2.5rem;
+  height : 40px;
+   height : 2.5rem;
+  margin : auto;
+  margin-bottom : 10px;
+    margin-bottom : 0.625rem;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+}
+
+
+.nav_detail dl {
+  position : relative;
+  width :  200px;
+    width : 12.5rem;
+}
+
+
+.nav_detail dt {
+  float : left;
+  width : 80px;
+   width : 5rem;
+  height: 20px;
+   height: 1.25rem;
+  color : #fff;
+    color : var(--color-white);
+  transition : all 200ms ease;
+}
+
+
+.nav_detail .nav_dd {
+  position : absolute;
+  left : 100px;
+    left : 6.25rem;
+  font-size : 14px;
+    font-size : 0.875rem;
+  text-align: left;
+  color : #fff;
+    color : var(--color-white);
+  transition : all 200ms ease;
+}
+
+
+.nav_detail .nav_dd a {
+  transition : all 200ms ease;
+}
+
+
+.nav_detail .kangwon { top :-50px;}
+.nav_detail .busan { top : -25px;}
+.nav_detail .jeju { top : 0; }
+
+.nav_detail .motel { top : -75px;}
+.nav_detail .hotel { top : -50px;}
+.nav_detail .condo { top : -25px;}
+.nav_detail .camping { top : 0;}
+.nav_detail .guesthouse { top : 25px;}
+
+.nav_detail .leisure { top : -40px;}
+.nav_detail .brand { top : -15px;}
+
+.nav_detail .ktx { top : -50px;}
+.nav_detail .rentacar { top : -25px;}
+.nav_detail .airline { top : 0;}
+
+.nav_detail .global { top : -25px;}
+
+
+
+
+
+
+
+
+/* -----nav:hover */
+
+#nav:hover,
+#nav:focus {
+  position:fixed;
+  top : 0;
+  width : 240px;
+    width : 15rem;
+  height : 100%;
+  background: #5A5C71;
+   background-color : var(--color-gray);
+} 
+
+
+.nav_detail dt:hover {
+  transform : scale(1.1);
+  font-weight: 700;
+}
+
+
+#nav:hover .fa-chevron-right,
+#nav:focus .fa-chevron-right {
+  display: none;
+}
+
+
+#nav:hover .nav_detail,
+#nav:focus .nav_detail {
+  display: block;
+}
+
+
+.nav_detail .nav_dd:hover {
+  transform : scale(1.1);
+  font-weight: 700;
+}
+
+
+.nav_detail .nav_dd a:focus {
+  font-size : 15.4px;
+    font-size : 0.9625rem;
+  font-weight: 700;
+}
+}
+

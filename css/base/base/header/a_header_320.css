@@ -1,0 +1,74 @@
+/* css/base/base/header/a_header_320.css */
+
+
+
+@media screen and (min-width:320px) and (max-width:767px) {
+  #header {
+    margin-top : 30px;
+    width : auto;
+    height : 60px;
+  }
+  
+  
+  #main_logo > a {
+    float : left;
+    width : 80px;
+      /* width : 9.375rem; */
+    height : 40px;
+      /* height : 3.125rem; */
+    margin-top : 20px;
+      /* margin-top : 1.5625rem; */
+    margin-left : 20px;
+  }
+  
+  
+  #header > form {
+    width : auto;
+    display: inline-block;
+  }
+  
+
+  #header input {
+    display: none;
+    width: 50px;
+      /* width: 25rem; */
+    height : 30px;
+      /* height : 3.125rem; */
+    margin-top : 10px;
+      /* margin-top : 1.375rem; */
+    margin-left : 80px;
+      /* margin-left : 22.5rem; */
+  }
+
+  
+  .user_link {
+    margin-top : 15px;
+      /* margin-top : 1.5625rem; */
+    margin-right : 20px;
+      /* margin-right : 16.875rem; */
+  }
+  
+  
+  .user_link > a {
+    width : 25px;
+      /* width : 2.1875rem; */
+    height : 25px;
+      /* height : 2.1875rem; */
+    background-size : 90%;
+  }
+  
+  
+  
+  .user_link > a:nth-child(1)::after { 
+    left : -80px;   
+  }
+  
+  
+  .user_link > a:nth-child(2)::after { 
+    left : 35px;   
+    content: "로그인";
+  }
+  
+  
+}
+

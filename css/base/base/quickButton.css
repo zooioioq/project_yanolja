@@ -1,58 +1,6 @@
-/* css/base/common/quickButton.css */
+/* css/base/base/quickButton.css */
 
 
-
-
-#quickButtonDown,
-#quickButtonUp {
-  position : fixed;
-  z-index: 100;
-  right : 50px; right : 3.125rem;
-  width : 40px; height : 40px;
-    width : 2.5rem; height : 2.5rem;
-}
-
-
-#quickButtonDown {
-  bottom : 50px; bottom : 3.125rem;
-}
-
-
-#quickButtonUp {
-  bottom : 100px; bottom : 6.25rem;
-}
-
-#quickButtonDown > a,
-#quickButtonUp > a {
-  display: block;
-  width : 100%; height : 100%;
-  border-radius: 40px;
-    border-radius: 2.5rem;
-  background-color : #ff3478;
-    background-color : var(--color-pink);
-  transition : all 400ms ease;
-}
-
-#quickButtonDown i,
-#quickButtonUp i {
-  display: block;
-  width : 100%; height : 100%;
-  background-image: url("../../../img/icon/aside/aside_arrow.svg");
-  background-size : 50%;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;  
-}
-
-#quickButtonDown i {
-  transform : rotate(180deg);
-}
-
-
-#quickButtonDown a:hover,
-#quickButtonUp a:hover,
-#quickButtonDown a:focus,
-#quickButtonUp a:focus {
-  transform : scale(1.2, 1.2);
-  box-shadow: 3px 3px 3px #BEC0D2;
-    box-shadow: var(--box-shadow);
-}
+@import url("./quickButton/z_quickButton_basic.css");
+@import url("./quickButton/a_quickButton_320.css");
+@import url("./quickButton/b_quickButton_1280.css");

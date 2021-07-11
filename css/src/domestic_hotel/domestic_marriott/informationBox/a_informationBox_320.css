@@ -1,0 +1,365 @@
+/* css/src/domestic_hotel/domestic_marriott/informationBox/a_information_320.css */
+
+
+
+@media screen and (min-width:320px) and (max-width:767px) {
+
+  #informationBox {
+    margin-top : 15px;
+    padding : 25px 20px;
+      /* min-height : 50rem; */
+      /* margin-top : 3.125rem; */
+      /* padding : 1.5625rem 21.875rem; */
+  }
+  
+  
+  
+  .info_type button {
+    padding : 10px;
+      /* padding : 0.75rem; */
+    font-size : 14px;
+      /* font-size : 1rem; */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* reservation_area */
+
+  
+  .room_type_select_area > a {
+    position : relative;
+    /* float : left; */
+    width : 100%;  height : 450px; 
+    margin-right : 0;
+    margin-bottom : 40px;
+      margin-bottom : 2.5rem;
+  }
+  
+
+  .room_type_select_area .room_type_title {
+    top : 220px;  left : 20px;
+      /* top : 0.9375rem;  left : 20.625rem; */
+  }
+  
+  
+  .room_type_select_area .room_type_img {
+    left : 0; right : 0; top : 10px;
+    margin : auto;
+    width : 85%;
+    height : 200px;
+  }
+  
+  
+  .room_type_select_area .title_remark {
+    top : 250px;  left : 20px;
+      /* top : 2.8125rem;  left : 20.625rem; */
+    height : 30px;  padding : 2px;
+      height : 1.875rem;  padding : 0.125rem; 
+  }
+  
+  
+  .room_type_select_area .count_of_person {
+    top : 280px;  left : 20px;
+      /* top : 4.375rem;  left : 20.625rem; */
+  }
+  
+  
+  .room_type_select_area .using_time {
+    top : 300px;  left : 20px;
+      /* top : 5.9375rem;  left : 20.625rem; */
+ }
+    
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* basic_info_area */
+
+  
+  
+  
+  
+  
+
+  
+  
+  /* service_info_area */
+  .service_info_area {
+    width : 100%;
+    height : auto;
+    margin-bottom : 100px;  
+      margin-bottom : 6.25rem;
+  }
+  
+  .service_list_wrap {
+    width : 100%; height : auto;
+    overflow-x: scroll;
+  }
+
+
+  .service_list {
+    width : 1220px;
+    height : 130px;
+    padding : 20px;
+      /* padding : 1.5625rem; */
+  }
+  
+  
+  .service_list > li {
+    float : left;
+    width : 98px;
+      width : 6.125rem;
+    height : 100%;
+    margin-right : 20px;
+     margin-right : 1.25rem;
+    line-height : 40px;
+     line-height : 2.5rem;
+    text-align: center;
+    font-size : 15px;
+     font-size : 0.9375rem;
+    transition : all 500ms ease;
+  }
+  
+
+  
+  .service_list i {
+    font-size : 50px;
+      /* font-size : 4.375rem; */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*seller_info_area*/
+  .seller_info_area > dl {
+    width : 100%;
+  }
+  
+  
+  .seller_info_area dt {
+    float : left;
+    width : 35%;  height : 100px;
+    padding : 10px;  padding-left : 20px;
+      padding : 0.625rem;  padding-left : 1.25rem;
+
+  }
+  
+  
+  .seller_info_area dd {
+    float : left;
+    width : 65%; height : 100px;
+    padding: 0.625rem;  padding-left: 1.25rem;
+      padding: 10px;  padding-left: 20px;
+    overflow: auto;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* review_area */
+
+  
+  .review_title > i { 
+    font-size : 2rem; 
+  }
+  
+  
+
+  .review_info {
+    position : relative;
+    float : none;
+    width : 100%; height : auto;
+      /* width : 63.125rem; height : 2.1875rem; */
+  }
+  
+  
+  .review_info dt {
+    float : left;
+    margin-top : 15px;
+  }
+  
+
+  .review_info dd {
+    position : absolute;
+    bottom : -180px; right : 10px;
+    background-color : #fff;
+      /* bottom : -2.5rem; right : 0.625rem; */
+    float : left;
+  }
+  
+
+  
+  .review_point {
+    margin-top : 50px;
+      /* margin-top : 4.375rem; */
+    margin-bottom : 50px;    
+      /* margin-bottom : 6.25rem; */
+  }
+  
+  
+  .review_point > div {
+    float : left;
+    width : 100%;
+    height : auto;
+    margin : 0 20px;
+    box-sizing: border-box;
+    margin-right : 0;
+    padding-right : 0;
+    border-right : 0;
+  }
+  
+  
+  
+  .review_point > div > dt {
+    float : left;
+    width : 50%;  
+  }
+  
+  
+  .review_point > div > dd {
+    float : right;
+    width : 50%;
+  }
+  
+
+
+
+
+
+  /*review-card*/
+  
+  .review_card {
+    float: left;
+    width :100%;
+    height: auto;
+    min-height :100px;  padding : 20px;
+    box-sizing: border-box;
+    margin-bottom : 50px;
+      margin-bottom : 3.125rem;
+    margin-right : 0;
+    border-radius: 5px;
+      border-radius: 0.3125rem;
+    border : 1px solid #DCDEED;
+      border : var(--border-card);
+      transition : all 500ms ease;
+    }
+    
+    
+  .review_card:hover {
+    box-shadow: 3px 3px 3px #BEC0D2;
+       box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+  }
+  
+  
+  
+  .review_summary {
+    position :static;
+    width : 100%;
+    height : 100%;
+    padding-bottom : 20px;
+      padding-bottom : 1.25rem;
+    margin-bottom : 30px;
+      margin-bottom : 1.875rem;
+    border-bottom : 1px solid #9FA1B4;
+      border-bottom : var(--border-gray);
+  }
+  
+  .review_summary .icon_area {
+    float : left;
+    width : auto; height : auto;
+    margin-right : 10px;
+  }
+  
+  .fa-smile,
+  .fa-angry,
+  .fa-meh {
+    font-size : 43.2px;
+      font-size : 2.7rem;
+    color : #ff3478;
+      color : var(--color-pink);
+  }
+  
+  
+  .star > li { float : left;}
+  
+  
+  .star_area {
+    position :static;
+    float: left;
+    width : auto;
+    height : auto; 
+    margin-top : 10px;
+    margin-left : 0;
+  }
+  
+  
+  .star {
+    width : 100%;
+    height : auto;
+    margin : auto;
+  }
+  
+  
+  .review_user_info {
+    margin-top : 10px;
+    width : 100%;
+    height : auto;
+     margin-top : 0.625rem;
+     /* width : 29.0625rem; */
+     /* height : 3.125rem; */
+  }
+  
+  
+  .review_user_info li {
+    float : left;
+    margin-right : 10px;
+    padding-right : 10px;
+    font-size : 12px;
+    border-right : 1px solid #9FA1B4;
+      /* margin-right : 1.25rem;
+      padding-right : 1.25rem;
+      font-size : 0.875rem;
+      border-right : var(--border-gray); */
+    font-weight: 700;
+  }
+  
+  
+  
+  .review_user_info li:last-child {
+    float : right;
+    margin-right : 0;
+    padding-right : 0;
+    border-right : 0;
+  }
+  

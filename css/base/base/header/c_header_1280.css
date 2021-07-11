@@ -1,0 +1,48 @@
+/* css/base/base/header/c_header_1280.css */
+
+
+
+@media screen and (min-width:1280px) and (max-width:1599px) {
+  #header {
+    height : 70px;
+      /* height : 6.25rem; */
+  }
+  
+  
+  #main_logo > a {
+    width : 140px;
+      /* width : 9.375rem; */
+    height : 40px;
+      /* height : 3.125rem; */
+    margin-top : 15px;
+      /* margin-top : 1.5625rem; */
+    margin-left : 100px;
+     /* margin-left : 15rem; */
+  }
+  
+
+  #header input {
+    width: 300px;
+      /* width: 25rem; */
+    height : 40px;
+      /* height : 3.125rem; */
+    margin-top : 15px;
+      /* margin-top : 1.375rem; */
+    margin-left : 250px;
+      /* margin-left : 22.5rem; */
+  }
+  
+
+  
+  
+  .user_link {
+    margin-top : 15px;
+      /* margin-top : 1.5625rem; */
+    margin-right : 100px;
+      /* margin-right : 16.875rem; */
+  }
+
+  
+
+}
+

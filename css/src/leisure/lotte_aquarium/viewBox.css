@@ -3,6 +3,8 @@
 
 
 
+/* 전체적인 레이아웃은 commonBox에서 처리하였기 때문에 해당 파일은 반응형으로 분리 불필요 */
+
 
 .view_img_area > li:nth-child(1) > div {background-image : url("../../../../img/img/leisure/lotte_aquarium/view_img_area/view_img_01.jpg");}
 
@@ -23,3 +25,6 @@
   color : #0152CC;
     color : var(--color-blue);
 }
+
+
+

@@ -1,0 +1,27 @@
+/* css/src/domestic_hotel/domestic_marriott/viewBox/e_viewBox_1920.css */
+
+
+
+@media screen and (min-width:1920px) {
+
+
+#view_info dd {
+  font-size : 18px;
+    font-size : 1.125rem;
+}
+
+
+#view_info dd:first-child {
+  color :  #5A5C71;
+    color : var(--color-gray);
+}
+
+
+#view_info dd:last-child {
+  color :  #ff3478;
+    color : var(--color-pink);
+  font-weight: 700;
+  /* 명도대비 3.5 : 1 ---> font-size : 18px + Bold로 설정 */
+}
+  
+}

@@ -5,6 +5,7 @@
 
 
 #header {
+  position : relative;
   width : 100%;
   height : 100px;
     height : 6.25rem;
@@ -30,21 +31,18 @@
 
 
 #header > form {
-  width : auto;
-  display: inline-block;
+  position : absolute;
+  left:0; right:0; top:0; bottom:0;
+  margin : auto;
+  width : 30%; 
+  height : 50px;
+    height : 3.125rem;
 }
 
 
 #header input {
-  width: 400px;
-    width: 25rem;
-  height : 50px;
-    height : 3.125rem;
+  width: 100%;  height : 100%;
   border : 0;
-  margin-top : 22px;
-    margin-top : 1.375rem;
-  margin-left : 360px;
-    margin-left : 22.5rem;
   border : 2px solid  #ff3478;
     border : 0.125rem solid var(--color-pink);
   font-size : 24px;
@@ -68,8 +66,7 @@
 .user_link {
   position : relative;
   float : right;
-  width : auto;
-  height : auto;
+  width : auto; height : auto;
   margin-top : 25px;
     margin-top : 1.5625rem;
   margin-right : 270px;
@@ -79,10 +76,8 @@
 
 .user_link > a {
   display: inline-block;
-  width : 35px;
-    width : 2.1875rem;
-  height : 35px;
-    height : 2.1875rem;
+  width : 35px;   height : 35px;
+    width : 2.1875rem;  height : 2.1875rem;
   padding : 10px;
     padding : 0.625rem;
   margin-left : 10px;
@@ -103,6 +98,7 @@
   position : absolute;
   display: none;
   width : 200px;
+    width : 12.5rem;
   height : auto;
   font-size : 14px;
     font-size : 0.875rem;
@@ -113,8 +109,8 @@
 
 
 .user_link > a:nth-child(1)::after { 
-  bottom : -40px;
-  left : -70px;   
+  bottom : -40px; left : -70px;   
+    bottom : -2.5rem; left : -4.375rem;   
   content: "찜 목록\a로그인 후 이용 가능";
   white-space: pre;
   text-align: center;
@@ -122,8 +118,8 @@
 
 
 .user_link > a:nth-child(2)::after { 
-  bottom : -20px;
-  left : 30px;   
+  bottom : -20px; left : 30px;   
+    bottom : -1.25rem; left : 1.875rem;   
   content: "로그인 바로가기";
 }
 

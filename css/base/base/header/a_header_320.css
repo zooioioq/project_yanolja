@@ -7,53 +7,47 @@
     margin-top : 30px;
     width : auto;
     height : 60px;
+      height : 3.75rem;
   }
   
   
   #main_logo > a {
-    float : left;
     width : 80px;
-      /* width : 9.375rem; */
+      width : 5rem;
     height : 40px;
-      /* height : 3.125rem; */
+      height : 2.5rem;
     margin-top : 20px;
-      /* margin-top : 1.5625rem; */
+      margin-top : 1.25rem;
     margin-left : 20px;
+      margin-left : 1.25rem;
   }
   
   
   #header > form {
-    width : auto;
-    display: inline-block;
+    height : 30px;
+      height : 1.875rem;
   }
-  
+
 
   #header input {
-    display: none;
-    width: 50px;
-      /* width: 25rem; */
-    height : 30px;
-      /* height : 3.125rem; */
-    margin-top : 10px;
-      /* margin-top : 1.375rem; */
-    margin-left : 80px;
-      /* margin-left : 22.5rem; */
+    font-size : 16px;
+      font-size : 1rem;
   }
 
   
   .user_link {
     margin-top : 15px;
-      /* margin-top : 1.5625rem; */
+      margin-top : 0.9375rem;
     margin-right : 20px;
-      /* margin-right : 16.875rem; */
+      margin-right : 1.25rem;
   }
   
   
   .user_link > a {
     width : 25px;
-      /* width : 2.1875rem; */
+      width : 1.5625rem;
     height : 25px;
-      /* height : 2.1875rem; */
+      height : 1.5625rem;
     background-size : 90%;
   }
   
@@ -61,11 +55,13 @@
   
   .user_link > a:nth-child(1)::after { 
     left : -80px;   
+      left : -5rem;
   }
   
   
   .user_link > a:nth-child(2)::after { 
-    left : 35px;   
+    left : 35px;  
+      left : 2.1875rem; 
     content: "로그인";
   }
   

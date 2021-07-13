@@ -9,13 +9,23 @@
   }
 
     
+
+  h2 {
+    padding : 0;
+    padding-bottom : 20px;
+      padding-bottom : 1.25rem;
+    box-sizing: border-box;
+  }
+
+
+  
   .contain {
     width : 100%; height : auto;
     min-height : 250px;
      min-height : 15.625rem;
     box-sizing: border-box;
-    padding : 40px 250px 70px;
-      padding : 2.5rem 15.625rem 4.375rem;
+    padding : 40px 240px 70px;
+      padding : 2.5rem 15rem 4.375rem;
     margin-bottom : 250px;
       margin-bottom : 15.625rem;
     background-color : #fff;

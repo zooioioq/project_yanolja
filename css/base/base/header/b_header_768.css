@@ -4,30 +4,30 @@
 
 @media screen and (min-width:768px) and (max-width:1279px) {
   #header {
-    margin-top : 40px;
     height : 100px;
+      height : 6.25rem;
+    margin-top : 40px;
+      margin-top : 2.5rem;;
   }
   
   
   #main_logo > a {
     margin-left : 50px;
-     /* margin-left : 15rem; */
+     margin-left : 3.125rem;
   }
   
-  
+
+
   #header input {
-    width: 250px;
-      /* width: 25rem; */
-    margin-left : 70px;
-      /* margin-left : 22.5rem; */
+    font-size : 18px;
+      font-size : 1.125rem;
   }
+
 
 
   .user_link {
-    margin-top : 25px;
-      margin-top : 1.5625rem;
     margin-right : 50px;
-      /* margin-right : 16.875rem; */
+      margin-right : 3.125rem;
   }
 
 

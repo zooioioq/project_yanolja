@@ -12,9 +12,23 @@
   
   
   h2 {
-    padding : 20px;
-      padding : 1.25rem;
+    padding : 0;
+    padding-bottom : 20px;
+      padding-bottom : 1.25rem;
     box-sizing: border-box;
+    font-size: 18px;
+      font-size: 1.125rem;
+  }
+  
+  
+  .contain {
+    min-height : 200px;
+     min-height : 12.5rem;
+    box-sizing: border-box;
+    padding : 20px;
+      padding : 1.25re,;
+    margin-bottom : 150px;
+      margin-bottom : 9.375rem;
   }
   
   
@@ -24,20 +38,6 @@
   }
   
   
-  
-  
-  .contain {
-    width : 100%; height : auto;
-    min-height : 250px;
-     min-height : 15.625rem;
-    box-sizing: border-box;
-    padding : 40px 250px 70px;
-      padding : 2.5rem 15.625rem 4.375rem;
-    margin-bottom : 250px;
-      margin-bottom : 15.625rem;
-    background-color : #fff;
-      background-color : var(--color-white);
-  }
   
   
   

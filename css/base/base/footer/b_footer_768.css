@@ -9,6 +9,8 @@
     height : auto;
     padding : 40px;
       padding : 2.5rem;
+    padding-bottom : 50px;
+      padding-bottom : 3.125rem;
     font-size : 12px;
      font-size : 0.75rem;
   }

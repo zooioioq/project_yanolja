@@ -4,7 +4,6 @@
 
 @media screen and (min-width:320px) and (max-width:767px) {
   #header {
-    margin-top : 30px;
     width : auto;
     height : 60px;
       height : 3.75rem;
@@ -24,8 +23,8 @@
   
   
   #header > form {
-    height : 30px;
-      height : 1.875rem;
+    height : 25px;
+      /* height : 1.875rem; */
   }
 
 

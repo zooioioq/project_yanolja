@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- html/user/login.html -->
+  
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--[if IE]>
+    <script src="../ie/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="../ie/ie9-js/ie9.min.js"></script>
+    <script src="../ie/csspie/PIE.js"></script>
+    <script src="../ie/responsive.min.js"></script>
+  <![endif]-->
+
+   <!-- font_Spoqa Han Sans Neo -->
+   <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+  
+  <!-- fontawesome5 -->
+  <link rel="stylesheet" href="../fonts/fontawesome5/css/all.min.css">
+  
+  <!-- css design -->
+  <link rel="stylesheet" href="../css/base/reset.css">
+  <link rel="stylesheet" href="../css/base/common.css">
+  <link rel="stylesheet" href="../css/base/base.css">
+  <link rel="stylesheet" href="../css/src/login.css">
+
+  <title> 로그인 | 야놀자 </title>
+  
+</head>
+  
+  
+  
+<body >
+
+  <div id="wrap">
+
+
+
+    <header id="header" class="clearfix">
+    </header> <!--................................................... header -->
+
+
+
+    <nav id="nav" tabindex="0">
+    </nav> <!--.............................. nav -->
+
+
+
+    <div id="quickButtonDown">
+    </div> <!--.............................quickButtonDown-->
+
+
+
+    <section id="sectionBox">
+      
+      <div class="login_area">
+        <h2> 로그인 </h2>
+
+        <form action="#" method="POST">
+          <fieldset> 
+            <legend class="blind"> log in </legend>
+
+            <div class="id_insert">
+              <input type="text" id="userId" name="userId" value="" maxlength="15" required placeholder="아이디 또는 이메일" autofocus/>
+              <label for="userId"> 
+                <span class="blind">사용자의 아이디 혹은 이메일을 입력하세요</span> 
+              </label>
+            </div>
+
+            <div class="pw_insert">
+              <input type="password" id="password" name="password" value="" maxlength="15" required placeholder="비밀번호" />
+              <label for="password"> 
+                <span class="blind">사용자의 비밀번호를 입력하세요</span> 
+              </label>
+            </div>
+
+            <div class="log_in_btn">
+              <button type="submit" class="submit_btn"> 로그인 </button>
+            </div>
+          </fieldset>
+        </form>
+
+        <p class="lost_pw">
+          <a href="#"> 비밀번호 찾기 </a>
+       </p>
+
+
+        <div class="join_area">
+          <a href="#" class="join"> 야놀자 회원가입 </a>
+        </div>
+
+      </div> <!--.................ogin_area-->
+    </section> <!--..................sectionBox-->
+
+
+
+    <footer id="footer" class="clearfix">
+    </footer> <!--................................................... footer -->
+
+
+
+    <div id="quickButtonUp">
+    </div> <!--.............................quickButtonUp-->
+
+
+
+  </div> <!--.............................................wrap-->
+
+
+
+  <script src="../js/jQuery/jquery-3.6.0.min.js"></script>
+  <script src="../js/jQuery/jquery-ui.min.js"></script>
+  <script src="../js/src/login.js"></script>
+  <script src="../js/src/base.js"></script>
+
+
+
+</body>
+</html>

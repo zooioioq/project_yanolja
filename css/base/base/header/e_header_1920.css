@@ -35,9 +35,14 @@
     width : 25rem; height : 3.125rem;
 }
 
+#header > form > fieldset {
+  border : 0;
+  width : 100%; height: 100%;
+}
 
 #header input {
-  width: 100%;  height : 100%;
+  float: left;
+  width: 85%;  height : 100%;
   border : 0;
   border : 2px solid  #ff3478;
     border : 0.125rem solid var(--color-pink);
@@ -51,11 +56,36 @@
 
 
 #header input:focus { 
-  border : 2px solid  #ff3478;
-    border : 0.125rem solid var(--color-pink);
   outline: 0;
-  box-shadow: 3px 3px 3px #BEC0D2;
-    box-shadow: var(--box-shadow);
+  border : 2px solid #5A5C71;
+}
+
+#header button {
+  float : left;
+  width : 15%; height: 100%;
+  background-color : var(--color-pink);
+  border : 0;
+  cursor: pointer;
+}
+
+#header button i {
+  display: block;
+  width : 70%; height : 70%;
+  margin : auto;
+  background-image : url("../../../../img/icon/header/검색.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition : all 500ms ease;
+}
+
+
+#header button:focus {
+  outline: 0;
+  background-color : #5A5C71;
+}
+
+#header button:focus i {
+  transform: scale(1.1, 1.1);
 }
 
 

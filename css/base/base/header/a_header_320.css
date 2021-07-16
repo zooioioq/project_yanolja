@@ -23,16 +23,25 @@
   
   
   #header > form {
+    width : 30%;
     height : 25px;
-      /* height : 1.875rem; */
+      height : 1.5625rem;
   }
 
 
   #header input {
+    width : 75%;
     font-size : 16px;
       font-size : 1rem;
   }
 
+  #header button {
+    width : 25%;
+  }
+
+  #header button i {
+    width : 85%; height: 85%;;
+  }
   
   .user_link {
     margin-top : 15px;

@@ -13,7 +13,8 @@
   padding : 50px 240px;
     padding : 3.125rem 15rem;
   box-sizing: border-box;
-  transition: all 500ms ease;
+
+  background-color: #010302;
 }
 
 
@@ -22,6 +23,7 @@
   height : 880px;
     height : 55rem;  
   margin : auto;
+  transition: all 500ms ease;
 }
 
 
@@ -44,8 +46,8 @@
 }
 
 
-#sectionBox:hover,
-#sectionBox:focus {  transform: scale(1.025, 1.025); }
+.view_01:hover,
+.view_01:focus {  transform: scale(1.025, 1.025); }
 
 
 
@@ -58,7 +60,7 @@
     width : 100%;
     height : auto;
     padding : 0;
-      background: #010302;
+    background-color: #010302;
   }
   
   

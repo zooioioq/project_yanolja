@@ -148,10 +148,10 @@
 }
 
 
-.basic_info_img > div:nth-child(1) { background-image : url("../../../../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_01.jpg");}
-.basic_info_img > div:nth-child(2) { background-image : url("../../../../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_02.jpg");}
-.basic_info_img > div:nth-child(3) { background-image : url("../../../../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_03.jpg");}
-.basic_info_img > div:nth-child(4) { background-image : url("../../../../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_04.jpg");}
+.basic_info_img > div:nth-child(1) { background-image : url("../../../../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_01.png");}
+.basic_info_img > div:nth-child(2) { background-image : url("../../../../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_02.png");}
+.basic_info_img > div:nth-child(3) { background-image : url("../../../../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_03.png");}
+.basic_info_img > div:nth-child(4) { background-image : url("../../../../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_04.png");}
 
 
 
@@ -409,6 +409,7 @@
 
 
 .refund_info_area > div {
+  width: 100%; height : auto;
   margin-bottom: 100px;
     margin-bottom: 6.25rem;
 }
@@ -421,6 +422,7 @@
 
 
 .refund_info_area li {
+  width : 100%; height: auto;
   padding-left : 10px;
    padding-left : 0.625rem;
 }

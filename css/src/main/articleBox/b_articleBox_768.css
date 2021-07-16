@@ -8,8 +8,7 @@
 
 
 .pop_list > li {
-  width : 47.5%;  height : 200px;
-    height : 12.5rem;
+  width : 47.5%;  height : 26vw;
   margin-right : 5%;
   margin-left : 0;
   margin-bottom : 20px;
@@ -51,7 +50,7 @@
 
 .recom_location_list {
   width  : 100%;  height : 40px;
-    /* height : 2.5rem; margin : 0.625rem; */
+    height : 2.5rem;
   margin : auto; 
   margin-bottom : 30px;
     margin-bottom : 1.875rem;
@@ -76,8 +75,7 @@
 
 .recom_hotel_list > li {
   float : left;
-  width : 47.5%;  height : 280px;
-    height : 17.5rem;
+  width : 47.5%;  height : 36vw;
   margin-right : 5%;
   margin-left : 0;
   margin-bottom : 10px;
@@ -95,8 +93,7 @@
 
 .recom_img_wrap {
   overflow: hidden;
-  width : 100%;  height : 200px;
-    height : 12.5rem;
+  width : 100%;  height : 26vw;
 }
 
 
@@ -145,7 +142,7 @@
 
 
 .art_view_area {
-  width : 100%; height : 200px;
+  width : 100%; height : 26vw;
 }
 
 
@@ -186,8 +183,7 @@
 
 .event_area > li > a {
   width : 100%;
-  height : 350px;
-    height : 21.875rem;
+  height : 45vw;
 }
 
 

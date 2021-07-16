@@ -10,107 +10,93 @@
     bottom : 0;  left : 0;
     width : 100%;
     height : 30px;
+    background: #5A5C71;
+    background-color : var(--color-gray);
   }
 
 
-.nav_i_box {
-  top : 5px;
-    /* top : 25rem; */
-  left : 50%;
-  width : 20px;
-    /* width : 2.5rem; */
-  height : 20px;
-    /* height : 2.5rem; */
-}
+  #nav_link {
+    width: 100%; height : 100%;
+  }
+
+  .nav_i_box {
+    top : 5px;
+      top : 0.3125rem;
+    left : 50%;
+    width : 20px; height : 20px;
+      width : 1.25rem; height : 1.25rem;
+  }
 
 
-.nav_i_box > i {
-  transform: rotate(270deg);
-}
+  .nav_i_box > i {
+    transform: rotate(270deg);
+  }
 
 
-.nav_detail {
-  display : none;
-  position : absolute;
-  top : unset; 
-  left : 0; bottom : 0; 
-  width : 100%; height : 80px;
-}
+  .nav_detail {
+    display : none;
+    position : unset;
+    transition : all 500ms ease;
+    transition-delay:unset;
+    padding : 30px;
+    width : 100%; height : 1005;
+    box-sizing: border-box;
+  }
 
 
-.nav_detail li {
-  float : left;
-  width : 25%;  height : 20px;
-  margin-bottom: 0;
-  text-align: center;
-}
+  .nav_detail >li {
+    width : 100%; height : 100px;
+    margin-bottom: 20px;
+    text-align: unset;
+    border-bottom : 1px solid #fff;
+  }
 
 
-.nav_detail i {
-  display: block;
-  width : 30px;
-  height : 30px;
-  margin : auto;
-  margin-right : 10px;
-}
+  .nav_detail li > i {
+    float: left;
+    display: block;
+    width : 20%;
+    height : 100%;
+    margin-right : 10%;
+    margin-bottom : 0;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
+  .nav_detail > li> dl {
+    float: left;
+    position : unset;
+    width :  70%; height :100px;
+  }
 
 
-.nav_detail dl {
-  position : relative;
-  width :  200px;
-    width : 12.5rem;
-}
+  .nav_detail > li > dl> dt {
+    float : left;
+    width : 50%;
+    height: 100%;
+    color : #fff;
+      color : var(--color-white);
+    transition : all 200ms ease;
+  }
 
 
-.nav_detail dt {
-  float : left;
-  width : 80px;
-   width : 5rem;
-  height: 20px;
-   height: 1.25rem;
-  color : #fff;
-    color : var(--color-white);
-  transition : all 200ms ease;
-}
+  .nav_detail .nav_dd {
+    float: left;
+    width : 50%;
+    position : unset;
+    font-size : 14px;
+      font-size : 0.875rem;
+    text-align: left;
+    color : #fff;
+      color : var(--color-white);
+    transition : all 200ms ease;
+  }
 
 
-.nav_detail .nav_dd {
-  position : absolute;
-  left : 100px;
-    left : 6.25rem;
-  font-size : 14px;
-    font-size : 0.875rem;
-  text-align: left;
-  color : #fff;
-    color : var(--color-white);
-  transition : all 200ms ease;
-}
-
-
-.nav_detail .nav_dd a {
-  transition : all 200ms ease;
-}
-
-
-.nav_detail .kangwon { top :-50px;}
-.nav_detail .busan { top : -25px;}
-.nav_detail .jeju { top : 0; }
-
-.nav_detail .motel { top : -75px;}
-.nav_detail .hotel { top : -50px;}
-.nav_detail .condo { top : -25px;}
-.nav_detail .camping { top : 0;}
-.nav_detail .guesthouse { top : 25px;}
-
-.nav_detail .leisure { top : -40px;}
-.nav_detail .brand { top : -15px;}
-
-.nav_detail .ktx { top : -50px;}
-.nav_detail .rentacar { top : -25px;}
-.nav_detail .airline { top : 0;}
-
-.nav_detail .global { top : -25px;}
-
+  .nav_detail .nav_dd a {
+    transition : all 200ms ease;
+  }
 
 
 
@@ -123,12 +109,9 @@
 #nav:hover,
 #nav:focus {
   position:fixed;
-  top : 0;
-  width : 240px;
-    width : 15rem;
-  height : 100%;
-  background: #5A5C71;
-   background-color : var(--color-gray);
+  bottom : 0; left : 0;
+  width : 100%; height : 100%;
+
 } 
 
 

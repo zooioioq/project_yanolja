@@ -8,8 +8,8 @@
       min-height : 50rem;
     margin-top : 50px;
       margin-top : 3.125rem;
-    padding : 25px 350px;
-      padding : 1.5625rem 21.875rem;
+    padding : 25px 100px;
+      padding : 1.5625rem 6.25rem;
     box-sizing: border-box;
     background-color : #fff;
       background-color : var(--color-white);
@@ -103,8 +103,8 @@
   
   .basic_info_text div {
     float : left;
-    width : 400px;  height : 80px;
-      width : 25rem; height: 5rem;
+    width : 33.333333%;  height : 80px;
+      height: 5rem;
     padding : 10px 50px;
       padding : 0.625rem 3.125rem;
     box-sizing: border-box;
@@ -126,22 +126,19 @@
   
   
   .basic_info_img {
-    width : 1200px;
-      width : 75rem;
-    margin-left : 100px;
-      margin-left : 6.25rem;
+    width : 100%;
+    margin-left : 0;
     padding-bottom : 300px;
       padding-bottom : 18.75rem;
   }
   
   
   .basic_info_img > div {
-    width : 1000px;
-      width : 62.5rem;
+    width : 100%;
     margin-top : -4px;
       margin-top : -0.25rem;
     height : auto;
-    min-height : 2500px;
+    min-height : 226vw;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -155,11 +152,7 @@
   
   
   /*-----------------------------------------------------------------------------------------*/
-  /* .detail_info_area {
-    display : none;
-  } */
-  
-  
+
   .ticket_area {
     width : 100%;
     height : auto;

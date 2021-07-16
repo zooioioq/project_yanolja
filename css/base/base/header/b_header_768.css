@@ -14,11 +14,22 @@
      margin-left : 3.125rem;
   }
   
-
+  #header > form {
+    width : 30%;
+  }
 
   #header input {
+    width : 80%;
     font-size : 18px;
       font-size : 1.125rem;
+  }
+
+  #header button {
+    width : 20%;
+  }
+
+  #header button i {
+    width : 80%; height: 80%;;
   }
 
 

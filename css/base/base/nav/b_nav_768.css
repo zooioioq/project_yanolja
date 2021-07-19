@@ -3,175 +3,206 @@
 
 
 @media screen and (min-width:768px) and (max-width:1279px) {
+ 
+  #nav {
+    position : fixed;
+    top : unset;  bottom : 0; left : 0;
+    z-index: 1000;
+    width : 100%; height : 40px;
+    background: #5A5C71;
+     background-color : var(--color-gray);
+    transition: all 0.7s ease;
+    overflow: hidden;
+  }
   
-#nav {
-  top :unset;
-  bottom : 0;  left : 0;
-  width : 100%;
-  height : 40px;
-}
+  
+  #nav_link {
+    position : relative;
+    background-color : #5A5C71;
+      background-color : var(--color-gray);
+    z-index : 10;
+  }
+  
+  
+  .nav_i_box {
+    position : absolute;
+    top : 50%; left : 0; right : 0; margin : auto;
+    z-index : 1000;
+    width : 30px;
+      /* width : 1.25rem; */
+    height : 30px;
+      /* height : 1.25rem; */
+  }
+  
+  .nav_i_box > i {
+    display: none;
+    font-size : 14px;
+      font-size : 0.875rem;
+    color : #fff;
+      color : var(--color-white);
+    transform: rotate(270deg);
+  }
+  
+  .nav_i_box > .line {
+    display: block;
+    position : absolute;
+    top : 0; bottom : 0; left : 0; right : 0;
+    width : 80%; height: 2px;
+    margin : auto;
+    background-color : #fff;
+    transition : all 300ms ease;
+  }
 
+  .nav_i_box > .line1 {
+    transform: translateY(0.2rem);
+  }
 
+  .nav_i_box > .line2 {
+    transform: translateY(0.6rem);
+  }
+  
+  
+  .nav_detail {
+    display : none;
+    position : fixed;
+    top : unset; bottom : 0; left : 0;
+    width : calc(100% + 7px); height : 45%;
+    padding : 30px; box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition : all 500ms ease;
+    transition-delay: 500ms;
+  }
+  
+  
+  .nav_detail li {
+    position : relative;
+    float : left;
+    width : 50%; height : 120px;
+    margin-bottom: 40px; 
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom : 1px solid #fff;
+  }
 
-.nav_i_box {
-  top : 10px;
-    /* top : 25rem; */
-  left : 50%;
-  width : 20px;
-    /* width : 2.5rem; */
-  height : 20px;
-    /* height : 2.5rem; */
-}
+  .nav_detail li:last-child {
+    height : 80px;
+    margin-bottom : 0;
+    border-bottom : 0;
+  }
+  
+  
+  .nav_detail i {
+    position : absolute;
+    top : 0; left : 20px;
+    display: block;
+    width : 40px;    height : 40px;
+     width : 2.5rem;     height : 2.5rem;
+    margin-bottom : 0;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+    
+  
+  .nav_detail dl {
+    position : unset;
+    width :  100%;  height : auto;
+  }
+  
+  
+  .nav_detail dt {
+    position : absolute;
+    top : 50px; left : 0;
+    float : unset;    
+    width : 80px; height: 20px;
+     width : 5rem;  height: 1.25rem;
+    color : #fff;
+      color : var(--color-white);
+    transition : all 200ms ease;
+  }
+  
+  
+  .nav_detail .nav_dd {
+    position : absolute;
+    top : 0; left : 150px;
+    font-size : 14px;
+      font-size : 0.875rem;
+    text-align: left;
+    color : #fff;
+      color : var(--color-white);
+    transition : all 200ms ease;
+  }
+  
+  
+  .nav_detail .nav_dd a {
+    transition : all 200ms ease;
+  }
+  
+  
+  .nav_detail .kangwon { top :0px;}
+  .nav_detail .busan { top : 25px;}
+  .nav_detail .jeju { top : 50px; }
+  
+  .nav_detail .motel { top : -25px;}
+  .nav_detail .hotel { top : 0px;}
+  .nav_detail .condo { top : 25px;}
+  .nav_detail .camping { top : 50px;}
+  .nav_detail .guesthouse { top : 75px;}
+  
+  .nav_detail .leisure { top : 10px;}
+  .nav_detail .brand { top : 35px;}
+  
+  .nav_detail .ktx { top : -5px;}
+  .nav_detail .rentacar { top : 20px;}
+  .nav_detail .airline { top : 45px;}
+  
+  .nav_detail .global { top : 25px;}
+  
+  
+  
+  
+  
+  
+  
+  
+  /* -----nav:hover */
+  
+  #nav.act{
+    top : unset;
+    bottom : 0;
+    width : 100%; height : 50%;
+    background: #5A5C71;
+     background-color : var(--color-gray);
+  } 
+  
+  
+  .nav_detail dt:hover {
+    transform : scale(1.1);
+    font-weight: 700;
+  }
+  
+  
+  #nav.act .nav_i_box > .line1{ transform: translateY(0) rotate(45deg);}
+  #nav.act .nav_i_box > .line2{ transform: translateY(0) rotate(-45deg);}
+  
+  
+  #nav.act .nav_detail {
+    display: block;
+  }
+  
+  
+  .nav_detail .nav_dd:hover {
+    transform : scale(1.1);
+    font-weight: 700;
+  }
+  
+  
+  .nav_detail .nav_dd a:focus {
+    font-size : 15.4px;
+      font-size : 0.9625rem;
+    font-weight: 700;
+  }
 
-
-.nav_i_box > i {
-  transform: rotate(270deg);
-}
-
-
-.nav_detail {
-  display : none;
-  position : absolute;
-  top : 120px;
-    top : 7.5rem;
-  left : 20px;
-    left : 1.25rem;
-  transition : all 500ms ease;
-  transition-delay: 300ms;
-}
-
-
-.nav_detail li {
-  width : 80px;
-    width : 5rem;
-  height : 100px;
-    height : 6.25rem;
-  margin-bottom: 50px;
-    margin-bottom : 3.125rem;
-  text-align: center;
-}
-
-
-.nav_detail i {
-  display: block;
-  width : 40px;
-   width : 2.5rem;
-  height : 40px;
-   height : 2.5rem;
-  margin : auto;
-  margin-bottom : 10px;
-    margin-bottom : 0.625rem;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: contain;
-}
-
-
-.nav_detail dl {
-  position : relative;
-  width :  200px;
-    width : 12.5rem;
-}
-
-
-.nav_detail dt {
-  float : left;
-  width : 80px;
-   width : 5rem;
-  height: 20px;
-   height: 1.25rem;
-  color : #fff;
-    color : var(--color-white);
-  transition : all 200ms ease;
-}
-
-
-.nav_detail .nav_dd {
-  position : absolute;
-  left : 100px;
-    left : 6.25rem;
-  font-size : 14px;
-    font-size : 0.875rem;
-  text-align: left;
-  color : #fff;
-    color : var(--color-white);
-  transition : all 200ms ease;
-}
-
-
-.nav_detail .nav_dd a {
-  transition : all 200ms ease;
-}
-
-
-.nav_detail .kangwon { top :-50px;}
-.nav_detail .busan { top : -25px;}
-.nav_detail .jeju { top : 0; }
-
-.nav_detail .motel { top : -75px;}
-.nav_detail .hotel { top : -50px;}
-.nav_detail .condo { top : -25px;}
-.nav_detail .camping { top : 0;}
-.nav_detail .guesthouse { top : 25px;}
-
-.nav_detail .leisure { top : -40px;}
-.nav_detail .brand { top : -15px;}
-
-.nav_detail .ktx { top : -50px;}
-.nav_detail .rentacar { top : -25px;}
-.nav_detail .airline { top : 0;}
-
-.nav_detail .global { top : -25px;}
-
-
-
-
-
-
-
-
-/* -----nav:hover */
-
-#nav:hover,
-#nav:focus {
-  position:fixed;
-  top : 0;
-  width : 240px;
-    width : 15rem;
-  height : 100%;
-  background: #5A5C71;
-   background-color : var(--color-gray);
-} 
-
-
-.nav_detail dt:hover {
-  transform : scale(1.1);
-  font-weight: 700;
-}
-
-
-#nav:hover .fa-chevron-right,
-#nav:focus .fa-chevron-right {
-  display: none;
-}
-
-
-#nav:hover .nav_detail,
-#nav:focus .nav_detail {
-  display: block;
-}
-
-
-.nav_detail .nav_dd:hover {
-  transform : scale(1.1);
-  font-weight: 700;
-}
-
-
-.nav_detail .nav_dd a:focus {
-  font-size : 15.4px;
-    font-size : 0.9625rem;
-  font-weight: 700;
-}
 }
 

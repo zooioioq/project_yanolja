@@ -46,6 +46,8 @@
     color : var(--color-white);
 }
 
+.nav_i_box >.line { display: noen;}
+
 
 .nav_detail {
   display : none;
@@ -167,8 +169,7 @@
 
 /* -----nav:hover */
 
-#nav:hover,
-#nav:focus {
+#nav.act {
   position:fixed;
   top : 0;
   width : 240px;
@@ -185,14 +186,12 @@
 }
 
 
-#nav:hover .fa-chevron-right,
-#nav:focus .fa-chevron-right {
+#nav.act .fa-chevron-right {
   display: none;
 }
 
 
-#nav:hover .nav_detail,
-#nav:focus .nav_detail {
+#nav.act .nav_detail{
   display: block;
 }
 

@@ -57,7 +57,8 @@
   .ticket_select_area > dl {
     position : relative;
     float : left;
-    width : 31.666666%;
+    width : 31.666666%; height: auto;
+    box-sizing: border-box;
     margin-right : 2.5%;
   }
   
@@ -69,9 +70,7 @@
   
   
   .ticket_select_area > dl > dt {
-    position : absolute;
-    top : 16px; left : 16px;
-      top : 1rem; left :  1rem;
+    position :unset;
     margin : 10px;
       margin : 0.625rem;
     font-size : 18px;
@@ -81,11 +80,10 @@
   
   
   .use_remark {
-    position : absolute;
-    top : 60px; left : 20px;
-      top : 3.75rem; left : 1.5rem;
-    height : 30px;  padding : 5px;
-      height : 1.875rem;  padding : 0.3125rem;
+    position : unset;
+    width : 120px; height : auto; 
+    padding : 5px;  margin : 10px;
+      padding : 0.3125rem;  margin : 0.625rem;
     font-size : 12px;
       font-size : 0.75rem;
     box-sizing: border-box;
@@ -98,9 +96,8 @@
   
   
   .count_of_ticket {
-    position : absolute;
-    bottom : 24px;  left : 24px;
-      bottom : 1.5rem;  left : 1.5rem;
+    position : unset;
+    margin : 10px;  margin : 0.625rem;
   }
   
   
@@ -112,9 +109,9 @@
   
   
   .defult_amount {
-    position : absolute;
-    bottom : 76px;  right : 24px;
-      bottom : 4.75rem;  right : 1.5rem;
+    position : unset;
+    margin-right: 10px;
+    text-align: right;
     color : #5A5C71;
       color : var(--color-gray);
     font-size : 14px;
@@ -123,9 +120,9 @@
   
   
   .refund_remark {
-    position : absolute;
-    bottom : 52px;  right : 20px;
-      bottom : 3.25rem;  right : 1.25rem;
+    position : unset;
+    text-align: right;
+    margin-right : 10px;  margin-right : 0.625rem;
     padding : 3px;  padding : 0.1875rem;
     font-size : 14px;
       font-size : 0.75rem;
@@ -135,8 +132,9 @@
   
   .discount_percent {
     position : absolute;
-    bottom : 24px;  right : 1128px;
-      bottom : 1.5rem;  right : 8rem;
+    bottom : 15px;  right : 110px;
+      bottom : 0.9375rem;  right : 6.875rem;
+    text-align: right;
     font-weight: 700;
     font-size : 13px;
       font-size : 0.8125rem;
@@ -144,9 +142,10 @@
   
   
   .amount {
-    position : absolute;
-    bottom : 24px;  right : 24px;
-      bottom : 1.5rem;  right : 1.5rem;
+    position : unset;
+    text-align: right;
+    margin : 10px;  margin : 0.625rem;
+    margin-top : 0;
     font-size : 22px;
       font-size : 1.375rem;
     font-weight: 700;

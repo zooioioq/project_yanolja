@@ -4,8 +4,8 @@
 
 
 #wrap {
-  width : 1920px;
-    width : 120rem;
+  width : 1280px;
+    width : 80rem;
   height : auto;
   background-color : #f6f6f6;
     background-color : var(--color-bg-white);
@@ -14,8 +14,8 @@
 
 
 h2 {
-  padding : 20px;
-    padding : 1.25rem;
+  padding-bottom : 20px;
+    padding-bottom : 1.25rem;
   box-sizing: border-box;
 }
 
@@ -33,8 +33,8 @@ h2 {
   min-height : 250px;
    min-height : 15.625rem;
   box-sizing: border-box;
-  padding : 40px 250px 70px;
-    padding : 2.5rem 15.625rem 4.375rem;
+  padding : 40px 100px 70px;
+    padding : 2.5rem 6.25rem 4.375rem;
   margin-bottom : 250px;
     margin-bottom : 15.625rem;
   background-color : #fff;
@@ -47,12 +47,12 @@ h2 {
 /*-------------------------------#viewBox*/
 #viewBox {
   width : 100%; height : auto;
-  min-height : 600px;
-    min-height : 37.5rem;
-  margin-top : 50px;
-    margin-top : 3.125rem;
-  padding : 25px 350px;
-    padding : 1.5625rem 21.875rem;
+  min-height : 500px;
+    min-height : 31.25rem;
+  margin-top : 25px;
+    margin-top : 1.5625rem;
+  padding : 25px 100px;
+    padding : 1.5625rem 6.25rem;
   box-sizing: border-box;
   background-color: #fff;
     background-color : var(--color-white);
@@ -60,8 +60,7 @@ h2 {
 
 
 #view_img {
-  width : 1200px; height : 550px;
-    width : 75rem; height : 34.375rem;
+  width : 100%; height : 450px; height: 35.15625vw;
   box-sizing: border-box;
 }
 
@@ -73,8 +72,7 @@ h2 {
 
 .view_img_area > li {
   float : right;
-  width : 280px;  height : 173px;
-    width : 17.5rem; height : 10.8125rem;
+  width : 29%;  height : 31%;
   margin-bottom: 15px;
     margin-bottom : 0.9375rem;
 }
@@ -82,9 +80,7 @@ h2 {
 
 .view_img_area > li:nth-child(1) {
   float : left;
-  width : 900px;
-    width : 56.25rem;
-  height : 100%;
+  width : 70%;  height : 100%;
 }
 
 

@@ -8,10 +8,10 @@
   width : 100%; height : auto;
   min-height : 800px;
   margin-top : 50px;
-  padding : 25px 350px;
+  padding : 25px;
     min-height : 50rem;
     margin-top : 3.125rem;
-    padding : 1.5625rem 21.875rem;
+    padding : 1.5625rem;
   box-sizing: border-box;
   background-color : #fff;
     background-color : var(--color-white);
@@ -110,7 +110,8 @@
 .room_type_select_area > a {
   position : relative;
   float : left;
-  width : 48%;  height : 300px; height : 18.75rem;
+  width : 48%;   height : 55vw;
+  /* height : 450px; height : 28.125rem; */
   margin-right : 4%;
   margin-bottom : 40px;
     margin-bottom : 2.5rem;
@@ -143,8 +144,7 @@
 
 .room_type_select_area .room_type_title {
   position : absolute;
-  top : 15px;  left : 330px;
-    top : 0.9375rem;  left : 20.625rem;
+  top : 28vw;  left : 2.5vw;
   font-size : 20px;
     font-size : 1.25rem;
   font-weight: 700;
@@ -155,11 +155,9 @@
 .room_type_select_area .room_type_img {
   position : absolute;
   display: block;
-  left : 10px;  top : 8px;
-  width : 300px;
-    left : 0.625rem;  top : 0.5rem;
-    width : 18.75rem;
-  height : 95%;
+  left : 0; right : 0; top : 1.302083vw;
+  width : 39vw; height : 25vw;
+  margin : auto;
   border-radius: 10px;
     border-radius: 0.625rem;
   background-position : 50% 50%;
@@ -170,8 +168,7 @@
 
 .room_type_select_area .title_remark {
   position : absolute;
-  top : 45px;  left : 330px;
-    top : 2.8125rem;  left : 20.625rem;
+  top : 32vw;  left : 2.5vw;
   height : 30px;  padding : 2px;
     height : 1.875rem;  padding : 0.125rem; 
   font-size : 14px;
@@ -183,8 +180,7 @@
 
 .room_type_select_area .count_of_person {
   position : absolute;
-  top : 70px;  left : 330px;
-    top : 4.375rem;  left : 20.625rem;
+  top : 35vw;  left : 2.5vw;
   font-size : 14px;
    font-size : 0.875rem;
   color : #5A5C71;
@@ -194,8 +190,7 @@
 
 .room_type_select_area .using_time {
   position : absolute;
-  top : 95px;  left : 330px;
-    top : 5.9375rem;  left : 20.625rem;
+  top : 38vw;  left : 2.5vw;
   color : #5A5C71;
     color : var(--color-gray);
   font-size : 14px;
@@ -530,14 +525,11 @@
 
 .review_point > div {
   float : left;
-  width : 200px;
-    width : 12.5rem;
+  width : 20%;
   height : auto;
-  margin-right : 65px;
-  padding-right : 65px;
+  margin-right : 3%;
+  padding-right : 3%;
   border-right : 1px solid #9FA1B4;
-    margin-right : 4.0625rem;
-    padding-right : 4.0625rem;
     border-right : var(--border-gray);
 }
 
@@ -551,8 +543,8 @@
 
 .review_point > div > dt {
   float : left;
-  width : 100px;  padding : 5px;
-   width : 6.25rem;  padding : 0.3125rem;
+  width : auto;  padding : 5px;
+    padding : 0.3125rem;
   text-align: left;
   box-sizing: border-box;
 }
@@ -560,8 +552,8 @@
 
 .review_point > div > dd {
   float : right;
-  width : 30px;  padding : 5px;
-   width : 1.875rem;  padding : 0.3125rem;
+  width : auto;  padding : 5px;
+   padding : 0.3125rem;
   color : #ff3478;
    color : var(--color-pink);
   font-size : 19px;
@@ -617,9 +609,9 @@
 .review_summary {
   position : relative;
   width : 100%;
-  height : 100%;
-  padding-bottom : 20px;
-    padding-bottom : 1.25rem;
+  height : auto;
+  padding-bottom : 40px;
+    padding-bottom : 2.5rem;
   margin-bottom : 30px;
     margin-bottom : 1.875rem;
   border-bottom : 1px solid #9FA1B4;
@@ -644,26 +636,23 @@
   position : absolute;
   top : -5px;  left : 60px;
     top : -0.3125rem;  left : 3.75rem;
-  width : auto;
+  width : 100%;
   height : 45px;
     height : 2.8125rem;  
 }
 
 
 .star {
-  width : 500px;
-    width : 31.25rem;
+  width : 100px;
+    width : 6.25rem;
   height : auto;
 }
 
 
 .star_area .review_user_info {
+  width : 80%; height : auto;
   margin-top : 10px;
-  width : 465px;
-  height : 50px;
    margin-top : 0.625rem;
-   width : 29.0625rem;
-   height : 3.125rem;
 }
 
 
@@ -671,25 +660,27 @@
   float : left;
   margin-right : 20px;
   padding-right : 20px;
-  font-size : 14px;
   border-right : 1px solid #9FA1B4;
-    margin-right : 1.25rem;
-    padding-right : 1.25rem;
+  font-size : 14px;
     font-size : 0.875rem;
-    border-right : var(--border-gray);
   font-weight: 700;
+}
+
+.star_area .review_user_info li:first-child {
+  float: unset;
+  margin-right : 0;
+  padding-right : 0;
+  border-right : 0;
 }
 
 .star_area .review_user_info li:nth-child(2) {
   text-transform: capitalize;
 }
 
-
-.star_area .review_user_info li:last-child {
+.star_area .review_user_info li:nth-child(3) {
   float : right;
   margin-right : 0;
   padding-right : 0;
   border-right : 0;
 }
-
 }

@@ -4,41 +4,156 @@
 
 @media screen and (min-width:768px) and (max-width:1279px) {
   #header {
+    position : relative;
+    width : 100%;
     height : 100px;
       height : 6.25rem;
+    background-color : #fff;
+      background-color : var(--color-white);
   }
   
   
   #main_logo > a {
+    float : left;
+    width : 150px;
+      width : 9.375rem;
+    height : 50px;
+      height : 3.125rem;
+    margin-top : 25px;
+      margin-top : 1.5625rem;
     margin-left : 50px;
      margin-left : 3.125rem;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   
+  
   #header > form {
-    width : 30%;
+    position : absolute;
+    left:0; right:0; top:0; bottom:0;
+    margin : auto;
+    width : 30%; height : 50px;
+      height : 3.125rem;
   }
-
+  
+  
+  #header > form > fieldset {
+    border : 0;
+    width : 100%; height: 100%;
+  }
+  
+  
   #header input {
-    width : 80%;
-    font-size : 18px;
+    float: left;
+    width: 80%;  height : 100%;
+    border : 0;
+    border : 2px solid  #ff3478;
+      border : 0.125rem solid var(--color-pink);
+    font-size : 184px;
       font-size : 1.125rem;
+    color : #000;
+      color : var(--color-black);
+    text-indent: 1rem;
+    transition: all 300ms ease;
   }
-
+  
+  
+  #header input:focus { 
+    outline: 0;
+    border : 2px solid #5A5C71;
+  }
+  
   #header button {
-    width : 20%;
+    float : left;
+    width : 20%; height: 100%;
+    background-color: #ff3478;
+    background-color : var(--color-pink);
+    border : 0;
+    cursor: pointer;
   }
-
+  
   #header button i {
-    width : 80%; height: 80%;;
+    display: block;
+    width : 80%; height : 80%;
+    margin : auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition : all 500ms ease;
   }
-
-
-
+  
+  
+  #header button:focus {
+    outline: 0;
+    background-color : #5A5C71;
+  }
+  
+  #header button:focus i {
+    transform: scale(1.1, 1.1);
+  }
+  
+  
   .user_link {
+    position : relative;
+    float : right;
+    width : auto; height : auto;
+    margin-top : 25px;
+      margin-top : 1.5625rem;
     margin-right : 50px;
       margin-right : 3.125rem;
   }
-
+  
+  
+  .user_link > a {
+    display: inline-block;
+    width : 35px;   height : 35px;
+      width : 2.1875rem;  height : 2.1875rem;
+    padding : 10px;
+      padding : 0.625rem;
+    margin-left : 10px;
+      margin-left : 0.625rem;
+    box-sizing: border-box;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  
+  .user_link > a::after {
+    position : absolute;
+    display: none;
+    width : 200px;
+      width : 12.5rem;
+    height : auto;
+    font-size : 14px;
+      font-size : 0.875rem;
+    color : #5A5C71;
+      color : var(--color-gray);
+  }
+  
+  
+  .user_link > a:nth-child(1)::after { 
+    bottom : -40px; left : -70px;   
+      bottom : -2.5rem; left : -4.375rem;   
+    content: "찜 목록\a로그인 후 이용 가능";
+    white-space: pre;
+    text-align: center;
+  }
+  
+  
+  .user_link > a:nth-child(2)::after { 
+    bottom : -20px; left : 30px;   
+      bottom : -1.25rem; left : 1.875rem;   
+    content: "로그인 바로가기";
+  }
+  
+  
+  .user_link > a:nth-child(1):hover::after,
+  .user_link > a:nth-child(1):focus::after,
+  .user_link > a:nth-child(2):hover::after,
+  .user_link > a:nth-child(2):focus::after { 
+    display: block;
+  }
+  
 
 }
 

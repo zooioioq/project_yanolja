@@ -3,14 +3,15 @@
 
 
 @media screen and (min-width:768px) and (max-width:1279px) {
+
   #footer {
     position : relative;
-    float : none;
-    height : auto;
-    padding : 40px;
-      padding : 2.5rem;
-    padding-bottom : 50px;
-      padding-bottom : 3.125rem;
+    width : 100%; height : auto;
+    min-height : 200px;
+     min-height : 12.5rem;
+    box-sizing: border-box;
+    padding : 40px; padding-bottom : 50px;
+      padding : 2.5rem; padding-bottom : 3.125rem;
     font-size : 12px;
      font-size : 0.75rem;
   }
@@ -20,23 +21,57 @@
     float : none;
     width : 100px;
      width : 6.25rem;
+    height : 50px;
+      height : 3.125rem;
     margin : 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
     /* 명도대비 3.2:1 이지만 50px 이상이므로 최소 명암 조건 부합 */
   }
   
   
+  #foot_info { float : left; }
+  
+  
+  #foot_info,
+  address {
+    width : auto; height : auto;
+  }
+  
+  
   #foot_info ul {
-    float : none;
-    width : 280px;
+    float: none;
+    width : 280px; height : auto;
       width : 17.5rem;
     padding : 5px;
       padding: 0.3125rem;
   }
   
   
+  #foot_info li {
+    float :left;
+    width : 100%; height: auto;
+    line-height: 0.5;
+  }
+  
+  
+  #foot_info dl {
+    width : auto; height: auto;
+  }
+  
+  
+  #foot_info dt,
+  #foot_info dd {
+    float : left;
+    width : auto; height: auto;
+  } 
+  
+  
   #foot_link {
     float : none;
     width : 100%;
+    height : auto;
   }
   
   
@@ -46,23 +81,70 @@
   /* family_site*/
   #family_site {
     position: relative;
-    float : none;
     top : -50px; right : 10px;
       top : -3.125rem; right : 0.625rem;
+    float : none;
     width: 100%; height : 100%;
     margin-top: 0;
   }
   
   
   #family_site > dl {
-    width: 40%; 
+    position: absolute;
+    top : 0;
+    right : 0;
+    float : right;
+    width: 40%;
     max-width: 150px;
       max-width: 9.375rem;
+    height : 25px;
+     height : 1.5625rem;
+    padding : 2px;
+     padding : 0.125rem;
+    box-sizing: border-box;
+    border : 1px solid #9FA1B4;
+      border : var(--border-gray);
+    text-align: center;
   }
   
   
+  #family_site dt {
+    margin-bottom : 5px;
+      margin-bottom : 0.3125rem;
+  }
   
   
+  #family_site dd {
+    display: none;
+    width : 100%;
+    height : 30px;
+      height : 1.875rem;
+    padding : 5px;
+      padding : 0.3125rem;
+    box-sizing: border-box;
+    background-color : #f6f6f6;
+     background-color : var(--color-bg-white);
+    border : 1px solid #9FA1B4;
+     border : var(--border-gray);
+  }
+  
+  
+  #family_site > dl:hover dd,
+  #family_site > dl:focus dd{
+    display: block;
+  }
+  
+  
+  #family_site > dl:focus { z-index: 100;}
+  
+  #family_site a:focus { font-weight: 700;}
+  
+  
+  #family_site a {
+    display: block;
+    width : 100%;
+    height : 100%;
+  }
   
   
   
@@ -70,6 +152,8 @@
   /*sns_link*/
   #sns_link {
     float : none;
+    width : 100%;
+    height : auto;
     margin-top : 20px;
       margin-top : 1.25rem;
   }
@@ -77,16 +161,50 @@
   
   .sns {
     float: none;
+    width : auto;
   }
   
   
   .sns > li {
+    float: left;
+    width : 30px;
+      width : 1.875rem;
+    height : 30px;
+      height : 1.875rem;
     margin-right : 20px;
       margin-right : 1.25rem;
   }
+
+  .sns > li:last-child {margin-right : 0;}
   
-  .sns > li:last-child { margin-right : 0;}
   
+  #sns_link a {
+    float : left;
+    display: block;
+    width : 100%;
+    height : 100%;
+    background-repeat: no-repeat;
+    background-size : contain;
+    background-position : 50% 50%;
+    transition: all 300ms ease;
+  } 
+  
+  
+  #sns_link a:hover,
+  #sns_link a:focus {
+    transform : scale(1.2, 1.2);
+  }
+  
+  
+  #sns_link .sns > li:nth-child(1) > a {
+    background-size: 80%;
+  }
+  #sns_link .sns > li:nth-child(2) > a {
+    background-size: 80%;
+  }
+  #sns_link .sns > li:nth-child(3) > a {
+    background-size: 80%;
+  }
   
   
   #foot_link > p {
@@ -102,18 +220,34 @@
   #link_list {
     float : none;
     width : auto; height :auto;
-    text-align: center;
     margin-top : 20px;
       margin-top : 1.25rem;
+    text-align: center;
   }
   
   
   #link_list li{
+    float : left;
+    width : auto;
+    height : auto;
     padding-right : 10px;
       padding-right : 0.625rem;
-    margin-right : 10px;
+    margin-right : 1px;
       margin-right : 0.625rem;
+    border-right : 1px solid #9FA1B4;
+      border-right : var(--border-gray);
     line-height: 1.5;
+  }
+  
+  
+  #link_list li:hover { font-weight: 700; }
+  #link_list a:focus { font-weight: 700; }
+  
+  
+  #link_list li:last-child {
+    margin-right : 0;
+    padding-right : 0;
+    border-right : 0;
   }
 }
 

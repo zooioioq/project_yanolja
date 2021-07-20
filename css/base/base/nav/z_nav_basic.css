@@ -46,7 +46,7 @@
     color : var(--color-white);
 }
 
-.nav_i_box >.line { display: noen;}
+.nav_i_box >.line { display: none;}
 
 
 .nav_detail {

@@ -19,6 +19,13 @@
 }
 
 
+#view_info dt {
+  padding : 20px;
+    padding : 1.25rem;
+  font-size : 32px;
+    font-size : 2rem;
+  font-weight: 700;
+}
 
 #view_info dd {
   font-size : 18px;

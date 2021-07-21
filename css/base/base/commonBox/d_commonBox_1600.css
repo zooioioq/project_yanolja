@@ -79,8 +79,7 @@
   }
   
   
-.view_img_area > li:nth-child(1),
-.view_img_area > li:nth-child(4) {
+.view_img_area > li:nth-child(2n) {
   margin-bottom: 0;
 }
 

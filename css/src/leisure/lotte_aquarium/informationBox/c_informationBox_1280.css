@@ -384,7 +384,6 @@
   /*-------------------------------------------------------------------------*/
   /* refund_info_area */
   .refund_info_area {
-    /* display : none;  */
     width : 100%;
     height : auto;
     line-height: 1.5;
@@ -414,6 +413,19 @@
   .refund_area {
     width : 100%;
     height: auto;
+  }
+
+  .business_info_area dl {
+    width : 100%; height : auto;
+  }
+  
+  .business_info_area dt {
+    float: left;
+    width : auto; height: auto;
+    padding-left : 10px;
+      padding-left : 0.625rem;
+    margin-right : 5px;
+      margin-right : 0.3125rem;
   }
   
   

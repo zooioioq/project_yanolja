@@ -119,6 +119,19 @@
     overflow: scroll;
   }
 
+  .business_info_area dl {
+    width : 100%; height : auto;
+  }
+  
+  .business_info_area dt {
+    float: left;
+    width : auto; height: auto;
+    padding-left : 10px;
+      padding-left : 0.625rem;
+    margin-right : 5px;
+      margin-right : 0.3125rem;
+  }
+
 
   .seller_info_area > dl {
     width : 100%;  height : auto;

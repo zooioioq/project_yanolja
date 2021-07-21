@@ -102,31 +102,36 @@
 }
 
 
-.recom_location_list > li > a {
+.recom_location_list > li > button {
   display: block;
   width : 100%; height : 100%;
   font-size : 16px;
     font-size : 1rem;
   text-align: center;
+  background-color : transparent;
+  border : 0;
+  cursor: pointer;
 }
 
 
-.recom_location_list > li:hover {
+.recom_location_list > li.act {
   font-weight : 700;
   background-color : #FFD1E1;
     background-color : var(--color-bright-pink);
 }
 
 
-.recom_location_list > li:first-child {
+/* .recom_location_list > li:first-child {
   background-color : #FFD1E1;
     background-color : var(--color-bright-pink);
-}
+} */
 
 
 .recom_location_list > li:last-child {
   margin-right : 0;
 }
+
+
 
 
 .recom_hotel_list > li {
@@ -156,13 +161,25 @@
 }
 
 
-.recom_hotel_list li:nth-child(1) .recom_img { background-image : url("../../../../img/img/recom/recom_cheong.jpg");}
+.seoul li:nth-child(1) .recom_img { background-image : url("../../../../img/img/recom/recom_cheong.jpg");}
+.seoul li:nth-child(2) .recom_img { background-image : url("../../../../img/img/recom/recom_ramada.jpg");}
+.seoul li:nth-child(3) .recom_img { background-image : url("../../../../img/img/recom/recom_fair.jpg");}
+.seoul li:nth-child(4) .recom_img { background-image : url("../../../../img/img/recom/recom_orakai.jpg");}
 
-.recom_hotel_list li:nth-child(2) .recom_img { background-image : url("../../../../img/img/recom/recom_ramada.jpg");}
+.jeju li:nth-child(1) .recom_img { background-image : url("../../../../img/img/recom/recom_regent.jpg");}
+.jeju li:nth-child(2) .recom_img { background-image : url("../../../../img/img/recom/recom_hwi.jpg");}
+.jeju li:nth-child(3) .recom_img { background-image : url("../../../../img/img/recom/recom_pass.jpg");}
+.jeju li:nth-child(4) .recom_img { background-image : url("../../../../img/img/recom/recom_best.jpg");}
 
-.recom_hotel_list li:nth-child(3) .recom_img { background-image : url("../../../../img/img/recom/recom_fair.jpg");}
+.kangwon li:nth-child(1) .recom_img { background-image : url("../../../../img/img/recom/recom_ramada_sok.jpg");}
+.kangwon li:nth-child(2) .recom_img { background-image : url("../../../../img/img/recom/recom_300.jpg");}
+.kangwon li:nth-child(3) .recom_img { background-image : url("../../../../img/img/recom/recom_oceantoyou.jpg");}
+.kangwon li:nth-child(4) .recom_img { background-image : url("../../../../img/img/recom/recom_two.jpg");}
 
-.recom_hotel_list li:nth-child(4) .recom_img { background-image : url("../../../../img/img/recom/recom_orakai.jpg");}
+.busan li:nth-child(1) .recom_img { background-image : url("../../../../img/img/recom/recom_suncloud.jpg");}
+.busan li:nth-child(2) .recom_img { background-image : url("../../../../img/img/recom/recome_seacloud.jpg");}
+.busan li:nth-child(3) .recom_img { background-image : url("../../../../img/img/recom/recom_fair_busan.jpg");}
+.busan li:nth-child(4) .recom_img { background-image : url("../../../../img/img/recom/recom_stay.jpg");}
 
 
 .recom_hotel_list > li > a {

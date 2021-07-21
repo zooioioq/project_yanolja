@@ -15,12 +15,12 @@
 
 
 #quickButtonDown {
-  bottom : 30px;
+  bottom : 50px;
 }
 
 
 #quickButtonUp {
-  bottom : 80px; 
+  bottom : 100px; 
 }
 
 #quickButtonDown > a,

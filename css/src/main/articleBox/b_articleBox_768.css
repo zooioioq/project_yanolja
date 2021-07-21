@@ -63,7 +63,7 @@
 }
 
 
-.recom_location_list > li > a {
+.recom_location_list > li > button {
   font-size : 12px;
     font-size : 0.75rem;
 }

@@ -64,7 +64,7 @@
   padding : 20px;
     padding : 1.25rem;
   font-size : 24px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
   font-weight: bold;
   box-sizing: border-box;
 }
@@ -92,7 +92,7 @@
 }
 
 
-.recom_location_list > li > a {
+.recom_location_list > li > button {
   display: block;
   width : 100%; height : 100%;
   font-size : 16px;
@@ -108,10 +108,10 @@
 }
 
 
-.recom_location_list > li:first-child {
+/* .recom_location_list > li:first-child {
   background-color : #FFD1E1;
     background-color : var(--color-bright-pink);
-}
+} */
 
 
 .recom_location_list > li:last-child {

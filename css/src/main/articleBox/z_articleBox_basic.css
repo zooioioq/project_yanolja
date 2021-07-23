@@ -116,8 +116,28 @@
 
 .recom_location_list > li.act {
   font-weight : 700;
+  box-shadow: 3px 3px 3px #BEC0D2;
+  box-shadow: var(--box-shadow);
   background-color : #FFD1E1;
-    background-color : var(--color-bright-pink);
+  background-color : var(--color-bright-pink);
+}
+
+/* .recom_location_list > li:nth-child(1).act,
+.recom_location_list > li:nth-child(1):hover { background-color : #FFD1E1; }
+
+.recom_location_list > li:nth-child(2).act,
+.recom_location_list > li:nth-child(2):hover { background-color : #cdeecc; }
+
+.recom_location_list > li:nth-child(3).act,
+.recom_location_list > li:nth-child(3):hover { background-color : #c0dfee; }
+
+.recom_location_list > li:nth-child(4).act,
+.recom_location_list > li:nth-child(4):hover { background-color : #f8dab3; } */
+
+
+.recom_location_list > li:hover {
+  background-color : #f6f6f6;
+    background-color : var(--color-bg-white);
 }
 
 

@@ -261,3 +261,6 @@ address {
   padding-right : 0;
   border-right : 0;
 }
+
+
+.foot_detail_btn { display: none;}

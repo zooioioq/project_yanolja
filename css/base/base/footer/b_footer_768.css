@@ -69,8 +69,8 @@
   
   
   #foot_link {
-    float : none;
-    width : 100%;
+    float : right;
+    width : 50%;
     height : auto;
   }
   
@@ -151,16 +151,18 @@
   
   /*sns_link*/
   #sns_link {
-    float : none;
-    width : 100%;
-    height : auto;
+    position : absolute;
+    bottom : 50px; right : 40px;
+      bottom : 3.125rem; right : 2.5rem;
+    float : right;
+    width : 100%; height : auto;
     margin-top : 20px;
       margin-top : 1.25rem;
   }
   
   
   .sns {
-    float: none;
+    float: right;
     width : auto;
   }
   
@@ -208,6 +210,7 @@
   
   
   #foot_link > p {
+    display: none;
     float : none;
     text-align: left;
     margin-top : 20px;
@@ -218,6 +221,7 @@
   
   
   #link_list {
+    display: none;
     float : none;
     width : auto; height :auto;
     margin-top : 20px;

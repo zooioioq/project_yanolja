@@ -101,11 +101,10 @@
 }
 
 
-.recom_location_list > li:hover {
-  font-weight : 700;
+/* .recom_location_list > li:hover {
   background-color : #FFD1E1;
     background-color : var(--color-bright-pink);
-}
+} */
 
 
 /* .recom_location_list > li:first-child {

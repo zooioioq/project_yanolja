@@ -178,7 +178,7 @@
   }
   
   
-  .ticket_select_area > dl {
+  .ticket_select_area fieldset {
     position : relative;
     float : left;
     width : 30%;
@@ -194,20 +194,20 @@
   }
   
   
-  .ticket_select_area > dl:hover,
-  .ticket_select_area > dl:focus {
+  .ticket_select_area fieldset:hover,
+  .ticket_select_area fieldset:focus {
     transform: scale(1.05, 1.05);
     box-shadow: 3px 3px 3px #BEC0D2;
       box-shadow: var(--box-shadow);
   }
   
   
-  .ticket_select_area > dl:last-child {
+  .ticket_select_area fieldset:last-child {
     margin-right : 0;
   }
   
   
-  .ticket_select_area > dl > dt {
+  .ticket_select_area dl > dt {
     position : absolute;
     top : 16px; left : 16px;
       top : 1rem; left :  1rem;

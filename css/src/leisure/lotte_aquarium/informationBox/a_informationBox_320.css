@@ -85,7 +85,7 @@
   
   /*-----------------------------------------------------------------------------------------*/
   
-  .ticket_select_area > dl {
+  .ticket_select_area fieldset {
     position : relative;
     float : none;
     width : 90%;
@@ -98,7 +98,7 @@
 
   }
   
-  .ticket_select_area > dl:last-child {
+  .ticket_select_area fieldset:last-child {
     margin-bottom : 0;
     margin-right : 0;
     margin : auto;

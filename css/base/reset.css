@@ -33,3 +33,11 @@ a {
 
 
 header, nav, section, article, footer, aside, main, figure, figcaption { display : block; }
+
+
+abbr { text-decoration: none;}
+
+
+address { font-style: normal;}
+
+fieldset { padding : 0; margin : 0; border : 0;}

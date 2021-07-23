@@ -212,85 +212,130 @@
                 <h3> Ticket </h3>
 
                 <div class="ticket_select_area clearfix">
-                    <dl tabindex="0">
-                      <dt> 롯데월드 아쿠아리움 1인권
-                        <i class="fas fa-user"> <span class="blind"> 1인 </span> </i>
-                      </dt>
-                      <dd class="use_remark"> 주중주말 / 대소공통 </dd>
-                      <dd class="count_of_ticket">
-                        수량
-                        <select>
-                          <option> 0 </option>
-                          <option> 1 </option>
-                          <option> 2 </option>
-                          <option> 3 </option>
-                          <option> 4 </option>
-                          <option> 5 </option>
-                          <option> 6 </option>
-                          <option> 7 </option>
-                          <option> 8 </option>
-                          <option> 9 </option>
-                          <option> 10 </option>
-                        </select>
-                      </dd>
-                      <dd class="defult_amount"> <del>33,000원</del> </dd>
-                      <dd class="refund_remark"> 미사용 전액 환불 </dd>
-                      <dd class="discount_percent"> 23% </dd>
-                      <dd class="amount"> 25,500원 </dd>
-                    </dl>
-                    <dl tabindex="0">
-                      <dt> 롯데월드 아쿠아리움 2인권
-                        <i class="fas fa-user-friends"> <span class="blind"> 2인 </span> </i>
-                      </dt>
-                      <dd class="use_remark"> 주중주말 / 대소공통 </dd>
-                      <dd class="count_of_ticket">
-                        수량
-                        <select>
-                          <option> 0 </option>
-                          <option> 1 </option>
-                          <option> 2 </option>
-                          <option> 3 </option>
-                          <option> 4 </option>
-                          <option> 5 </option>
-                          <option> 6 </option>
-                          <option> 7 </option>
-                          <option> 8 </option>
-                          <option> 9 </option>
-                          <option> 10 </option>
-                        </select>
-                      </dd>
-                      <dd class="defult_amount"> <del>66,000원</del> </dd>
-                      <dd class="refund_remark"> 미사용 전액 환불 </dd>
-                      <dd class="discount_percent"> 26% </dd>
-                      <dd class="amount"> 49,000원 </dd>
-                    </dl>
-                    <dl tabindex="0">
-                      <dt> 롯데월드 아쿠아리움 3인권
-                        <i class="fas fa-users"> <span class="blind"> 3인 </span> </i>
-                      </dt>
-                      <dd class="use_remark"> 주중주말 / 대소공통 </dd>
-                      <dd class="count_of_ticket">
-                        수량
-                        <select>
-                          <option> 0 </option>
-                          <option> 1 </option>
-                          <option> 2 </option>
-                          <option> 3 </option>
-                          <option> 4 </option>
-                          <option> 5 </option>
-                          <option> 6 </option>
-                          <option> 7 </option>
-                          <option> 8 </option>
-                          <option> 9 </option>
-                          <option> 10 </option>
-                        </select>
-                      </dd>
-                      <dd class="defult_amount"> <del>99,000원</del> </dd>
-                      <dd class="refund_remark"> 미사용 전액 환불 </dd>
-                      <dd class="discount_percent"> 30% </dd>
-                      <dd class="amount"> 69,000원 </dd>
-                    </dl>
-                  </div>
+
+                  <form action="" method="POST">
+
+                    <fieldset tabindex="0">
+
+                      <legend class="blind"> 롯데월드 아쿠아리움 1인권 </legend>
+
+                      <dl>
+                        <dt> 롯데월드 아쿠아리움 1인권
+                          <i class="fas fa-user"> <span class="blind"> 1인 </span> </i>
+                        </dt>
+                        <dd class="use_remark"> 주중주말 / 대소공통 </dd>
+                        <dd class="count_of_ticket">
+                          <label for="ticket_1"> 수량 <span class="blind"> 을 선택하세요. </span></label>
+                          <select id="ticket_1" name="ticket_1">
+                            <option value="0"> 0 </option>
+                            <option value="1"> 1 </option>
+                            <option value="2"> 2 </option>
+                            <option value="3"> 3 </option>
+                            <option value="4"> 4 </option>
+                            <option value="5"> 5 </option>
+                            <option value="6"> 6 </option>
+                            <option value="7"> 7 </option>
+                            <option value="8"> 8 </option>
+                            <option value="9"> 9 </option>
+                            <option value="10"> 10 </option>
+                          </select>
+                        </dd>
+                        <dd class="defult_amount"> <del>33,000원</del> </dd>
+                        <dd class="refund_remark"> 미사용 전액 환불 </dd>
+                        <dd class="discount_percent"> 23% </dd>
+                        <dd class="amount"> 25,500원 </dd>
+                      </dl>
+
+                      <div class="blind" aria-hidden="true">
+                        <input type="hidden" id="ticket_1_price" name="ticket_1_price" value="25500">
+                      </div>
+
+                    </fieldset> <!--........................................................ticket_1 -->
+
+
+
+                    <fieldset tabindex="0">
+
+                      <legend class="blind"> 롯데월드 아쿠아리움 2인권 </legend>
+
+                      <dl>
+                        <dt> 롯데월드 아쿠아리움 2인권
+                          <i class="fas fa-user-friends"> <span class="blind"> 2인 </span> </i>
+                        </dt>
+                        <dd class="use_remark"> 주중주말 / 대소공통 </dd>
+                        <dd class="count_of_ticket">
+                          <label for="ticket_2"> 수량 <span class="blind"> 을 선택하세요. </span></label>
+                          <select id="ticket_2" name="ticket_2">
+                            <option value="0"> 0 </option>
+                            <option value="1"> 1 </option>
+                            <option value="2"> 2 </option>
+                            <option value="3"> 3 </option>
+                            <option value="4"> 4 </option>
+                            <option value="5"> 5 </option>
+                            <option value="6"> 6 </option>
+                            <option value="7"> 7 </option>
+                            <option value="8"> 8 </option>
+                            <option value="9"> 9 </option>
+                            <option value="10"> 10 </option>
+                          </select>
+                        </dd>
+                        <dd class="defult_amount"> <del>66,000원</del> </dd>
+                        <dd class="refund_remark"> 미사용 전액 환불 </dd>
+                        <dd class="discount_percent"> 26% </dd>
+                        <dd class="amount"> 49,000원 </dd>
+                      </dl>
+
+                      <div class="blind" aria-hidden="true">
+                        <input type="hidden" id="ticket_2_price" name="ticket_2_price" value="49000">
+                      </div>
+
+                    </fieldset> <!--........................................................ticket_2 -->
+
+
+
+                    <fieldset tabindex="0">
+
+                      <legend class="blind"> 롯데월드 아쿠아리움 3인권 </legend>
+
+                      <dl>
+                        <dt> 롯데월드 아쿠아리움 3인권
+                          <i class="fas fa-users"> <span class="blind"> 3인 </span> </i>
+                        </dt>
+                        <dd class="use_remark"> 주중주말 / 대소공통 </dd>
+                        <dd class="count_of_ticket">
+                          <label for="ticket_3"> 수량 <span class="blind"> 을 선택하세요. </span></label>
+                          <select id="ticket_3" name="ticket_3">
+                            <option value="0"> 0 </option>
+                            <option value="1"> 1 </option>
+                            <option value="2"> 2 </option>
+                            <option value="3"> 3 </option>
+                            <option value="4"> 4 </option>
+                            <option value="5"> 5 </option>
+                            <option value="6"> 6 </option>
+                            <option value="7"> 7 </option>
+                            <option value="8"> 8 </option>
+                            <option value="9"> 9 </option>
+                            <option value="10"> 10 </option>
+                          </select>
+                        </dd>
+                        <dd class="defult_amount"> <del>99,000원</del> </dd>
+                        <dd class="refund_remark"> 미사용 전액 환불 </dd>
+                        <dd class="discount_percent"> 30% </dd>
+                        <dd class="amount"> 69,000원 </dd>
+                      </dl>
+
+                      <div class="blind" aria-hidden="true">
+                        <input type="hidden" id="ticket_3_price" name="ticket_3_price" value="69000">
+                      </div>
+
+                    </fieldset> <!--........................................................ticket_3 -->
+
+                  </form>
+
+
+
+                  </div> <!--.......................... ticket_select_area-->
+
                   <div class="reservation_button">
                     <button type="button"> 예약하기 </button>
                   </div>

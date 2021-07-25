@@ -59,9 +59,21 @@ h2 {
 }
 
 
+.view_indicator li {
+  background-color: #f6f6f6;
+  background-color : var(--color-bg-white);
+}
+
+.view_indicator li.act {
+  background-color: #ff3478;
+  background-color : var(--color-pink);
+}
+
+
 #view_img {
   width : 100%; height : 450px; height: 35.15625vw;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 
@@ -82,12 +94,6 @@ h2 {
   float : left;
   width : 70%;  height : 100%;
 }
-
-
-.view_img_area > li:nth-child(2n) {
-  margin-bottom: 0;
-}
-
 
 .view_img_area > li > div {
   width : 100%;

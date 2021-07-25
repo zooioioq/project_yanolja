@@ -71,11 +71,6 @@
     width : 70%;
   }
 
-  
-.view_img_area > li:nth-child(2n) {
-  margin-bottom: 0;
-}
-
 
 .view_img_area > li > div {
   width : 100%;

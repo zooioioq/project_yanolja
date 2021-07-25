@@ -6,13 +6,17 @@
 /* 전체적인 레이아웃은 commonBox에서 처리하였기 때문에 해당 파일은 반응형으로 분리 불필요 */
 
 
-.view_img_area > li:nth-child(1) > div {background-image : url("../../../../img/img/leisure/lotte_aquarium/view_img_area/view_img_01.jpg");}
+#view_img {
+  position: relative;
+}
 
-.view_img_area > li:nth-child(2) > div {background-image : url("../../../../img/img/leisure/lotte_aquarium/view_img_area/view_img_02.jpg");}
+.view_img_area #view_img_01 {background-image : url("../../../../img/img/leisure/lotte_aquarium/view_img_area/view_img_01.jpg");}
 
-.view_img_area > li:nth-child(3) > div {background-image : url("../../../../img/img/leisure/lotte_aquarium/view_img_area/view_img_03.jpg");}
+.view_img_area #view_img_02 {background-image : url("../../../../img/img/leisure/lotte_aquarium/view_img_area/view_img_02.jpg");}
 
-.view_img_area > li:nth-child(4) > div {background-image : url("../../../../img/img/leisure/lotte_aquarium/view_img_area/view_img_04.jpg");}
+.view_img_area #view_img_03 {background-image : url("../../../../img/img/leisure/lotte_aquarium/view_img_area/view_img_03.jpg");}
+
+.view_img_area #view_img_04 {background-image : url("../../../../img/img/leisure/lotte_aquarium/view_img_area/view_img_04.jpg");}
 
 #view_info dt {
   padding : 20px;
@@ -34,11 +38,52 @@
 }
 
 
+
+
+
 @media screen and (min-width:320px) and (max-width:767px) {
   #view_img {
+    position: relative;
     width : 100%; height :50vw;
       /* width : 75rem; height : 34.375rem; */
   }
+
+
+  .view_indicator {
+    position : absolute;
+    z-index: 100;
+    bottom : 10px;  left : 0; right : 0;
+    width : 100px;  height : 20px;
+    margin : auto;
+  }
+  
+  .view_indicator ul {
+    width : 100%; height: 100%;
+    padding : 5px; margin : auto;
+    box-sizing: border-box;
+  }
+  
+  .view_indicator li {
+    float : left;
+    width : 10px; height : 100%;
+    margin-right : 10px;
+    border-radius: 100px;
+    transition: all 300ms ease;
+  }
+  
+  .view_indicator li:last-child { margin-right : 0; }
+  
+  .view_indicator li.act {
+    width : 30px;
+  }
+  
+  .view_indicator li a {
+    display: block;
+    width : 100%; height : 100%;
+  }
+
+
+
   #view_info dt {
     padding : 0;
     padding-bottom : 20px;
@@ -53,7 +98,41 @@
 
 @media screen and (min-width:768px) and (max-width:1279px) {
   #view_img {
+    position: relative;
     width : 100%; height :50vw;
-      /* width : 75rem; height : 34.375rem; */
+  }
+
+
+  .view_indicator {
+    position : absolute;
+    z-index: 100;
+    bottom : 10px;  left : 0; right : 0;
+    width : 130px;  height : 30px;
+    margin : auto;
+  }
+  
+  .view_indicator ul {
+    width : 100%; height: 100%;
+    padding : 7px; margin : auto;
+    box-sizing: border-box;
+  }
+  
+  .view_indicator li {
+    float : left;
+    width : 15px; height : 100%;
+    margin-right : 10px;
+    border-radius: 100px;
+    transition: all 300ms ease;
+  }
+  
+  .view_indicator li:last-child { margin-right : 0; }
+  
+  .view_indicator li.act {
+    width : 40px;
+  }
+  
+  .view_indicator li a {
+    display: block;
+    width : 100%; height : 100%;
   }
 }

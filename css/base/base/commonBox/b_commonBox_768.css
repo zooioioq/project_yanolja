@@ -62,8 +62,42 @@
       background-color : var(--color-white);
   }
   
+  .view_indicator {
+    position : absolute;
+    z-index: 100;
+    bottom : 10px;  left : 0; right : 0;
+    width : 130px;  height : 30px;
+    margin : auto;
+  }
+  
+  .view_indicator ul {
+    width : 100%; height: 100%;
+    padding : 7px; margin : auto;
+    box-sizing: border-box;
+  }
+  
+  .view_indicator li {
+    float : left;
+    width : 15px; height : 100%;
+    margin-right : 10px;
+    border-radius: 100px;
+    transition: all 300ms ease;
+  }
+  
+  .view_indicator li:last-child { margin-right : 0; }
+  
+  .view_indicator li.act {
+    width : 40px;
+  }
+  
+  .view_indicator li a {
+    display: block;
+    width : 100%; height : 100%;
+  }
+
   
   #view_img {
+    position: relative;
     width : 100%; height :65vw;
       box-sizing: border-box;
   }
@@ -73,8 +107,7 @@
   }
 
   .view_img_area > li {
-    display : none; /* 추후 js로 슬라이드 배너 설정 예정*/
-    float : right;
+    float : left;
     width : 100%;  height : 100%;
     margin-bottom: 15px;
       margin-bottom : 0.9375rem;
@@ -82,7 +115,6 @@
   
   
   .view_img_area > li:nth-child(1) {
-    display: block;
     float : left;
     width : 100%; height : 100%;
   }

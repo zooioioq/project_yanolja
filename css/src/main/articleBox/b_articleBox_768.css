@@ -137,18 +137,70 @@
 
 /* ------------------------------------------ art_view */
 #artViewBox {
-  width : 100%; height : auto; 
-}
-
-
-.art_view_area {
+  position: relative;
   width : 100%; height : 26vw;
+  margin-bottom : 250px;
+    margin-bottom : 15.625rem;
 }
 
 
-.art_view_area > a {
+.art_view_indicator {
+  position : absolute;
+  z-index: 100;
+  bottom : 10px;  left : 0; right : 0;
+  width : 80px;  height : 30px;
+  margin-left : 0;
+  margin : auto;
+}
+
+.art_view_indicator ul {
+  width : 100%; height: 100%;
+  padding : 7px; margin : auto;
+  box-sizing: border-box;
+}
+
+
+.art_view_indicator li {
+  float : left;
+  width : 15px; height : 100%;
+  margin-right : 10px;
+  border-radius: 100px;
+  transition: all 300ms ease;
+}
+
+.art_view_indicator li a {
+  display: block;
+  width : 100%; height : 100%;
+}
+
+.art_view_indicator li:last-child { margin-right: 0;}
+
+.art_view_indicator li.act {
+  width : 40px;
+}
+
+.art_view_img,
+.art_view_img ul{
+  width : 100%; height: 100%;
+}
+
+.art_view_img li {
+  position: absolute;
+  top : 0; left : 0;
+  width : 100%; height : 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   background-size: cover;
 }
+
+
+.art_view_area a {
+  width : 100%; height : 100%;
+}
+
+.art_view_img li.act {  z-index : 20; }
+
+
 
 
 

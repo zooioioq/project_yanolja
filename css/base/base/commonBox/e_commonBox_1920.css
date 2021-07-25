@@ -88,12 +88,7 @@
       width : 56.25rem;
     height : 100%;
   }
-  
-  
-  .view_img_area > li:nth-child(2n) {
-    margin-bottom: 0;
-  }
-  
+
   
   .view_img_area > li > div {
     width : 100%;

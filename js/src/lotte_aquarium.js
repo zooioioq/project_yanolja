@@ -13,7 +13,7 @@
     
     var dataUseJS = {
       smartphone : 'sub_view_320.js',
-      tablet : 'lotte_asub_view_768.js'
+      tablet : 'sub_view_768.js'
     };
     
     var jsUrl = '../js/src/rwd/';

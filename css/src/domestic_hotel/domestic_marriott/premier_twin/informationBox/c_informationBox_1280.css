@@ -7,11 +7,152 @@
 @media screen and (min-width:1280px) and (max-width:1599px) {
 
 #informationBox {
+  width : 100%;
+  height : auto;
+  min-height : 800px;
+    min-height : 50rem;
+  margin-top : 50px;
+    margin-top : 3.125rem;
   padding : 25px 100px;
     padding : 1.5625rem 6.25rem;
+  box-sizing: border-box;
+  background-color : #fff;
+    background-color : var(--color-white);
+}
+
+
+#informationBox h3 {
+  font-size : 24px;
+   font-size : 1.5rem;
 }
 
 
 
+
+/*mini_info_box-----------------------------------*/
+#mini_info_box {
+  width : 90%;  height : auto;
+  margin : auto;
+  margin-top : 50px;  margin-bottom : 100px;
+    margin-top : 3.125rem;  margin-bottom : 6.25rem;
+}
+
+
+#mini_info_box > dl {
+  float : left;
+  border-right : 1px solid #9FA1B4;
+    border-right : var(--border-gray);
+  width : 33.333333%; height : auto;
+  box-sizing: border-box;
+  padding : 10px;
+    padding : 0.625rem;
+  text-align: center;
+}
+
+
+#mini_info_box > dl:last-child {
+  border-right : 0;
+  margin-right : 0;
+}
+
+
+#mini_info_box dt {
+  color : #5A5C71;
+   color : var(--color-gray);
+}
+
+
+#mini_info_box dd {
+  font-size : 18px;
+  font-size : 1.125rem;
+}
+
+
+
+
+
+
+
+
+/* reservation_button */
+
+.reservation_button {
+  width: 70%;
+  height : 80px;
+    height : 5rem;
+  margin: auto;
+  margin-top : 50px;  margin-bottom : 100px;
+    margin-top : 3.125rem;  margin-bottom : 6.25rem;
+}
+
+
+.reservation_button button {
+  width : 100%;
+  height : 100%;
+  border : 2px solid #ff3478;
+   border : 0.125rem solid var(--color-pink);
+  box-sizing: border-box;
+  border-radius: 10px;
+    border-radius: 0.625rem;
+  color : #ff3478;
+   color : var(--color-pink);
+  font-size : 1.25rem;
+    font-size : 20px;
+  font-weight: 700;
+  transition : all 500ms ease;
+  background-color : transparent;
+  cursor: pointer;
+}
+
+
+.reservation_button button:hover,
+.reservation_button button:focus {
+  transform: scale(1.03);
+  background-color : #ff3478;
+    background-color : var(--color-pink);
+  color : #fff;
+    color : var(--color-white);
+  font-weight: 700;
+  box-shadow: 3px 3px 3px #BEC0D2;
+    box-shadow: var(--box-shadow);
+}
+
+
+
+
+
+
+
+
+
+/* basic_info_area */
+.basic_info_area,
+.basic_info_text {
+  width : 100%;
+  height : auto;
+  margin-bottom : 200px;
+    margin-bottom : 12.5rem;
+}
+
+
+.basic_info_text {
+  margin-bottom : 100px;
+    margin-bottom : 6.25rem;
+}
+
+
+.basic_info_area h3 {
+  margin-bottom : 20px;
+    margin-bottom : 1.25rem;
+}
+
+
+.basic_info_text li {
+  padding-left : 10px;
+    padding-left : 0.625rem;
+  margin-bottom : 5px;
+    margin-bottom : 0.3125rem;
+  line-height: 1.5;
+}
 
 }

@@ -3,15 +3,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 #informationBox {
   width : 100%;
   height : auto;
@@ -19,8 +10,8 @@
     min-height : 50rem;
   margin-top : 50px;
     margin-top : 3.125rem;
-  padding : 25px 350px;
-    padding : 1.5625rem 21.875rem;
+  padding : 25px 100px;
+    padding : 1.5625rem 6.25rem;
   box-sizing: border-box;
   background-color : #fff;
     background-color : var(--color-white);
@@ -31,15 +22,6 @@
   font-size : 24px;
    font-size : 1.5rem;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -169,6 +151,4 @@
     margin-bottom : 0.3125rem;
   line-height: 1.5;
 }
-
-
 

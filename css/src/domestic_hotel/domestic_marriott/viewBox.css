@@ -2,9 +2,12 @@
 
 
 @import url("./viewBox/z_viewBox_basic.css");
+
 @import url("./viewBox/a_viewBox_320.css");
 @import url("./viewBox/b_viewBox_768.css");
 @import url("./viewBox/c_viewBox_1280.css");
 @import url("./viewBox/d_viewBox_1600.css");
 @import url("./viewBox/e_viewBox_1920.css");
 
+
+/* viewBox 해야함. informationBox는 했음 */

@@ -3,8 +3,9 @@
 
 
 @import url("./informationBox/z_informationBox_basic.css");
-@import url("./informationBox/a_informationBox_320.css");
-@import url("./informationBox/b_informationBox_768.css");
+
+@import url("./informationBox/a_informationBox_320.css"); 
+@import url("./informationBox/b_informationBox_768.css"); 
 @import url("./informationBox/c_informationBox_1280.css");
 @import url("./informationBox/d_informationBox_1600.css");
 @import url("./informationBox/e_informationBox_1920.css");

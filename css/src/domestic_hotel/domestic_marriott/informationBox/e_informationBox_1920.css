@@ -167,8 +167,6 @@
     background-size: cover;
   }
   
-
-  
   
   .room_type_select_area .title_remark {
     position : absolute;
@@ -448,7 +446,12 @@
   }
   
   
-  .review_title > i { font-size : 2.2rem; }
+  .review_title > i { 
+    font-size: 35.2px;
+      font-size : 2.2rem; 
+    margin-right : 10px;
+      margin-right: 0.625rem;
+  }
   
   
   .review_title > span {

@@ -111,7 +111,6 @@
   position : relative;
   float : left;
   width : 48%;   height : 55vw;
-  /* height : 450px; height : 28.125rem; */
   margin-right : 4%;
   margin-bottom : 40px;
     margin-bottom : 2.5rem;
@@ -441,7 +440,11 @@
 }
 
 
-.review_title > i { font-size : 2.2rem; }
+.review_title > i { 
+  font-size : 2.2rem; 
+  margin-right : 10px;
+    margin-right: 0.625rem;
+}
 
 
 .review_title > span {
@@ -658,9 +661,10 @@
 
 .star_area .review_user_info li {
   float : left;
-  margin-right : 20px;
-  padding-right : 20px;
+  margin-right : 20px;  padding-right : 20px;
+    margin-right : 1.25rem;  padding-right : 1.25rem;
   border-right : 1px solid #9FA1B4;
+    border-right : var(--border-gray);
   font-size : 14px;
     font-size : 0.875rem;
   font-weight: 700;

@@ -4,42 +4,106 @@
 
 @media screen and (min-width:768px) and (max-width:1279px) {
  
-#sectionBox {
-  padding : 50px 0px;
-    /* padding-top : 6.25rem; padding-bottom : 6.25rem; */
-}
-
-
-.login_area {
-  width : 90%;
-  padding : 50px 20px;
-    /* padding : 3.125rem 6.25rem; */
-}
-
-
-.login_area > h2 {
-  margin-bottom : 30px;
-    /* margin-bottom : 3.125rem; */
-}
-
-
-.login_area div {
-  width : 90%;
-  margin-bottom : 30px;
-    /* margin-bottom : 2.5rem; */
-}
-
-
-.login_area input {
-  font-size : 16px;
-    /* font-size : 1.125rem; */
-}
-
-
-.log_in_btn > button {
-  width : 80%; height : 90%;
-  font-size : 16px;
-}
+  #sectionBox {
+    width : 100%;
+    height : auto;
+    padding: 50px 0;
+      padding : 3.125rem 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  
+  .login_area {
+    width : 90%;
+    height : auto;
+    margin : auto;
+    margin-bottom : 200px;
+      margin-bottom : 12.5rem;
+    padding : 50px 20px;
+      padding : 3.125rem 1.25rem;
+    box-sizing: border-box;
+  }
+  
+  
+  .login_area > h2 {
+    margin-bottom : 30px;
+      margin-bottom : 1.875rem;
+  }
+  
+  
+  .login_area fieldset{
+    width : 100%;
+    height : auto;
+    border : 0;
+    margin : 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .login_area div {
+    width : 90%;
+    height : 50px;
+      height : 3.125rem;
+    margin : auto;
+    margin-bottom : 30px;
+      margin-bottom : 1.875rem;
+  }
+  
+  
+  .login_area input {
+    width : 100%; height : 100%;
+    background-color : transparent;
+    border : 0;
+    border-bottom : 1px solid #9FA1B4;
+    border-bottom : var(--border-gray);
+    text-indent : 16px;
+      text-indent: 1rem;
+    font-size : 16px;
+      font-size : 1rem;
+  }
+  
+  
+  .log_in_btn > button {
+    width : 80%; height : 90%;
+    font-size : 16px;
+      font-size : 1rem;
+    border : 0;
+    border-radius: 5px;
+      border-radius : 0.3125rem;
+    transition: all 200ms ease;
+  }
+  
+  
+  .log_in_btn > button:hover,
+  .log_in_btn > button:focus {
+    font-weight: 700;
+  }
+  
+  
+  .join_area {
+    width : auto;
+    height : auto;
+    margin : auto;
+  }
+  
+  
+  .join {
+    display: block;
+    width : 60%;
+    height : 50px;
+      height : 3.125rem;
+    margin : auto;
+    margin-top : 50px;
+      margin-top : 3.125rem;
+    padding: 12px;
+      padding : 0.75rem;
+    border-radius: 5px;
+      border-radius: 0.3125rem;
+    box-sizing: border-box;
+    font-weight: 700;
+    transition: all 200ms ease;
+  }
 
 
 }

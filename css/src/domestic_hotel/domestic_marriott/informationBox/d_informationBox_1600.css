@@ -169,6 +169,26 @@
   }
   
   
+  .room_type_select_area a:nth-child(1) .room_type_img,
+  .room_type_select_area  a:nth-child(2) .room_type_img {
+    background-image : url("../../../../../img/img/domestic_hotel/domestic_marriott/room_type_img/room_type_img_01.jpg");
+  }
+  
+  .room_type_select_area a:nth-child(3) .room_type_img,
+  .room_type_select_area a:nth-child(4) .room_type_img {
+    background-image : url("../../../../../img/img/domestic_hotel/domestic_marriott/room_type_img/room_type_img_02.jpg");
+  }
+  
+  .room_type_select_area a:nth-child(5) .room_type_img,
+  .room_type_select_area a:nth-child(6) .room_type_img {
+    background-image : url("../../../../../img/img/domestic_hotel/domestic_marriott/room_type_img/room_type_img_03.png");
+  }
+  
+  .room_type_select_area a:nth-child(7) .room_type_img,
+  .room_type_select_area a:nth-child(8) .room_type_img {
+    background-image : url("../../../../../img/img/domestic_hotel/domestic_marriott/room_type_img/room_type_img_04.png");
+  } 
+  
   
   .room_type_select_area .title_remark {
     position : absolute;
@@ -327,16 +347,16 @@
   
   .service_list > li {
     float : left;
-    width : 86px;
-      width : 5.375rem;
+    width : 98px;
+      width : 6.125rem;
     height : auto;
     margin-right : 20px;
      margin-right : 1.25rem;
     line-height : 40px;
      line-height : 2.5rem;
     text-align: center;
-    font-size : 14px;
-     font-size : 0.875rem;
+    font-size : 15px;
+     font-size : 0.9375rem;
     transition : all 500ms ease;
   }
   
@@ -448,7 +468,12 @@
   }
   
   
-  .review_title > i { font-size : 2.2rem; }
+  .review_title > i { 
+    font-size: 35.2px;
+      font-size : 2.2rem; 
+    margin-right : 10px;
+      margin-right: 0.625rem;
+  }
   
   
   .review_title > span {
@@ -469,8 +494,8 @@
   .review_info {
     position : relative;
     float : right;
-    width : 900px; height : 35px;
-      width : 56.25rem; height : 2.1875rem;
+    width : 1010px; height : 35px;
+      width : 63.125rem; height : 2.1875rem;
     font-size : 13px;
       font-size : 0.8125rem;
     color : #5A5C71;
@@ -532,11 +557,14 @@
   
   .review_point > div {
     float : left;
-    width : 20%;  height : auto;
-    margin-right : 6%;
-    padding-right : 6%;
-    box-sizing: border-box;
+    width : 200px;
+      width : 12.5rem;
+    height : auto;
+    margin-right : 65px;
+    padding-right : 65px;
     border-right : 1px solid #9FA1B4;
+      margin-right : 4.0625rem;
+      padding-right : 4.0625rem;
       border-right : var(--border-gray);
   }
   
@@ -650,15 +678,19 @@
   
   
   .star {
-    width :100%;  height : auto;
+    width : 500px;
+      width : 31.25rem;
+    height : auto;
   }
   
   
   .star_area .review_user_info {
-    width : 100%; height : 50px;
-      height : 3.125rem;
     margin-top : 10px;
-      margin-top : 0.625rem; 
+    width : 465px;
+    height : 50px;
+     margin-top : 0.625rem;
+     width : 29.0625rem;
+     height : 3.125rem;
   }
   
   

@@ -118,6 +118,7 @@
 
 .user_link > a::after {
   position : absolute;
+  z-index: 200;
   display: none;
   width : 200px;
     width : 12.5rem;

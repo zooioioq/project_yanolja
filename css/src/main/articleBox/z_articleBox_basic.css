@@ -2,19 +2,16 @@
 
 
 
-
-
-
 /* ----------------------------pupularSearchBox */
 
 .pop_list > li {
   position : relative;
   float : left;
-  width : 300px;  height : 180px;
-    width : 18.75rem; height : 11.25rem;
-  margin-left : 30px;
-    margin-left : 1.875rem;
+  width : 22.75%;  height : 12.5vw;
+  margin-left : 3%;
 }
+
+.pop_list > li:nth-child(1) { margin-left: 0;}
 
 
 .pop_list a {
@@ -46,7 +43,6 @@
   position : absolute;
   z-index : 100;
   top : 0; left : 0;
-    /* top : 4.5rem; */
   padding : 7px;
     padding : 0.4375rem;
   font-size : 16px;
@@ -70,21 +66,24 @@
 
 /* --------------------------------- recommend_box */
 
+
 #recommendBox > p {
-  padding : 20px;
-    padding : 1.25rem;
+  padding : 0;
+  padding-bottom : 20px;
+    padding-bottom : 1.25rem;
   font-size : 24px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
   font-weight: bold;
   box-sizing: border-box;
 }
 
 
 .recom_location_list {
-  width  : 1320px;  height : 50px;
-   width : 82.5rem; height : 3.125rem;
-  margin : 20px; margin-top : 0;
-    margin : 1.25rem; margin-top : 0;
+  width  : 100%;  height : 50px;
+    height : 3.125rem;
+  margin : 0;
+  margin-bottom : 30px;
+    margin-bottom : 1.875rem;
   border-top : 1px solid #9FA1B4;
     border-top : var(--border-gray);
   border-bottom : 1px solid #9FA1B4;
@@ -132,24 +131,24 @@
   margin-right : 0;
 }
 
-
-
+.recom_hotel_list {
+  margin : auto;
+}
 
 .recom_hotel_list > li {
   float : left;
-  width : 340px;
-    width : 21.25rem;
-  height : auto;
+  width : 22.75%; height : 15.625vw;
   box-sizing: border-box;
-  padding : 20px;
-    padding : 1.25rem;
+  padding : 0;
+  margin-left : 3%;
 }
+
+.recom_hotel_list > li:first-child { margin-left : 0;}
 
 
 .recom_img_wrap {
   overflow: hidden;
-  width : 300px;  height : 190px;
-    width : 18.75rem;  height : 11.875rem;
+  width : 100%;  height : 12.5vw;
 }
 
 
@@ -184,8 +183,7 @@
 
 
 .recom_hotel_list > li > a {
-  width : 300px;  height : 190px;
-    width : 18.75rem;  height : 11.875rem;
+  width : 100%;  height : 100%;
 }
 
 
@@ -195,7 +193,7 @@
 
 
 .recom_hotel_list dl {
-  width: 100%; height : 100%;
+  width: 100%; height : auto;
 }
 
 .recom_title {
@@ -226,26 +224,30 @@
 
 
 
+
 /* ------------------------------------------ art_view */
 #artViewBox {
   position: relative;
-  width : 1920px; height : 300px;
-    width : 120rem; height : 18.75rem;
+  width : 100%; height : 19.53125vw;
   margin-bottom : 250px;
     margin-bottom : 15.625rem;
 }
+
 
 .art_view_indicator {
   position : absolute;
   z-index: 100;
   bottom : 10px;  left : 0; right : 0;
+    bottom : 0.625rem;
   width : 100px;  height : 40px;
+    width : 6.25rem;  height : 2.5rem;
   margin-left : 50%;
 }
 
 .art_view_indicator ul {
   width : 100%; height: 100%;
   padding : 10px; margin : auto;
+    padding : 0.625rem;
   box-sizing: border-box;
 }
 
@@ -253,8 +255,9 @@
 .art_view_indicator li {
   float : left;
   width : 20px; height : 100%;
-  margin-right : 10px;
-  border-radius: 100px;
+    width : 1.25rem;
+  margin-right : 10px;  border-radius: 100px;
+    margin-right : 0.625rem;  border-radius: 6.25rem;
   background-color: #f6f6f6;
   background-color : var(--color-bg-white);
   transition: all 300ms ease;
@@ -268,7 +271,7 @@
 .art_view_indicator li:last-child { margin-right: 0;}
 
 .art_view_indicator li.act {
-  width : 50px;
+  width : 50px; width : 3.125rem;
   background-color: #ff3478;
   background-color : var(--color-pink);
 }
@@ -330,19 +333,20 @@
 .event_area > li {
   position : relative;
   float : left;
-  width : 600px;
-    width : 37.5rem;
-  height : auto;
-  margin-right : 100px; margin-bottom : 50px;
-    margin-right : 6.25rem; margin-bottom : 3.125rem;
+  width : 47.5%;  height : auto;
+  margin-right : 5%; margin-bottom : 50px;
+    margin-bottom : 3.125rem;
+}
+
+.event_area > li:nth-child(2),
+.event_area > li:nth-child(4) {
+  margin-right: 0;
 }
 
 
 .event_area > li > a {
   display : block;
-  width : 100%;
-  height : 338.5px;
-    height : 21.15625rem;
+  width : 100%;height : 22vw;
   overflow: hidden;
 }
 

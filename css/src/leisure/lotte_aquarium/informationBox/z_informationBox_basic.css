@@ -1,15 +1,14 @@
 /* css/src/leisure/lotte_aquarium/informationBox/z_information_basic.css */
 
 
-
 #informationBox {
   width : 100%; height : auto;
   min-height : 800px;
     min-height : 50rem;
   margin-top : 50px;
     margin-top : 3.125rem;
-  padding : 25px 350px;
-    padding : 1.5625rem 21.875rem;
+  padding : 25px 100px;
+    padding : 1.5625rem 6.25rem;
   box-sizing: border-box;
   background-color : #fff;
     background-color : var(--color-white);
@@ -103,8 +102,8 @@
 
 .basic_info_text div {
   float : left;
-  width : 400px;  height : 80px;
-    width : 25rem; height: 5rem;
+  width : 33.333333%;  height : 80px;
+    height: 5rem;
   padding : 10px 50px;
     padding : 0.625rem 3.125rem;
   box-sizing: border-box;
@@ -126,27 +125,23 @@
 
 
 .basic_info_img {
-  width : 1200px;
-    width : 75rem;
-  margin-left : 100px;
-    margin-left : 6.25rem;
+  width : 100%;
+  margin-left : 0;
   padding-bottom : 300px;
     padding-bottom : 18.75rem;
 }
 
 
 .basic_info_img > div {
-  width : 1000px;
-    width : 62.5rem;
+  width : 100%;
   margin-top : -4px;
     margin-top : -0.25rem;
   height : auto;
-  min-height : 2500px;
+  min-height : 226vw;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .basic_info_img > div:nth-child(1) { background-image : url("../../../../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_01.png");}
 .basic_info_img > div:nth-child(2) { background-image : url("../../../../../img/img/leisure/lotte_aquarium/basic_info_img/basic_info_img_02.png");}
@@ -158,15 +153,7 @@
 
 
 
-
-
-
-
 /*-----------------------------------------------------------------------------------------*/
-/* .detail_info_area {
-  display : none;
-} */
-
 
 .ticket_area {
   width : 100%;
@@ -183,7 +170,6 @@
     margin-top : 1.25rem;
 }
 
-
 .ticket_select_area > form {
   width : 100%; height : auto;
 }
@@ -194,8 +180,8 @@
   width : 30%;
   height : 250px;
     height : 15.625rem;
-  border : 0;
   margin-right : 5%;
+  border : 0;
   border: 1px solid #DCDEED;
     border: var(--border-card);
   border-radius: 5px;
@@ -262,7 +248,7 @@
   width : 70px;
   height : 30px;
   text-indent: 0.2rem;
-} /* 수량 버튼 사이즈 확대*/
+} 
 
 
 .defult_amount {
@@ -408,7 +394,6 @@
 /*-------------------------------------------------------------------------*/
 /* refund_info_area */
 .refund_info_area {
-  /* display : none;  */
   width : 100%;
   height : auto;
   line-height: 1.5;
@@ -429,15 +414,16 @@
    margin-bottom : 1.25rem;
 }
 
+
 .refund_info_area li {
-  width : 100%; height: auto;
+  width: 100%; height : auto;
   padding-left : 10px;
    padding-left : 0.625rem;
 }
 
+
 .refund_area {
-  width : 100%;
-  height: auto;
+  width : 100%; height: auto;
 }
 
 .business_info_area dl {
@@ -452,11 +438,6 @@
   margin-right : 5px;
     margin-right : 0.3125rem;
 }
-
-
-
-
-
 
 
 .seller_info_area > dl {

@@ -3,8 +3,6 @@
 
 
 @media screen and (min-width:1920px) {
-  
-/* ----------------------------pupularSearchBox */
 
 .pop_list > li {
   position : relative;
@@ -31,12 +29,10 @@
   transition : all 500ms ease;
 }
 
-
 .pop_list span {
   position : absolute;
   z-index : 100;
   top : 0; left : 0;
-    /* top : 4.5rem; */
   padding : 7px;
     padding : 0.4375rem;
   font-size : 16px;
@@ -64,7 +60,7 @@
   padding : 20px;
     padding : 1.25rem;
   font-size : 24px;
-    font-size: 1.5rem;
+    font-size: 1.5em;
   font-weight: bold;
   box-sizing: border-box;
 }
@@ -98,12 +94,31 @@
   font-size : 16px;
     font-size : 1rem;
   text-align: center;
+  background-color : transparent;
+  border : 0;
+  cursor: pointer;
+}
+
+
+.recom_location_list > li.act {
+  font-weight : 700;
+  box-shadow: 3px 3px 3px #BEC0D2;
+  box-shadow: var(--box-shadow);
+  background-color : #FFD1E1;
+  background-color : var(--color-bright-pink);
+}
+
+.recom_location_list > li:hover {
+  background-color : #f6f6f6;
+    background-color : var(--color-bg-white);
 }
 
 
 .recom_location_list > li:last-child {
   margin-right : 0;
 }
+
+
 
 
 .recom_hotel_list > li {
@@ -131,7 +146,6 @@
   background-position: 50% 50%;
   background-size : cover; 
 }
-
 
 .recom_hotel_list > li > a {
   width : 300px;  height : 190px;
@@ -205,6 +219,8 @@
   width : 20px; height : 100%;
   margin-right : 10px;
   border-radius: 100px;
+  background-color: #f6f6f6;
+  background-color : var(--color-bg-white);
   transition: all 300ms ease;
 }
 
@@ -216,7 +232,9 @@
 .art_view_indicator li:last-child { margin-right: 0;}
 
 .art_view_indicator li.act {
-  width : 50px;
+  width : 50px; width : 3.125rem;
+  background-color: #ff3478;
+  background-color : var(--color-pink);
 }
 
 .art_view_img,
@@ -239,9 +257,6 @@
 }
 
 .art_view_img li.act {  z-index : 20; }
-
-
-
 
 
 

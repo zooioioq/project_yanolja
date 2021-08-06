@@ -46,12 +46,6 @@
     // 함수 실행
       scriptCodeFn(dataUseJS[deviceType]);
 
-
-
-
-
-
-
   }); // $.ajax
 
 

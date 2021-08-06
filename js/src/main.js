@@ -4,6 +4,13 @@
 (function($){
 
 
+  // 공지
+  alert('본 웹페이지는 취업을 위한 포트폴리오용 페이지로써, 어떠한 경우라도 상업 및 영리를 목적으로 사용되지 않습니다.');
+
+
+
+
+
   // #sectionBox fade banner 설정 --------------------
   var sectionBox = $('#sectionBox');
   var viewIndicator = sectionBox.children('.section_indicator');
@@ -61,8 +68,6 @@
   
 
   
-
-
 
   // #recommendBox tab menu 설정 --------------------
   var locationList = $('.recom_location_list');
